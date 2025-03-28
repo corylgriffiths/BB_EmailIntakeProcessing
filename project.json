@@ -1,13 +1,11 @@
 {
-  "name": "EmailIntakeProcessing",
-  "projectId": "299dd01c-3327-471b-94f9-1d1e0eaa1069",
-  "description": "",
+  "name": "IntakeProcessing",
+  "projectId": "5a61cf4b-9336-430e-a5da-8a428e311135",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.DocumentUnderstanding.Activities": "[2.9.0]",
-    "UiPath.PDF.Activities": "[3.22.1-preview]",
-    "UiPath.System.Activities": "[25.2.1]",
-    "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
+    "UiPath.System.Activities": "[25.2.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -20,7 +18,7 @@
     "isPausable": true,
     "isAttended": false,
     "requiresUserInteraction": true,
-    "supportsPersistence": true,
+    "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
@@ -49,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "fbcd1f64-a6dd-47c1-86f5-53b95532967d",
+      "uniqueId": "3d616abc-dd91-4320-ac87-05973b88f67e",
       "input": [],
       "output": []
     }
