@@ -4,7 +4,10 @@
   "description": "",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[25.2.1]"
+    "UiPath.DocumentUnderstanding.Activities": "[2.9.0]",
+    "UiPath.PDF.Activities": "[3.22.1-preview]",
+    "UiPath.System.Activities": "[25.2.1]",
+    "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -17,7 +20,7 @@
     "isPausable": true,
     "isAttended": false,
     "requiresUserInteraction": true,
-    "supportsPersistence": false,
+    "supportsPersistence": true,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",

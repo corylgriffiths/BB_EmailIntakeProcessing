@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WO8rA9BkBUKkxTBbSEsl4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fb77e604-5cab-41c6-a08a-2e4a023ee398" CvElementArea="1480, 444, 77, 46" CvType="InputBox" DesignTimeRectangle="1480, 444, 77, 46" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="2102ea4f-3aa3-4394-85e8-e4932b4f1a79" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='NPP &amp;amp; RFR DEC24.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fb77e604-5cab-41c6-a08a-2e4a023ee398" CvTextArea="1211, 389, 426, 31" CvTextArgument="Patient Information Form" CvType="Text" DesignTimeRectangle="1211, 389, 426, 31" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Patient Information Form   ' role='text' automationid='' check:text='Patient Information Form' /&gt;" Guid="475c801d-0c3b-467f-8a95-6d0dc7d31a26" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dddd7123a9e02036e5a28ac7cf8308f3.png" xmlns="">0CBtzxXFGIU2GIXYioe3klA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

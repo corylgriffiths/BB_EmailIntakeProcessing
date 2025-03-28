@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Patient’s Name _______…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "flhOQjP3C02IEN81wxj38g",
+  "Reference": "wakiwnMDqEq8JUsv6Ark7g/flhOQjP3C02IEN81wxj38g",
+  "ParentRef": "wakiwnMDqEq8JUsv6Ark7g/iJ_NeoeolU6rqOC0H_dEFQ",
+  "Created": "2025-03-26T20:24:19.9318Z",
+  "Updated": "2025-03-26T20:24:19.9318Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QyclyHJzZ0mXhUXOVtPb4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="31e4c7c6-55bf-4f62-a717-7f719fc7aa04" CvElementArea="1183, 327, 248, 37" CvType="InputBox" DesignTimeRectangle="1183, 327, 248, 37" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="30b0d00e-c950-4a9d-836c-3f39ad124ec6" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='NPP &amp;amp; RFR DEC24.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="31e4c7c6-55bf-4f62-a717-7f719fc7aa04" CvTextArea="1037, 344, 145, 18" CvTextArgument="Patient's Name:" CvType="Text" DesignTimeRectangle="1037, 344, 145, 18" ElementType="Text" Guid="84f4a0d7-1a66-479c-8b19-c516ffb845a2" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4fc28a004d57b04d3949acc768169b2e.png" xmlns="">0sM_360wPSUqabJzrDeiwdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

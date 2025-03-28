@@ -1,0 +1,571 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "-539402969",
+        "bundleName": "ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardV1",
+        "entitiesBundle": {
+          "Types": {
+            "IntakesInsuranceCardV1": {
+              "name": "IntakesInsuranceCardV1",
+              "properties": [
+                {
+                  "name": "CustomerSupportPhone",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Plan",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Network",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "GroupNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "MemberID",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "MemberName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Carrier",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                }
+              ],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardV1",
+        "hash": "LTUzOTQwMjk2OQ",
+        "assemblyName": "ExtendedExtractionRe.9QYxT2RXfmE1ZHvZg4pklI4"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "1939965196",
+        "bundleName": "ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardBackV1",
+        "entitiesBundle": {
+          "Types": {
+            "IntakesInsuranceCardBackV1": {
+              "name": "IntakesInsuranceCardBackV1",
+              "properties": [
+                {
+                  "name": "Website",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Address",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Provider",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CustomerSupportPhone",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                }
+              ],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardBackV1",
+        "hash": "MTkzOTk2NTE5Ng",
+        "assemblyName": "ExtendedExtractionRe.4lO6S4B79sH1P5dja1QnX901"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "1789131045",
+        "bundleName": "ExtendedExtractionResultsForDocumentData.IntakesIntakeFormV1",
+        "entitiesBundle": {
+          "Types": {
+            "IntakesIntakeFormV1": {
+              "name": "IntakesIntakeFormV1",
+              "properties": [
+                {
+                  "name": "CustodyDecisionMaking",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "VisitReason",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CCCVV",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CCExpirationDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CCNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CreditCardType",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CCBillingAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CCName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "GroupNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "PolicyNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "InsuranceName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Race",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Gender",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "DateOfBirth",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "EmailAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "WorkPhone",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CellPhone",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "HomePhone",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ZipCode",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "State",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "City",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Address",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ParentsName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "SocialSecurityNum",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Age",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Name",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Provider",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ServiceType",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                }
+              ],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesIntakeFormV1",
+        "hash": "MTc4OTEzMTA0NQ",
+        "assemblyName": "ExtendedExtractionRe.23kaR1RUHgN1OrhdM1titbC4"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "-355637516",
+        "bundleName": "ExtendedExtractionResultsForDocumentData.Invoices",
+        "entitiesBundle": {
+          "Types": {
+            "Items": {
+              "name": "Items",
+              "properties": [
+                {
+                  "name": "Description",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Quantity",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "UnitPrice",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "LineAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CustomerPurchaseOrderNumberItemLevel",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "LineNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "PartNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                }
+              ],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            },
+            "Invoices": {
+              "name": "Invoices",
+              "properties": [
+                {
+                  "name": "VendorName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "VendorAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BillingName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BillingAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ShippingAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "InvoiceNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CustomerPurchaseOrderNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "VendorVATNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "InvoiceDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.DateTime, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TaxAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TotalAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "PaymentTerms",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "NetAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "DueDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.DateTime, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Discount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ShippingCharges",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "PaymentAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BillingVATNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ShippingDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.DateTime, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "VendorEmailAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankAccountNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "IBAN",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "SWIFTCode",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankRoutingNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TaxRate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ShippingMethod",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Items",
+                  "type": {
+                    "definitionName": "Items"
+                  },
+                  "isCollection": true
+                }
+              ],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.Invoices",
+        "hash": "LTM1NTYzNzUxNg",
+        "assemblyName": "ExtendedExtractionRe.22mdjY1oGS1lUulM4vWHHs"
+      }
+    }
+  ]
+}

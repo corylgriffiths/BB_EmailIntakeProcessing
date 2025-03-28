@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GFU7-IihTEKwQdazxVfFlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="31055674-734b-4619-9299-c806dd9b0450" CvElementArea="1507, 331, 51, 33" CvType="InputBox" DesignTimeRectangle="1507, 331, 51, 33" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="e52dad33-3bc0-4883-b8a4-a710271b599e" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='NPP &amp;amp; RFR DEC24.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1038, 344, 859, 22" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Patient’s Name: ______________________ Age: ____ Social Security*' role='text' automationid='' check:text='Patient’s Name: ______________________ Age: ____ Social Security Number: __________' /&gt;" Guid="9ca2eba0-911a-414f-be7b-8a0c3d0ae949" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="31055674-734b-4619-9299-c806dd9b0450" CvTextArea="1334, 299, 276, 21" CvTextArgument="Patient Information Form" CvType="Text" DesignTimeRectangle="1334, 299, 276, 21" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Patient Information Form   ' role='text' automationid='' check:text='Patient Information Form' /&gt;" Guid="0ea00cc5-d21b-41fa-9ce6-f024bf534fad" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e4044baddf30c8221741c7b9213ccba0.png" xmlns="">0pgAyVBm7I0eF9HjQI9hrCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

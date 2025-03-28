@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="J5U0UbKXYE6tHnRtPOTrcg" Reference="wakiwnMDqEq8JUsv6Ark7g/3MdU9fl3nkGR_yXOog83Hg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b25c86f2-097f-4260-ad43-3722fc656d3c" CvElementArea="1891, 410, 184, 47" CvType="InputBox" DesignTimeRectangle="1776, 338, 65, 15" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzyAccuracy="0.6" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="3a132288-5638-4789-a18b-551629349638" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='NPP &amp;amp; RFR DEC24.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b25c86f2-097f-4260-ad43-3722fc656d3c" CvTextArea="1209, 357, 428, 32" CvTextArgument="Patient Information Form" CvType="Text" DesignTimeRectangle="1336, 299, 281, 26" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Patient Information Form   ' role='text' automationid='' check:text='Patient Information Form' /&gt;" Guid="8076a19a-efae-419b-a47a-ab86fde4703e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="824fee379fd1ec28620e53e4d73d7194.png" xmlns="">0aunYpAyd7k2ipLg70Py2dg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
