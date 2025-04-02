@@ -5,6 +5,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.DocumentUnderstanding.Activities": "[2.9.0]",
+    "UiPath.GSuite.Activities": "[3.0.10]",
     "UiPath.System.Activities": "[25.2.1]"
   },
   "webServices": [],
