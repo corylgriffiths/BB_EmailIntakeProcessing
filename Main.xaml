@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataValidation;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisaseib="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardV1.Bundle;assembly=ExtendedExtractionRe.uLsAD1JhLTS1BlEEcgTk4G1" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisaseib="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardV1.Bundle;assembly=ExtendedExtractionRe.uLsAD1JhLTS1BlEEcgTk4G1" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -105,55 +105,23 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2301.6,1241.24" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="uisad1:IDocumentData(uisaseib:IntakesInsuranceCardV1)" Name="DocumentData" />
-      <Variable x:TypeArguments="uisad:DocumentData" Name="ClassifiedData" />
+      <Variable x:TypeArguments="uisad:IDocumentData(uisaseib:IntakesInsuranceCardV1)" Name="DocumentData" />
+      <Variable x:TypeArguments="uisad1:DocumentData" Name="ClassifiedData" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:ClassifyDocument ApiKey="{x:Null}" ClassifierResult="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" DocumentTypes="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ClassifierId="b42cba71-e10b-f011-90cd-6045bdf056b8" DisplayName="Classify Document" Endpoint="https://cloud.uipath.com/1f8119f7-4993-4ba4-8d5e-bc757095de38/fbe4cf4b-3c41-4d6d-aa0c-371ed57df4f8/du_/api/framework/projects/0da1be7c-810a-f011-90cd-00224830e0e8/classifiers/b42cba71-e10b-f011-90cd-6045bdf056b8/classification/start?api-version=1.0" sap:VirtualizedContainerService.HintSize="416,283.2" sap2010:WorkflowViewState.IdRef="ClassifyDocument_1" MinimumConfidence="50" ProjectId="0da1be7c-810a-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
-      <p:ClassifyDocument.ClassificationResults>
-        <OutArgument x:TypeArguments="uisad:DocumentData">
-          <CSharpReference x:TypeArguments="uisad:DocumentData" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">ClassifiedData</CSharpReference>
-        </OutArgument>
-      </p:ClassifyDocument.ClassificationResults>
-      <p:ClassifyDocument.FileInput>
-        <InArgument x:TypeArguments="upr:IResource">
-          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">LocalResource.FromPath("Data\\TestForm\\Insurance Card Front.png")</CSharpValue>
-        </InArgument>
-      </p:ClassifyDocument.FileInput>
-      <p:ClassifyDocument.GptPromptWithVariables>
-        <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-      </p:ClassifyDocument.GptPromptWithVariables>
-    </p:ClassifyDocument>
-    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisaseib:IntakesInsuranceCardV1" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="b22cba71-e10b-f011-90cd-6045bdf056b8" sap:VirtualizedContainerService.HintSize="416,300" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="0da1be7c-810a-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
-      <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-        <InArgument x:TypeArguments="s:Nullable(x:Int32)">
-          <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
-        </InArgument>
-      </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-      <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-        <OutArgument x:TypeArguments="uisad1:IDocumentData(uisaseib:IntakesInsuranceCardV1)">
-          <CSharpReference x:TypeArguments="uisad1:IDocumentData(uisaseib:IntakesInsuranceCardV1)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">DocumentData</CSharpReference>
-        </OutArgument>
-      </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-      <p:ExtractDocumentDataWithDocumentData.FileInput>
-        <InArgument x:TypeArguments="upr:IResource">
-          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">ClassifiedData</CSharpValue>
-        </InArgument>
-      </p:ExtractDocumentDataWithDocumentData.FileInput>
-      <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-        <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-      </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-    </p:ExtractDocumentDataWithDocumentData>
-    <uisad2:CreateValidationAction x:TypeArguments="uisaseib:IntakesInsuranceCardV1" BucketId="{x:Null}" BucketName="{x:Null}" ContainsDocument="{x:Null}" ContainsTaxonomy="{x:Null}" CreatedValidationAction="{x:Null}" FieldsValidationConfidence="{x:Null}" OrchestratorFolderId="{x:Null}" OriginalFilePath="{x:Null}" ActionCatalogue="default_du_actions" ActionPriority="Medium" ActionTitle="Test1" DisplayName="Create Validation Task" sap:VirtualizedContainerService.HintSize="416,166.4" sap2010:WorkflowViewState.IdRef="CreateValidationAction`1_1" OrchestratorBucketName="du_storage_bucket" OrchestratorFolderName="gabe.james@connectwithsky.com's workspace">
-      <uisad2:CreateValidationAction.AutomaticExtractionResults>
-        <InArgument x:TypeArguments="uisad1:IDocumentData(uisaseib:IntakesInsuranceCardV1)">
-          <CSharpValue x:TypeArguments="uisad1:IDocumentData(uisaseib:IntakesInsuranceCardV1)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">DocumentData</CSharpValue>
-        </InArgument>
-      </uisad2:CreateValidationAction.AutomaticExtractionResults>
-    </uisad2:CreateValidationAction>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Excel_LoadLookups - Invoke Workflow File (Excel\\Excel_LoadLookups.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Excel\\Excel_LoadLookups.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Gmail_ProcessIntakes - Invoke Workflow File (Gmail\\Gmail_ProcessIntakes.xaml)" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Gmail\\Gmail_ProcessIntakes.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_folderPath" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
   </Sequence>
 </Activity>
