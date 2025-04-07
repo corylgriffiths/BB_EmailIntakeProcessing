@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Use Patient Address",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "TFnz_26q8E2iAaGZlEioJg",
+  "Reference": "8RhyklEjiEifip1A7a44sA/TFnz_26q8E2iAaGZlEioJg",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/E0mwfp9I_UqeWBxDhQNSMQ",
+  "Created": "2025-04-07T18:21:11.8231195Z",
+  "Updated": "2025-04-07T18:21:11.8231195Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

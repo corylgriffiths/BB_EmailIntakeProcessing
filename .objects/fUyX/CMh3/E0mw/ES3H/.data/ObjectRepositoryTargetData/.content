@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-qoeCrEKSEelNL0QjHkVZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="201, 880, 338, 37" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-3' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control mat-datepicker-input ng-tns-c2794762957-18 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored' aaname='Date of Birth *' /&gt;" Guid="056ec345-3d65-43ab-8831-b51813ad0c62" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="715e3b1d-762a-4561-a692-bdd47bfbd332" DesignTimeRectangle="201, 855, 463, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-9' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-18 ng-star-inserted' aaname='' check:innerText='Date of Birth *' /&gt;" Guid="2fd3c9b6-390d-4645-be1c-a5dc7f3c9d1e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c9929e5e25a510b18c9a8ffee4ab39ca.png" xmlns="">0Pf5vzV2qtUyQ33zYKnSeVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

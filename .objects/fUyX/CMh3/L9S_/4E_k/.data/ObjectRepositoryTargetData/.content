@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lbme9ErY8Um_aDDGYV0zhA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="444cf543-fb20-443a-aba5-4982305a2f56" CvElementArea="72, 626, 1278, 59" CvType="InputBox" DesignTimeRectangle="67, 628, 1274, 56" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1744056247297x8C2zv2d43VxJxLKVDS' tag='IFRAME' /&gt;&lt;webctrl id='credit_card_verification_number' tag='INPUT' type='number' class='form-control' aaname='CVV:   ' /&gt;" Guid="618bfee6-1493-48ef-a0da-7b45241215a3" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="444cf543-fb20-443a-aba5-4982305a2f56" CvElementArea="138, 597, 30, 32" CvTextArea="75, 600, 85, 22" CvTextArgument="CVV: ?" CvType="Button" DesignTimeRectangle="39, 599, 147, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1744056247297x8C2zv2d43VxJxLKVDS' tag='IFRAME' /&gt;&lt;webctrl parentid='div-credit_card_verification_number' tag='LABEL' type='' class='control-label col-sm-4' aaname='CVV  ' check:innerText='CVV:' /&gt;" Guid="5c9cbe95-ae1c-46d2-bbf6-32227a26d794" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cd178e9cdc43f564ce8ad1a6285c0f77.png" xmlns="">04ikHmm_9Wky3LGgzLqT4hA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

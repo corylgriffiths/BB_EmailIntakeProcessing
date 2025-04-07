@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rnY41FeUTEqTsM23E7DKyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="438, 1028, 854, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-54' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-135 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Phone 1' /&gt;" Guid="485ada45-4bc8-4f14-9029-8f1583c4d867" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="438, 1004, 1151, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-131' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-135 ng-star-inserted' aaname='' check:innerText='Phone 1' /&gt;" Guid="3da0ef71-3b0b-40c1-8afa-920f8c406fa7" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fa3df54efe676c2063d519fb80577edd.png" xmlns="">0CYO8aC0x40GjlVJytFZKeQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

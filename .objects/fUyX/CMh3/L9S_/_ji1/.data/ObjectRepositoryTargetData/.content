@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V7x0Be1pGkijWUlFTXcOwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="26a5bec8-10e3-44b5-ab22-c01ab4a826a9" CvElementArea="71, 723, 1281, 59" CvType="InputBox" DesignTimeRectangle="67, 725, 1274, 56" DesignTimeScaleFactor="1.875" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1744056247297x8C2zv2d43VxJxLKVDS' tag='IFRAME' /&gt;&lt;webctrl id='expire_month_display' tag='SELECT' type='' class='form-control' aaname='                         Expire Month                     ' /&gt;" Guid="869c33ec-20e2-4cfd-99c9-5640b15fd7a2" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="26a5bec8-10e3-44b5-ab22-c01ab4a826a9" CvTextArea="75, 696, 132, 26" CvTextArgument="Expiry Date:*" CvType="Text" DesignTimeRectangle="39, 696, 188, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1744056247297x8C2zv2d43VxJxLKVDS' tag='IFRAME' /&gt;&lt;webctrl parentid='div-expiry_date' tag='LABEL' type='' class='control-label col-sm-4' aaname='Expiry Date' check:innerText='Expiry Date:*' /&gt;" Guid="ad52cf51-325f-41ec-b3d2-4e98ce799175" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fce464a3ce22ddd2ba8be74592aee174.png" xmlns="">03RJ5UAmKzka-TMdx3jaQqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

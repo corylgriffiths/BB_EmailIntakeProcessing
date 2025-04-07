@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="H17Pm-Qbq0Op6RY3Okqw_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="19b02c04-fccb-4f8d-ac61-923c29578dec" CvElementArea="960, 437, 121, 45" CvTextArea="978, 448, 85, 25" CvTextArgument="Capture" CvType="Button" DesignTimeRectangle="962, 438, 119, 43" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='btn btn-primary' aaname='Capture' check:innerText='Capture' /&gt;" Guid="95358b7c-f544-45d5-93b8-e8925d8fa111" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="19b02c04-fccb-4f8d-ac61-923c29578dec" CvElementArea="1084, 437, 90, 46" CvTextArea="1102, 447, 52, 25" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1087, 438, 85, 43" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='btn' tag='BUTTON' type='' aaname='Save' check:innerText='Save' /&gt;" Guid="352bfde7-6a78-4143-9ffb-db94aed597c9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="99d79b166856d39b08d53ca140b005c2.png" xmlns="">0YbQd6B-FdkyiR9ACqk5_JA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Subscriber ID",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "YzPnZm6ZqUefejAwo4vlqA",
+  "Reference": "8RhyklEjiEifip1A7a44sA/YzPnZm6ZqUefejAwo4vlqA",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/E0mwfp9I_UqeWBxDhQNSMQ",
+  "Created": "2025-04-07T20:42:25.632923Z",
+  "Updated": "2025-04-07T20:42:25.632923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

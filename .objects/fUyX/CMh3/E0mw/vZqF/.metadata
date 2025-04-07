@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Responsible Party",
+  "Type": "Element",
+  "Id": "vZqFfFTo1Uim40y_hdSxQg",
+  "Reference": "8RhyklEjiEifip1A7a44sA/vZqFfFTo1Uim40y_hdSxQg",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/E0mwfp9I_UqeWBxDhQNSMQ",
+  "Created": "2025-04-07T18:18:54.0644923Z",
+  "Updated": "2025-04-07T18:18:54.0644923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

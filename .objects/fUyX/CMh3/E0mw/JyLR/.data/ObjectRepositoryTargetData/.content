@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uJklhfIW70mcBUmvoHAHbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="dd231daa-752f-46a4-a8c2-9c3e77a33467" CvElementArea="455, 913, 197, 38" CvType="InputBox" DesignTimeRectangle="459, 918, 191, 32" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl parentid='ellCarrier' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="00f83113-23ed-4027-a81b-46c9d8500f95" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dd231daa-752f-46a4-a8c2-9c3e77a33467" CvTextArea="198, 920, 70, 19" CvTextArgument="Carrier:" CvType="Text" DesignTimeRectangle="201, 917, 68, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='Carrier:' parentid='divInsurance' tag='LABEL' type='' class='' check:innerText='Carrier:' /&gt;" Guid="8d1a0a1f-8993-4028-a162-71cfc4d8e0b0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="85666f58fe05c8ca45a099842d2cb328.png" xmlns="">0nsbYm3jH6UOjDETe2TTh8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

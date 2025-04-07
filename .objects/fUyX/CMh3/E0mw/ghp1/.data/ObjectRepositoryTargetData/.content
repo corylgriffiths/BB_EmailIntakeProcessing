@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ogFZoVw1m0-AtjRkxlyWkw" Reference="8RhyklEjiEifip1A7a44sA/ghp1gLW-ekG9HJMOVfu8cg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="464, 815, 120, 36" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-18' tag='TITLE-ITEM' type='' class='title-item' aaname='PONE' check:innerText='PHONE' /&gt;" Guid="677e03bb-a88f-41c0-9084-df5c97b3ea46" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="419, 821, 30, 30" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='card-expansion-panel-header-18' tag='svg' class='' aaname='' /&gt;" Guid="a6a2f516-4e65-44da-9872-36b8b6ee9688" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIlSURBVFhH7ZbbSxtBFIf95wrmxaIgFQoFRUSriGIjIlSUqthijQoqhtS7eWmi+CC2aOuDlIJgjSBo0BprSo1Nk+ZqbiannKU7JGdmc+luUh/ywe8lc2bPx2Z2ZirgnlBBf/hflEUoZRGKokgkGgeb3cnl2u2npZogFAmEIvBIb4QHTQZhTh3XdIpqhCJnVzdc8/RYtg/oFNUIRXyBW655el7Nv6dTVCMUQSqbJzgBOc0vVmi5ahRFnvTOcQJydE8nIZVK0SmqUBQZebPFCaTH9Uvbr0dR5PPRV665nJ7xNdD4hSiLJBJ3UNU+xUm0DZshGkvQctUoiiAv595lSNQ/X4BgOErLNCGryMV3N5Oo7pgGjz9ESzQjqwgyufqByRyeXNFhzcgpgn/Fw79rpa7bKJ1BxSCnCGLd+cLein7MArF4iRerDG5efVMbGTK53szlD09Be01eIkg0noDWITOTwW3e4+MX7+9AGJ69trA6PMUHjZuw/vEQfnoDtJyRtwjiD0WgoW8xo8mpw8XGfcFbaOxfYuOi4JcooiARJByJQdfoW/ZgPHc2dm3SHaZpYJlrTHNkd9JHShQsgiSTKRhf2cloUNM5wzUVBW95Iv5JROaT7Rwe95i4ZtlSFBEEzx2TdQ90Lcr3l5KIyDhdXunmJm9+Sim6iMxdMgn7xw4wLG9Lizf9BK/tmgW3N0inSGguIgK/qLNvN1k3wZKI5ENZhHJvRP4Ac2vY3E+wk/UAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="98692cee26aa5d9d191fb9f9109b8ecd.png" xmlns="">00FOEJVF4s0muycwGGPO42Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

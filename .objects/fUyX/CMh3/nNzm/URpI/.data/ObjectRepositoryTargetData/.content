@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tUk9BNdxp0G_KwvRq-Sleg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="471, 371, 201, 41" CvTextArea="492, 382, 159, 21" CvTextArgument="Begin New Batch" CvType="Button" DesignTimeRectangle="473, 373, 197, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnNewBatch' tag='BUTTON' type='button' class='webbutton' aaname='Begin New Batch' check:innerText='Begin New Batch' /&gt;" Guid="2155cb87-fa00-452c-8592-9061d77fce4c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="677, 371, 199, 42" CvTextArea="726, 382, 103, 19" CvTextArgument="Disconnect" CvType="Button" DesignTimeRectangle="680, 373, 197, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnDisconnect' tag='BUTTON' type='button' class='webbutton' aaname='Disconnect' check:innerText='Disconnect' /&gt;" Guid="847a23f3-7069-42e1-bdc6-b18889f4f296" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80c1eff8b665e2ec57b22fdde6838d44.png" xmlns="">001Cav5fHR0CawPPDqdZv3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

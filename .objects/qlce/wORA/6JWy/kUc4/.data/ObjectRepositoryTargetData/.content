@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AUNzGpz4HUaaCnxu5Hml9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a6b1a293-8847-443d-a22e-726050f97226" CvTextArea="22, 46, 51, 22" CvTextArgument="VISA" CvType="Text" DesignTimeRectangle="22, 46, 51, 22" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="b7e2f994-1fe9-4fcb-98e3-a356a0511d56" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bd0ada74853e214ca7c0c147ec9582c2.png" xmlns="">0wMJZGKRcnU-OUeaqZq25Kw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

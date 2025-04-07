@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pqRsedMTt0q1WujrAJdc1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="36efef15-b4ba-4717-a80d-b15d8eef86cd" CvElementArea="513, 719, 748, 48" CvType="InputBox" DesignTimeRectangle="516, 720, 745, 45" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength' tag='INPUT' type='text' aaname='' /&gt;" Guid="a1101979-76a1-49e6-8f53-6221c98fb40f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="36efef15-b4ba-4717-a80d-b15d8eef86cd" CvTextArea="78, 726, 46, 27" CvTextArgument="City:" CvType="Text" DesignTimeRectangle="71, 720, 436, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='City:' class='col-xs-8' parentname='creditCardForm' tag='DIV' type='' check:innerText='City:' /&gt;" Guid="24bfb11f-3081-441a-ae7d-17292253e9d8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="37273e1bf0f39753dd0ad39ddef362ae.png" xmlns="">004-YLJm4TUadshuYzoJc8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

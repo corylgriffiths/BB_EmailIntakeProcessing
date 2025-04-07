@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KIgIU1LeJk6ExIbsQRXPuA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="c9253751-47b3-4a4d-85b9-da39b3790e2f" CvElementArea="1209, 1041, 41, 40" CvTextArea="1213, 1047, 31, 30" CvType="Icon" DesignTimeRectangle="1206, 1039, 49, 49" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' isleaf='1' parentid='cdk-accordion-child-5' tag='SPAN' class='mat-mdc-button-persistent-ripple mdc-icon-button__ripple' aaname='' /&gt;" Guid="29fa92c8-4c77-4a66-81d9-23a0b5e07a56" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFDSURBVGhD7ZhRSwJBEMf9aumXyug7SE9BT9InqIcwSfKpwFKEHsS7Ti8I09ArQul1Yi6KboS1hZuYs/8PhmNvh537sewxbIm2gJJ8UUQgYQVIWAESVoCEFSCxic5wQYdnEU0W73IqV9QkxrMVlatt2tm9TJ8PzyuZkhtqEue9aSrwFc3eVKbkhppEo5uV4LEWkHABCU8g4QISnvxPieHjG10P5tQfvTrjqBFlJHgsc2RcDeYUTpay5Ea8JG7D5LuV0IrKXpu69y+ytBMvidpJsFZUIw5OQ1naiZcEd6XaO8Hrq+4Ew2ei3oqpfjF2xv7xXebjeCxz1qIV658JH0z/nX4LJDyBhAtIeAIJF1shwbcbPyUKedsRPS2pXP0U4FYinhXw3onpBEnabtwEiZzKFVWJvwISVoCEFSBhBUhYARJW+AC0WlOf3m7jPgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c9253751-47b3-4a4d-85b9-da39b3790e2f" DesignTimeRectangle="802, 1024, 193, 28" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='mat-mdc-form-field-label-0' tag='MAT-LABEL' type='' class='ng-tns-c1205077789-82' aaname='Responsible Party' check:innerText='Responsible Party' /&gt;" Guid="036c8e04-d413-4949-844c-538312627255" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3909f67e4888cef48e5bf5c3f6c3cc69.png" xmlns="">0KMk58oawJUmex38Pjqw1-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

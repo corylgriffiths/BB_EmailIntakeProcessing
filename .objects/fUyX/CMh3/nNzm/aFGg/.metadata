@@ -1,0 +1,14 @@
+﻿{
+  "Name": "A batch must be open to…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aFGgy5MffUCIGTLl1TenAg",
+  "Reference": "8RhyklEjiEifip1A7a44sA/aFGgy5MffUCIGTLl1TenAg",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/nNzm6P9BhkejKu7oFtzTrQ",
+  "Created": "2025-04-07T19:56:56.7218039Z",
+  "Updated": "2025-04-07T19:56:56.7218039Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

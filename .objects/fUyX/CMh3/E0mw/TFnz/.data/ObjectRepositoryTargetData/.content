@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-vxqdewjQkaATmDCDT2IQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="3e89645c-3d0f-4803-9605-fd6a720cdac0" DesignTimeRectangle="402, 834, 34, 33" DesignTimeScaleFactor="1.875" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='mat-checkbox-976' tag='SPAN' type='' class='mat-checkbox-inner-container' aaname='' /&gt;" Guid="f4439d52-f45d-4d3c-acfb-c2a9487fa605" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3e89645c-3d0f-4803-9605-fd6a720cdac0" DesignTimeRectangle="466, 834, 228, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Use Patient Address' parentid='mat-checkbox-976' tag='SPAN' type='' class='' check:innerText='Use Patient Address' /&gt;" Guid="7ab6446f-7190-4f7e-be1c-a7b1ede14425" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f446fefb10640e70f7c01fc1d71d4a97.png" xmlns="">06MjU6tKu80ClDc4Wi_g-wQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

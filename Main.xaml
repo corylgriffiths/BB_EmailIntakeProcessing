@@ -121,6 +121,9 @@
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Gmail_ProcessIntakes - Invoke Workflow File (Gmail\\Gmail_ProcessIntakes.xaml)" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Gmail\\Gmail_ProcessIntakes.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="in_folderPath" />
+        <InArgument x:TypeArguments="x:String" x:Key="in_InsBackId" />
+        <InArgument x:TypeArguments="x:String" x:Key="in_InsFrontId" />
+        <InArgument x:TypeArguments="x:String" x:Key="in_FormId" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
   </Sequence>

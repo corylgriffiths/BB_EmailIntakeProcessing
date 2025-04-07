@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gh-FAox4OEyT2y0Kk5WK5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvTextArea="18, 174, 373, 23" CvTextArgument="A batch must be open to post a payment" CvType="Text" DesignTimeRectangle="20, 172, 732, 24" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='dialogMessage' tag='DIV' type='' class='' aaname='A batch must be open to post a payment' check:innerText='A batch must be open to post a payment' /&gt;" Guid="054a4a45-0fdf-4285-a609-50d9e7806ba8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvTextArea="31, 232, 76, 19" CvTextArgument="Batch #:" CvType="Text" DesignTimeRectangle="33, 227, 75, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Batch #:' check:innerText='Batch #:' /&gt;" Guid="d74c951c-cf01-4e8c-931e-f7eb5d95f3df" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d8bf0aa0f4afb4fba28f98a313b6c4df.png" xmlns="">0AoZEc0s0kU6lSHOIbeBqRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

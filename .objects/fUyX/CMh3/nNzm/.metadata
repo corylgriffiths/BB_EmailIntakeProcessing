@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Batch Information",
+  "Type": "Screen",
+  "Id": "nNzm6P9BhkejKu7oFtzTrQ",
+  "Reference": "8RhyklEjiEifip1A7a44sA/nNzm6P9BhkejKu7oFtzTrQ",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/CMh31ksw-kSzRQIhSg4Rbw",
+  "Created": "2025-04-07T19:56:28.3806156Z",
+  "Updated": "2025-04-07T19:56:28.3806156Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

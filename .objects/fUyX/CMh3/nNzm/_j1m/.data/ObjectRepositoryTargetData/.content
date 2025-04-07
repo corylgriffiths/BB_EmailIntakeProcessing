@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ke_9kPodfkSKIDl3ljFCCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="28, 522, 135, 41" CvTextArea="78, 534, 33, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="30, 524, 131, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnOK' tag='BUTTON' type='button' class='webbutton' aaname='OK' check:innerText='OK' /&gt;" Guid="32ec3e23-595b-4017-88da-44acd9ab853b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="167, 522, 136, 41" CvTextArea="202, 534, 66, 18" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="170, 524, 132, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnCancel' tag='BUTTON' type='button' class='webbutton' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="52120510-54a0-4567-ae53-b8b9346ff1cf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="342bb951fc943c9870acc449a3e379f6.png" xmlns="">0pIR7QnC0o0SHLbxpJzGvjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

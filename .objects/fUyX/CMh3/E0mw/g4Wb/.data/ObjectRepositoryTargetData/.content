@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LHdvQbswL02C4wqsh2xr-A" Reference="8RhyklEjiEifip1A7a44sA/g4WbJM-bukeBqu89GdWAxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="464, 750, 116, 36" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-17' tag='TITLE-ITEM' type='' class='title-item' aaname='DDRESS' check:innerText='ADDRESS' /&gt;" Guid="ad8c1022-627e-4a3d-acdb-02e9b4de114a" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="423, 760, 23, 21" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='card-expansion-panel-header-17' tag='path' class='' aaname='' /&gt;" Guid="129907b3-aff1-4590-bc1b-50dad3122b06" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAZCAYAAADAHFVeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGPSURBVEhLY/hPR8CALkBLMHgt+/z1x//+xbv/t87e9v/Ltx/o0gQB0Za9ef/lf3L9wv+uaf1gnFi74P/rd5/h8g3TN4PFPbMm/V+z+yyKXhggyrJHz9/+jyyfDbcIhsNLZ/1/8PQNWI1bOkK8pHcNuhFgQNCyG/ef/w8unI5hEQwH5E/7f/XuMxSx4p7V6MaAAV7Lzlx98N83dwqGBejYO3syZZbtP3Xjv0fGRAyDicEkWbZuzzkMA0A4tWHR/x1Hr/zfefTq/6Q6RGJBx0RbNnfdEQzNIJxQM///j5+/4epAbJAYujoQzmlbjmImDMAt+/fv3/+u+TsxNMJwbvvy/4s2HUfBIDF0dTA8adm+///+YbHs1+8//2umbMDQQCmun7oJbDaKZaDEgK6QWvjwuduoliEDUOSiayAVE51ABoVlfnlT/09dsR+eOEBskBi6OqpYNmPVQXSl/6etPIChjiqWgXyDDkBi6OpGLQMDuloGqvjQNZNqGdGV59KtJzE0k2rZih2n0ZWCAYZltAQAfseKyihBNLAAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d1c800c22ac3cd6cff472751b2e8c9e.png" xmlns="">03JvaF6F-yUC2jwPt37Y-BA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sat56ujhHUytpxF6V4m2Eg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="93761323-6f38-45c1-a44f-d758027a94c1" DesignTimeRectangle="412, 618, 232, 37" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-49' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-130 ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-touched' aaname='First Name *' /&gt;" Guid="6d371594-e999-4caa-a030-c237056cf6a9" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="93761323-6f38-45c1-a44f-d758027a94c1" DesignTimeRectangle="412, 594, 322, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-123' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-130 ng-star-inserted' aaname='' check:innerText='First Name *' /&gt;" Guid="4f674fdc-b794-4036-8340-8a4daaa35fe5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="67650145feb70c192b06062a8996b476.png" xmlns="">0yLrTMv8KcU-YBpve-wPB8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

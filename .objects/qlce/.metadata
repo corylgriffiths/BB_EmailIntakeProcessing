@@ -1,0 +1,12 @@
+﻿{
+  "Name": "chrome.exe",
+  "Type": "App",
+  "Id": "qlcePc3BgEmmU7ER86qusQ",
+  "Reference": "8RhyklEjiEifip1A7a44sA/qlcePc3BgEmmU7ER86qusQ",
+  "Created": "2025-04-07T20:10:11.543459Z",
+  "Updated": "2025-04-07T20:10:11.543459Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
