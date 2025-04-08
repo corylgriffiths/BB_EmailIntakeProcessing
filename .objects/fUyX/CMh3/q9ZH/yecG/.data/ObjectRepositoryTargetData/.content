@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NxuQvEIMKkKixhJtAMB5NA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="f9d61c87-d9ed-4469-8a94-1a10a61e90d5" CvTextArea="192, 892, 303, 28" CvTextArgument="(BOGGS) BOGGS, KOREN" CvType="Text" DesignTimeRectangle="194, 870, 518, 71" DesignTimeScaleFactor="1.875" ElementType="Text" Guid="83a8efd5-12b7-48cc-af92-aa6a738d6663" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f9d61c87-d9ed-4469-8a94-1a10a61e90d5" CvTextArea="252, 751, 243, 27" CvTextArgument="PROVIDER PROFILE" CvType="Text" DesignTimeRectangle="251, 752, 242, 27" ElementType="Text" Guid="725dfba1-f100-457c-90d6-cedf300d419e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='mat-option-2119' tag='SPAN' type='' class='mat-option-text' aaname=' {0}' /&gt;", in_ProviderCode)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="6f51fc47b1228c92b9067709bbcf6315.png" xmlns="">08q0wFxZoOku0VXxv_FexuQ</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="BOGGS" IsVariable="False" Name="in_ProviderCode" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Check Eligibility",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "kMTUqVWwpUqDxB6jI-Doxg",
+  "Reference": "8RhyklEjiEifip1A7a44sA/kMTUqVWwpUqDxB6jI-Doxg",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/E0mwfp9I_UqeWBxDhQNSMQ",
+  "Created": "2025-04-08T22:32:36.2004281Z",
+  "Updated": "2025-04-08T22:32:36.2004281Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

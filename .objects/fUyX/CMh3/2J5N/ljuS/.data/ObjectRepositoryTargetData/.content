@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="frhwcKV6DEW2mKZXoNJezA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" DesignTimeRectangle="138, 176, 189, 23" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='btnPatientSub' tag='SPAN' type='' class='' aaname='Patient is Subscriber' check:innerText='Patient is Subscriber' /&gt;" Guid="a890eed8-bb46-4171-b6c2-a6f91ab720eb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Subscriber -- TEST,ADVANCEDMD' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="26, 169, 413, 37" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnPatientSub' tag='BUTTON' type='button' class='webbutton' aaname='     Patient is Subscriber' check:innerText='Patient is Subscriber' /&gt;" Guid="fe4b67bf-3d85-47af-953d-091d25b6b2ce" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b69402701e4035bb0c890c237d80d940.png" xmlns="">0ycSbevZnBUCjuczMBMrCMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

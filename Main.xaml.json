@@ -1,0 +1,69 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "providerFilePath",
+      "DisplayName": "providerFilePath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Data\\Provider_toServicesOffered.pdf",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_folderPath",
+      "DisplayName": "in_folderPath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Data\\",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_InsBackId",
+      "DisplayName": "in_InsBackId",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "b3ebdb94-8f0a-f011-90cd-002248237549",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_InsFrontId",
+      "DisplayName": "in_InsFrontId",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "8ee698e1-810a-f011-90cd-002248237549",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_FormId",
+      "DisplayName": "in_FormId",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "bd530ee5-1a0b-f011-90cd-002248237549",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

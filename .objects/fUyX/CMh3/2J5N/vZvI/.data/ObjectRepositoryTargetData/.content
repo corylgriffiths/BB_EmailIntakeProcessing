@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yoJrlc3LU0qU1Ew9YGU_tg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" DesignTimeRectangle="1136, 225, 122, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnSave' tag='BUTTON' type='button' class='webbutton' aaname='Save' check:innerText='Save' /&gt;" Guid="16e630e9-21c0-4cf1-8cca-e495b3a4d72b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Subscriber -- TEST,ADVANCEDMD' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1136, 268, 122, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnClear' tag='BUTTON' type='button' class='webbutton' aaname='Clear' check:innerText='Clear' /&gt;" Guid="5b38c343-b7a0-48b3-9c4e-7a22d6139c3a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3dda361634854e5dcc7a9bdfa73e8cbe.png" xmlns="">0JrTiv38hd0GG2mC6mfsquQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

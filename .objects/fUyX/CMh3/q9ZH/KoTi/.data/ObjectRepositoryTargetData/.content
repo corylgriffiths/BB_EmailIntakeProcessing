@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IZ85970rEEujhzzTWZMzpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="164, 855, 1157, 65" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='card-expansion-panel-header-7' tag='CARD-EXPANSION-PANEL-HEADER' type='' class='card-expansion-panel-header card-focus-indicator ng-tns-c2873236613-37 ng-tns-c2826476314-36 panel-expanded ng-star-inserted' aaname='' check:innerText='SEXMARITAL STATUSORIENTATIONSIGI' /&gt;" Guid="1aff6030-d9d9-4f6f-aa09-43a8888650ef" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="327, 872, 243, 36" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl isleaf='1' parentid='card-expansion-panel-header-7' tag='TITLE-ITEM' type='' class='title-item' aaname='MARITAL STATUS' check:innerText='MARITAL STATUS' /&gt;" Guid="26dbadf1-6a8f-4cc1-a6fd-4336acb6a274" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="da36c99227e48517afd7ac55d89a9a40.png" xmlns="">0SXGfuQqdtE-sBmgf9RCkIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

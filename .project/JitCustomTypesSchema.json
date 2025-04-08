@@ -576,6 +576,56 @@
         "hash": "LTUzOTQwMjk2OQ",
         "assemblyName": "ExtendedExtractionRe.HJ0lBrpnLQ1QMj2S2hnqt43"
       }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "1939965196",
+        "bundleName": "ExtendedExtractionResultsForDocumentData.IntakesV2InsuranceCardBackV2",
+        "entitiesBundle": {
+          "Types": {
+            "IntakesV2InsuranceCardBackV2": {
+              "name": "IntakesV2InsuranceCardBackV2",
+              "properties": [
+                {
+                  "name": "Website",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Address",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Provider",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "CustomerSupportPhone",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                }
+              ],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesV2InsuranceCardBackV2",
+        "hash": "MTkzOTk2NTE5Ng",
+        "assemblyName": "ExtendedExtractionRe.L42dL2fCdyJ1GSC2S1gfRWE2"
+      }
     }
   ]
 }

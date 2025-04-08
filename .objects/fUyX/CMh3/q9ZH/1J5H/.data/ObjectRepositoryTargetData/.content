@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ebrYLdnjjEyX3icrCpGPKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="a6d16abe-4bb4-447d-a0a7-a0ce8e5e58a3" CvTextArea="252, 1093, 222, 28" CvTextArgument="FINANCIAL CLASS" CvType="Text" DesignTimeRectangle="254, 1088, 221, 36" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-10' tag='TITLE-ITEM' type='' class='title-item' aaname='INANCIAL CLASS' check:innerText='FINANCIAL CLASS' /&gt;" Guid="9aaa47c2-e01b-4f0b-b9bd-b6a3eea88be3" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6d16abe-4bb4-447d-a0a7-a0ce8e5e58a3" CvTextArea="216, 1093, 15, 27" CvTextArgument="$" CvType="Text" DesignTimeRectangle="218, 1096, 12, 23" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='card-expansion-panel-header-10' tag='path' class='' aaname='' /&gt;" Guid="55f098d6-ad16-4fc7-b51a-ec3c0dd01a5a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2373b64a4ca873364c11bdc808683ce8.png" xmlns="">0npo-35_VV0yf2zmPvKH4lg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

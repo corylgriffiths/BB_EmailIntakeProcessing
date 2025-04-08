@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="AMD_EnterCreditCard" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="AMD_EnterCreditCard" this:AMD_EnterCreditCard.in_CardNum="4758240422422228" this:AMD_EnterCreditCard.in_CardExpMonth="7" this:AMD_EnterCreditCard.in_CardExpYear="2028" this:AMD_EnterCreditCard.in_CVV="484" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_CardNum" Type="InArgument(x:String)" />
     <x:Property Name="in_CardExpMonth" Type="InArgument(x:String)" />
@@ -103,32 +103,32 @@
       <AssemblyReference>mscorlib</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="2301.6,1241.24" sap2010:WorkflowViewState.IdRef="Sequence_35">
+  <Sequence sap:VirtualizedContainerService.HintSize="2284.2666666666664,3244" sap2010:WorkflowViewState.IdRef="Sequence_35">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="516.8,349.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="651.2,3220.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="483.2,109.6" sap2010:WorkflowViewState.IdRef="Sequence_37">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="617.6,2980.8" sap2010:WorkflowViewState.IdRef="Sequence_37">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Enter Credit Card Info" sap:VirtualizedContainerService.HintSize="449.6,49.6" sap2010:WorkflowViewState.IdRef="Sequence_34">
+            <Sequence DisplayName="Enter Credit Card Info" sap:VirtualizedContainerService.HintSize="584,2919.2" sap2010:WorkflowViewState.IdRef="Sequence_34">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,225.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="550.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="bf8a83fe-c2f6-4f2c-8c48-cb543dccbb50" ContentHash="aOszrAZnM02iGdsLKEYIKQ" CvElementArea="1181, 856, 272, 54" CvType="Button" DesignTimeRectangle="1181, 856, 273, 54" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="cc045876-d621-4a56-b8e6-7e7cff6cf0e3" InformativeScreenshot="23deb7b9413524782bd26413400f87b1.png" Reference="8RhyklEjiEifip1A7a44sA/PqcBcRbzpUGxtYosUlsbxw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -149,19 +149,19 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD Credit Card Capture" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2800.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V2">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD Credit Card Capture" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,2607.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V2">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518.4,2559.2" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,2325.6" sap2010:WorkflowViewState.IdRef="Sequence_18">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Capture'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V4">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Capture'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="19b02c04-fccb-4f8d-ac61-923c29578dec" ContentHash="H17Pm-Qbq0Op6RY3Okqw_A" CvElementArea="960, 437, 121, 45" CvTextArea="978, 448, 85, 25" CvTextArgument="Capture" CvType="Button" DesignTimeRectangle="962, 438, 119, 43" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='btn btn-primary' aaname='Capture' check:innerText='Capture' /&gt;" Guid="95358b7c-f544-45d5-93b8-e8925d8fa111" InformativeScreenshot="99d79b166856d39b08d53ca140b005c2.png" Reference="8RhyklEjiEifip1A7a44sA/ngvmbg-t0kO3NqWXobozfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -182,7 +182,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Credit Card Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V4">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Credit Card Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="f7f3f076-da63-440b-8eb6-04b398f438fc" ContentHash="puvviRfw40iQR2KkxSeJsQ" CvElementArea="514, 394, 747, 48" CvType="InputBox" DesignTimeRectangle="516, 396, 745, 45" DesignTimeScaleFactor="1.875" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required' aaname='' /&gt;" Guid="2b9e0cf9-c50e-4163-abc3-1a744895eb51" InformativeScreenshot="d192cf23f0f74a757f1de71f5dcdc6eb.png" Reference="8RhyklEjiEifip1A7a44sA/fp0tfhLx6k68t0F2DYfiYQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -203,7 +203,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Credit Card Type'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Text="VISA" Version="V4">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Credit Card Type'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Text="VISA" Version="V4">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="271cffc0-9ccf-4eda-b7e6-29a87e0d26e6" ContentHash="ocEltm00d0qTieVgzw5L3g" CvElementArea="514, 395, 747, 48" CvType="InputBox" DesignTimeRectangle="516, 396, 745, 45" DesignTimeScaleFactor="1.875" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required' aaname='' /&gt;" Guid="8d178819-659e-44da-9bce-ed872930058e" InformativeScreenshot="70131c6186ec365bff98eab3cc761ecb.png" Reference="8RhyklEjiEifip1A7a44sA/eeNSIbaMrUWAYR1N9p0PGw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -224,7 +224,7 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <Sequence DisplayName="For Testing" sap:VirtualizedContainerService.HintSize="484.8,100.8" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                      <Sequence DisplayName="For Testing" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="Sequence_24">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -287,7 +287,7 @@
                           </uix:NSetText.Target>
                         </uix:NSetText>
                       </Sequence>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V4">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6ec426-6150-4a4a-ad52-25e1855fc209" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="977d415a-f752-441c-89f0-00feffac3c62" ContentHash="zmrJVVSlu0ynXZidQljKLQ" CvElementArea="1182, 974, 87, 46" CvTextArea="1200, 985, 51, 22" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1184, 975, 84, 43" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='btn btn-primary' aaname='Next' check:innerText='Next' /&gt;" Guid="453e5573-b39e-4a84-af61-0afeeb19f80b" InformativeScreenshot="8ec7681b1cfe6df9a1f0c1823d8653b0.png" Reference="8RhyklEjiEifip1A7a44sA/P7k3FZ72EEq7Ml4C8Y4s3g" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -308,114 +308,103 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,246.4" sap2010:WorkflowViewState.IdRef="CommentOut_6">
-                        <ui:CommentOut.Body>
-                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,136" sap2010:WorkflowViewState.IdRef="Sequence_30">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                            <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Chrome Batch Information" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,76" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V2">
-                              <uix:NApplicationCard.Body>
-                                <ActivityAction x:TypeArguments="x:Object">
-                                  <ActivityAction.Argument>
-                                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                                  </ActivityAction.Argument>
-                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,808.8" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                      <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Chrome Batch Information" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,56.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,808.8" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NCheckState DisplayName="Check App State 'A batch must be open to…'" sap:VirtualizedContainerService.HintSize="952,748.8" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V4">
+                                <uix:NCheckState.IfExists>
+                                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,505.6" sap2010:WorkflowViewState.IdRef="Sequence_20">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NCheckState DisplayName="Check App State 'A batch must be open to…'" sap:VirtualizedContainerService.HintSize="952,748.8" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V4">
-                                      <uix:NCheckState.IfExists>
-                                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,505.6" sap2010:WorkflowViewState.IdRef="Sequence_20">
-                                          <sap:WorkflowViewStateService.ViewState>
-                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            </scg:Dictionary>
-                                          </sap:WorkflowViewStateService.ViewState>
-                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Begin New Batch'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V4">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" ContentHash="tUk9BNdxp0G_KwvRq-Sleg" CvElementArea="471, 371, 201, 41" CvTextArea="492, 382, 159, 21" CvTextArgument="Begin New Batch" CvType="Button" DesignTimeRectangle="473, 373, 197, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnNewBatch' tag='BUTTON' type='button' class='webbutton' aaname='Begin New Batch' check:innerText='Begin New Batch' /&gt;" Guid="2155cb87-fa00-452c-8592-9061d77fce4c" InformativeScreenshot="80c1eff8b665e2ec57b22fdde6838d44.png" Reference="8RhyklEjiEifip1A7a44sA/URpISnT50kCbPZHwIRkNKQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                                <uix:TargetAnchorable.Anchors>
-                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                    <uix:Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="677, 371, 199, 42" CvTextArea="726, 382, 103, 19" CvTextArgument="Disconnect" CvType="Button" DesignTimeRectangle="680, 373, 197, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnDisconnect' tag='BUTTON' type='button' class='webbutton' aaname='Disconnect' check:innerText='Disconnect' /&gt;" Guid="847a23f3-7069-42e1-bdc6-b18889f4f296" SearchSteps="FuzzySelector, CV" />
-                                                  </scg:List>
-                                                </uix:TargetAnchorable.Anchors>
-                                              </uix:TargetAnchorable>
-                                            </uix:NClick.Target>
-                                            <uix:NClick.VerifyOptions>
-                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                <uix:VerifyExecutionOptions.Retry>
-                                                  <InArgument x:TypeArguments="x:Boolean" />
-                                                </uix:VerifyExecutionOptions.Retry>
-                                                <uix:VerifyExecutionOptions.Timeout>
-                                                  <InArgument x:TypeArguments="x:Double" />
-                                                </uix:VerifyExecutionOptions.Timeout>
-                                              </uix:VerifyExecutionOptions>
-                                            </uix:NClick.VerifyOptions>
-                                          </uix:NClick>
-                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V4">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" ContentHash="ke_9kPodfkSKIDl3ljFCCw" CvElementArea="28, 522, 135, 41" CvTextArea="78, 534, 33, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="30, 524, 131, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnOK' tag='BUTTON' type='button' class='webbutton' aaname='OK' check:innerText='OK' /&gt;" Guid="32ec3e23-595b-4017-88da-44acd9ab853b" InformativeScreenshot="342bb951fc943c9870acc449a3e379f6.png" Reference="8RhyklEjiEifip1A7a44sA/_j1mf30Hc0SzVGv67ARk9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                                <uix:TargetAnchorable.Anchors>
-                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                    <uix:Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="167, 522, 136, 41" CvTextArea="202, 534, 66, 18" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="170, 524, 132, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnCancel' tag='BUTTON' type='button' class='webbutton' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="52120510-54a0-4567-ae53-b8b9346ff1cf" SearchSteps="FuzzySelector, CV" />
-                                                  </scg:List>
-                                                </uix:TargetAnchorable.Anchors>
-                                              </uix:TargetAnchorable>
-                                            </uix:NClick.Target>
-                                            <uix:NClick.VerifyOptions>
-                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                <uix:VerifyExecutionOptions.Retry>
-                                                  <InArgument x:TypeArguments="x:Boolean" />
-                                                </uix:VerifyExecutionOptions.Retry>
-                                                <uix:VerifyExecutionOptions.Timeout>
-                                                  <InArgument x:TypeArguments="x:Double" />
-                                                </uix:VerifyExecutionOptions.Timeout>
-                                              </uix:VerifyExecutionOptions>
-                                            </uix:NClick.VerifyOptions>
-                                          </uix:NClick>
-                                        </Sequence>
-                                      </uix:NCheckState.IfExists>
-                                      <uix:NCheckState.IfNotExists>
-                                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,91.2" sap2010:WorkflowViewState.IdRef="Sequence_21">
-                                          <sap:WorkflowViewStateService.ViewState>
-                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            </scg:Dictionary>
-                                          </sap:WorkflowViewStateService.ViewState>
-                                        </Sequence>
-                                      </uix:NCheckState.IfNotExists>
-                                      <uix:NCheckState.Target>
-                                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" ContentHash="gh-FAox4OEyT2y0Kk5WK5Q" CvTextArea="18, 174, 373, 23" CvTextArgument="A batch must be open to post a payment" CvType="Text" DesignTimeRectangle="20, 172, 732, 24" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='dialogMessage' tag='DIV' type='' class='' aaname='A batch must be open to post a payment' check:innerText='A batch must be open to post a payment' /&gt;" Guid="054a4a45-0fdf-4285-a609-50d9e7806ba8" InformativeScreenshot="d8bf0aa0f4afb4fba28f98a313b6c4df.png" Reference="8RhyklEjiEifip1A7a44sA/aFGgy5MffUCIGTLl1TenAg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Begin New Batch'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" ContentHash="tUk9BNdxp0G_KwvRq-Sleg" CvElementArea="471, 371, 201, 41" CvTextArea="492, 382, 159, 21" CvTextArgument="Begin New Batch" CvType="Button" DesignTimeRectangle="473, 373, 197, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnNewBatch' tag='BUTTON' type='button' class='webbutton' aaname='Begin New Batch' check:innerText='Begin New Batch' /&gt;" Guid="2155cb87-fa00-452c-8592-9061d77fce4c" InformativeScreenshot="80c1eff8b665e2ec57b22fdde6838d44.png" Reference="8RhyklEjiEifip1A7a44sA/URpISnT50kCbPZHwIRkNKQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                           <uix:TargetAnchorable.Anchors>
                                             <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                              <uix:Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvTextArea="31, 232, 76, 19" CvTextArgument="Batch #:" CvType="Text" DesignTimeRectangle="33, 227, 75, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Batch #:' check:innerText='Batch #:' /&gt;" Guid="d74c951c-cf01-4e8c-931e-f7eb5d95f3df" SearchSteps="FuzzySelector, CV" />
+                                              <uix:Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="677, 371, 199, 42" CvTextArea="726, 382, 103, 19" CvTextArgument="Disconnect" CvType="Button" DesignTimeRectangle="680, 373, 197, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnDisconnect' tag='BUTTON' type='button' class='webbutton' aaname='Disconnect' check:innerText='Disconnect' /&gt;" Guid="847a23f3-7069-42e1-bdc6-b18889f4f296" SearchSteps="FuzzySelector, CV" />
                                             </scg:List>
                                           </uix:TargetAnchorable.Anchors>
                                         </uix:TargetAnchorable>
-                                      </uix:NCheckState.Target>
-                                    </uix:NCheckState>
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" ContentHash="ke_9kPodfkSKIDl3ljFCCw" CvElementArea="28, 522, 135, 41" CvTextArea="78, 534, 33, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="30, 524, 131, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnOK' tag='BUTTON' type='button' class='webbutton' aaname='OK' check:innerText='OK' /&gt;" Guid="32ec3e23-595b-4017-88da-44acd9ab853b" InformativeScreenshot="342bb951fc943c9870acc449a3e379f6.png" Reference="8RhyklEjiEifip1A7a44sA/_j1mf30Hc0SzVGv67ARk9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvElementArea="167, 522, 136, 41" CvTextArea="202, 534, 66, 18" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="170, 524, 132, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnCancel' tag='BUTTON' type='button' class='webbutton' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="52120510-54a0-4567-ae53-b8b9346ff1cf" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
                                   </Sequence>
-                                </ActivityAction>
-                              </uix:NApplicationCard.Body>
-                              <uix:NApplicationCard.TargetApp>
-                                <uix:TargetApp Area="888, 615, 888, 588" BrowserType="Chrome" ContentHash="fQAfXiBXcEOwDWV2YScyWA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFoSURBVDhPY2CgNuDk5pb09PE/EJOQ+jU+OeMfCIPYIDGQHLp6FKCtq18Yl5j2Kz454398cvrf8Ki45yERsY+gBv0HyYHUoOsDA5AESGFcUvoffUPjWiYmJmaQuISktAPEQDj+h2EIyGlxiem/QZr5+QXUYeKm5lY9YVFxz9AMALsExTsg/4EkQDbDxERExUzRNSJjkB64ATHxKd9AfoY5GwQkJKXsA4LDr4JwbELqd3QDQAELNwDkL1CAwQXQgL2T6wpkzbGJqT9BeuAKYKEMw6CwCA6LvmtgZFIPchUnJ5e4salFh7WtwxwFReVQkGUoBkC8gOlPEFZRVY+DK2RgYAAZCPIuihdggYgNW9rYz0Q2ABTQIHGUQIRFI7JGK1uH2RpaOtmSUtJOMHWgKAZ5DyMaQQCWkGAGyCsqBcPkQM4G2QzSjDUhwYC2rn4RLCnHJaX9DouKfQoJsPS/YDF8SRkGKMpM5AAAbhv5+QeyRmkAAAAASUVORK5CYII=" InformativeScreenshot="6c476900d111acab5f56303d05303569.jpg" Reference="8RhyklEjiEifip1A7a44sA/nNzm6P9BhkejKu7oFtzTrQ" Selector="&lt;html app='chrome.exe' title='Batch Information' /&gt;" Url="https://pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" Version="V2" />
-                              </uix:NApplicationCard.TargetApp>
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </uix:NApplicationCard>
-                          </Sequence>
-                        </ui:CommentOut.Body>
-                      </ui:CommentOut>
-                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD Credit Card Capture(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484.8,1187.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="d90276f5-8ba5-4377-8748-61a6043da1d4" Version="V2">
+                                </uix:NCheckState.IfExists>
+                                <uix:NCheckState.IfNotExists>
+                                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,91.2" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </uix:NCheckState.IfNotExists>
+                                <uix:NCheckState.Target>
+                                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" ContentHash="gh-FAox4OEyT2y0Kk5WK5Q" CvTextArea="18, 174, 373, 23" CvTextArgument="A batch must be open to post a payment" CvType="Text" DesignTimeRectangle="20, 172, 732, 24" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='dialogMessage' tag='DIV' type='' class='' aaname='A batch must be open to post a payment' check:innerText='A batch must be open to post a payment' /&gt;" Guid="054a4a45-0fdf-4285-a609-50d9e7806ba8" InformativeScreenshot="d8bf0aa0f4afb4fba28f98a313b6c4df.png" Reference="8RhyklEjiEifip1A7a44sA/aFGgy5MffUCIGTLl1TenAg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Batch Information' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="56debfca-c8a3-4f50-94ae-857840e7457d" CvTextArea="31, 232, 76, 19" CvTextArgument="Batch #:" CvType="Text" DesignTimeRectangle="33, 227, 75, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Batch #:' check:innerText='Batch #:' /&gt;" Guid="d74c951c-cf01-4e8c-931e-f7eb5d95f3df" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NCheckState.Target>
+                              </uix:NCheckState>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="888, 615, 888, 588" BrowserType="Chrome" ContentHash="fQAfXiBXcEOwDWV2YScyWA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFoSURBVDhPY2CgNuDk5pb09PE/EJOQ+jU+OeMfCIPYIDGQHLp6FKCtq18Yl5j2Kz454398cvrf8Ki45yERsY+gBv0HyYHUoOsDA5AESGFcUvoffUPjWiYmJmaQuISktAPEQDj+h2EIyGlxiem/QZr5+QXUYeKm5lY9YVFxz9AMALsExTsg/4EkQDbDxERExUzRNSJjkB64ATHxKd9AfoY5GwQkJKXsA4LDr4JwbELqd3QDQAELNwDkL1CAwQXQgL2T6wpkzbGJqT9BeuAKYKEMw6CwCA6LvmtgZFIPchUnJ5e4salFh7WtwxwFReVQkGUoBkC8gOlPEFZRVY+DK2RgYAAZCPIuihdggYgNW9rYz0Q2ABTQIHGUQIRFI7JGK1uH2RpaOtmSUtJOMHWgKAZ5DyMaQQCWkGAGyCsqBcPkQM4G2QzSjDUhwYC2rn4RLCnHJaX9DouKfQoJsPS/YDF8SRkGKMpM5AAAbhv5+QeyRmkAAAAASUVORK5CYII=" InformativeScreenshot="6c476900d111acab5f56303d05303569.jpg" Reference="8RhyklEjiEifip1A7a44sA/nNzm6P9BhkejKu7oFtzTrQ" Selector="&lt;html app='chrome.exe' title='Batch Information' /&gt;" Url="https://pm-wfe-129.advancedmd.com/practicemanager/activity/actv_batchentry.html" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NApplicationCard>
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD Credit Card Capture(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,1187.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="d90276f5-8ba5-4377-8748-61a6043da1d4" Version="V2">
                         <uix:NApplicationCard.Body>
                           <ActivityAction x:TypeArguments="x:Object">
                             <ActivityAction.Argument>

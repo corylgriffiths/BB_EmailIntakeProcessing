@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Patient is Subscriber",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ljuS54SZEEGMc-xqtK9MWw",
+  "Reference": "8RhyklEjiEifip1A7a44sA/ljuS54SZEEGMc-xqtK9MWw",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/2J5NC4sw_EOD8_oMrh5Sdw",
+  "Created": "2025-04-08T22:30:51.6384715Z",
+  "Updated": "2025-04-08T22:30:51.6384715Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

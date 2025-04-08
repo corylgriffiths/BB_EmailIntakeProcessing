@@ -1,0 +1,351 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="AMD_EnterInsuranceInfo" this:AMD_EnterInsuranceInfo.in_InsCarrier="BCBS G2" this:AMD_EnterInsuranceInfo.in_MemberId="23934" this:AMD_EnterInsuranceInfo.in_GroupNum="4567" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_InsCarrier" Type="InArgument(x:String)" />
+    <x:Property Name="in_MemberId" Type="InArgument(x:String)" />
+    <x:Property Name="in_GroupNum" Type="InArgument(x:String)" />
+    <x:Property Name="in_PatientAge" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="2284.2666666666664,1520.8" sap2010:WorkflowViewState.IdRef="Sequence_32">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Enter Insurance Info" sap:VirtualizedContainerService.HintSize="516.8,1497.6" sap2010:WorkflowViewState.IdRef="Sequence_31">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,1414.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="231592b7-ce0c-4830-afa1-0d98ddb7141f" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1174.4" sap2010:WorkflowViewState.IdRef="Sequence_33">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="231592b7-ce0c-4830-afa1-0d98ddb7141f" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="869eb005-ddd3-42a1-82c2-de4bc67a2c2a" ContentHash="uXVS1pca_Ui7aRlCCWJprw" CvElementArea="41, 856, 43, 47" CvType="Icon" DesignTimeRectangle="39, 857, 49, 49" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='cdk-drop-list-0' tag='svg' class='' aaname='' /&gt;" Guid="99e8ed23-4ffe-4e0d-8300-0b3f16387a0e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAARISURBVGhD7Zj/axN3GMf9T1Ssc+J0G479MvQXfxK/IM4J019kOqiIKFodExW1plXbFdGKuNUuXau101lrWzoRG8HvNptfqoJ1+A10myC55C73JZfcM55Pdmk+zyeJn0uuEiVveBPu7rnneb9yucvdjYP3QOPoindRFYhyUQXiTXKSNqT0CDi2QTf5Kv8hUkmwX9yGeN93ED04CyK7xoPS9BlbxvW43W/5BpGM/QPG5WaI/jiXBc9n3I51WO+XSoOwTbDu94La+Q0o9VOEwIWM9bgf7o99SpF3CCcFyZfDoA9sBWX/50I4atka7Id9sb9XyUM4SbD+7AS1ZZ4Qglr54VPQflsD1q0TkHh4nn3iMq6ntdTYH+fgPFlJQ2in1woDOQeqQG1bCsalgyx4PuN2rMN6oUeWte71NEJeSUHYj68IQ1zHDs8BfWA7+23TwIWM9bgf7k97urafXqVRckoKwhjcxzVXGj8G7WQ1WOFjQrhijH2wH/bNnqNfbKJRckoKIj6wnWtuXGoWgvhh7Js9B+fKaEwh7Gc3wH4eZp90Wy6XF8SjEGhna0DZ8yFEasezT1y2/wqJteUKYd4MsvDUVrhDqC1fiKtHBAA0rqe1FYj/5Q/EyCAkHl4A6+5pZv18nQCAxvVuTWLkQtrlAhHv2SgElrHeu6l8IGg4WeNV661BGKEGHiLU6AsEmoMY5OfooUYaJaekIMwbR/nm53aOCYT++w5ujnmzlUbJKSkI6143f5jP1nDDtRMrhXAy1rpWcn3iPRu4OeyBSUJSEMlXI1xzNfgVN5x9i+d2stt1tNqxXAiMxvVuDT2a6NjPi7k5qddPaZSckoJAKXs/yjRXmmYKAbJd7P+EsndaZka0YQaNkFfSEGr7Mv5Q/3FcCFEKhDnUxvXXOlfQCHklDWGGf+GHnFotBMkEut4iADCIaz8Jta61rlVcf/POSRohr6QhUOyu1P1JNUwXgmRbDX7JAWjBpUKNa+tBPyh7po5CNEynowvKE4TWzT9nx3s3C4GKsXZmPd+3/3s6uqA8QaReP4FI7YTRo1E/BazhHiGUF+N9lFI3eRQiUAWO+i8dXVCeIFBaTw33rantXwvBvFgNLuGPQp+3o4DyDOHoEVDqPuAG4z8tDSdjfNuR3UepnwqOGaMj3yjPECgz3J4+Yd3hgSowrhwWQhaycfkQB8CuXkPtdJSUioJAxX/9lg+xeyLE+7cIYXMZLwhYn72/2rWKjpBW0RBOIg7RA1/wIPgyrXVR3pMdT+JYywJxn+bZ4CR0OkJaRUOgHEOBWMt8IRS+BNMHtoE1fCYTHi+b2bcVGYCjC1mfUlQShCvtVLUQznWuo8VA2fvWdbRVUfIFAmXd7xNeQ+az0vgJe772S75BoBwjKjwTcK5NP4s4lkZ3LUm+QrhKRV+mr0CBSelvPlDFzolU7G9a6ovGBOJtqwJRLqpAlIveC4j/ACjU/cqQ7sfHAAAAAElFTkSuQmCC" InformativeScreenshot="ac7365972fbcb2a5d0e8a72762dd0390.png" Reference="8RhyklEjiEifip1A7a44sA/hwDLs-d11kyzx-8yyFbMzA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="869eb005-ddd3-42a1-82c2-de4bc67a2c2a" CvElementArea="38, 787, 50, 49" CvTextArea="51, 806, 21, 19" CvType="Icon" DesignTimeRectangle="45, 795, 37, 38" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='cdk-drop-list-0' tag='path' class='' aaname='' /&gt;" Guid="be52e47a-11e0-4367-ba8f-75850cd0cb03" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAqCAYAAAAu9HJYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHISURBVFhH7ZnLSwJRFIf7/9wGFkEbq0UgFbgwBCkIoscmelBE0aqNLXrQok1BEhRK9lgEGUL7AnN0ZhwnTxxD5865To43xxlrfvAtjufMuZ+gjmgf9ED66APtRJYBHjIVSF9b83ivQ1mlV7YXYcmdDRWCAck2e1vipkKSRwmNk7DDcUKjq2xFSDI8UuQE7DAxKtFVtiIkyR48NiTB7qZqCfbZeZH8WjIaLtG2Kdj3Ja3iqmT2SYfVJQWmJ0u15Vawhw73F7k+C/bpk7IiNiXD+rICuRed1TIkk+diHytOkbwo85KhID/oJqHBolky+6xzQ17gNfdpSOI9lm2uLCqQvql0HTyX9UAvX1IExyWvLjU4OzHAms60wnHJg/0yDASkBljTmVb4kogv+Wcl6RdbZD6umCSxpjMI3eWYJCvTLnSXLykK3eWYJHtnqbO9pppksKYzCN3lmGQzPPfuboYv+a8kTw81iEfkBljTmVY4LtkJfMlO8aPkXdosGRkv1S7oNngu64FeDcn3t6qp6RUK+aohiZmNytyQmyzMKHU1QxKt52Lm14RboEch//3rhUmyno98FTIp/l+EbnCbqtTOp+EkvZiekPwCTCJyJfkmuoUAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NSetText DisplayName="Set Text 'Carrier'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.2" sap2010:WorkflowViewState.IdRef="NSetText_24" ScopeIdentifier="231592b7-ce0c-4830-afa1-0d98ddb7141f" Version="V4">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="dd231daa-752f-46a4-a8c2-9c3e77a33467" ContentHash="uJklhfIW70mcBUmvoHAHbg" CvElementArea="455, 913, 197, 38" CvType="InputBox" DesignTimeRectangle="459, 918, 191, 32" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl parentid='ellCarrier' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="00f83113-23ed-4027-a81b-46c9d8500f95" InformativeScreenshot="85666f58fe05c8ca45a099842d2cb328.png" IsResponsive="True" Reference="8RhyklEjiEifip1A7a44sA/JyLRC8KeiEeXRPyGTE_vxA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="dd231daa-752f-46a4-a8c2-9c3e77a33467" CvTextArea="198, 920, 70, 19" CvTextArgument="Carrier:" CvType="Text" DesignTimeRectangle="201, 917, 68, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='Carrier:' parentid='divInsurance' tag='LABEL' type='' class='' check:innerText='Carrier:' /&gt;" Guid="8d1a0a1f-8993-4028-a162-71cfc4d8e0b0" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+                <uix:NSetText.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">in_InsCarrier</CSharpValue>
+                  </InArgument>
+                </uix:NSetText.Text>
+              </uix:NSetText>
+              <uix:NSetText DisplayName="Set Text 'Subscriber ID'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.2" sap2010:WorkflowViewState.IdRef="NSetText_25" ScopeIdentifier="231592b7-ce0c-4830-afa1-0d98ddb7141f" Version="V4">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="21467d9d-4b54-4bf7-8efc-2717e481a38a" ContentHash="F1yGi4tQzEqUSFQj1d-DqA" CvElementArea="877, 913, 446, 40" CvType="InputBox" DesignTimeRectangle="879, 917, 443, 35" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='txtSubScriberIDNumber' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="8eb5d17d-c6ac-49fd-bb70-d82c76aab970" InformativeScreenshot="669da23606004e6f814ee16633f19591.png" IsResponsive="True" Reference="8RhyklEjiEifip1A7a44sA/YzPnZm6ZqUefejAwo4vlqA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="21467d9d-4b54-4bf7-8efc-2717e481a38a" CvTextArea="708, 920, 132, 21" CvTextArgument="Subscriber ID:" CvType="Text" DesignTimeRectangle="711, 917, 130, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='Subscriber ID:' parentid='divInsurance' tag='LABEL' type='' class='' check:innerText='Subscriber ID:' /&gt;" Guid="5861dd19-0619-4a75-aae8-62990fb38578" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+                <uix:NSetText.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">in_MemberId</CSharpValue>
+                  </InArgument>
+                </uix:NSetText.Text>
+              </uix:NSetText>
+              <uix:NSetText DisplayName="Set Text 'Group #'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.2" sap2010:WorkflowViewState.IdRef="NSetText_26" ScopeIdentifier="231592b7-ce0c-4830-afa1-0d98ddb7141f" Version="V4">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="04f8606f-c041-4838-b079-fe4473605555" ContentHash="NxFoE3V5NkWg5M5sJuKZbQ" CvElementArea="361, 1037, 333, 40" CvType="InputBox" DesignTimeRectangle="364, 1040, 328, 36" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='txtGroupNumber' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="0b8b7b5f-1b75-4537-bb44-a178a11ca884" InformativeScreenshot="bf98fdc4d734ef5f21f30e9089aaa9dc.png" IsResponsive="True" Reference="8RhyklEjiEifip1A7a44sA/TvZ79HujMkSqKfOPhHTKXQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="04f8606f-c041-4838-b079-fe4473605555" CvTextArea="200, 1044, 80, 22" CvTextArgument="Group #:" CvType="Text" DesignTimeRectangle="201, 1040, 80, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='Group #:' parentid='divInsurance' tag='LABEL' type='' class='' check:innerText='Group #:' /&gt;" Guid="c9e185c3-27d1-4f98-b36e-29f0cc92186c" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+                <uix:NSetText.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">in_GroupNum</CSharpValue>
+                  </InArgument>
+                </uix:NSetText.Text>
+              </uix:NSetText>
+              <If sap:VirtualizedContainerService.HintSize="416,84.8" sap2010:WorkflowViewState.IdRef="If_1">
+                <If.Condition>
+                  <InArgument x:TypeArguments="x:Boolean">
+                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">int.Parse(in_PatientAge) &lt; 18</CSharpValue>
+                  </InArgument>
+                </If.Condition>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="516.8,1031.2" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Subscriber'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="231592b7-ce0c-4830-afa1-0d98ddb7141f" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="6JJK1fl7IE2fwBCrE3dJ9A" DesignTimeRectangle="711, 874, 150, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='btnSubscriber' tag='BUTTON' type='button' class='webbutton' aaname='               Subscriber             ' check:innerText='Subscriber' /&gt;" Guid="37d3afdd-9dc0-460d-8c0c-96501caa7305" InformativeScreenshot="69f72a077a9dca34d4213bfebc4f6e9b.png" Reference="8RhyklEjiEifip1A7a44sA/74l2Of1QtEaMWLXdMnHKow" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="711, 916, 130, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='Subscriber ID:' parentid='divInsurance' tag='LABEL' type='' class='' check:innerText='Subscriber ID:' /&gt;" Guid="89ae9592-9c90-4bac-b035-d86583942854" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Subscriber -- TEST,ADVANCEDMD" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,745.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="40c94048-5a52-4240-8902-ea13d4ac2bef" Version="V2">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,505.6" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Patient is Subscriber'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="40c94048-5a52-4240-8902-ea13d4ac2bef" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" ContentHash="frhwcKV6DEW2mKZXoNJezA" DesignTimeRectangle="138, 176, 189, 23" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='btnPatientSub' tag='SPAN' type='' class='' aaname='Patient is Subscriber' check:innerText='Patient is Subscriber' /&gt;" Guid="a890eed8-bb46-4171-b6c2-a6f91ab720eb" InformativeScreenshot="b69402701e4035bb0c890c237d80d940.png" Reference="8RhyklEjiEifip1A7a44sA/ljuS54SZEEGMc-xqtK9MWw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Subscriber -- TEST,ADVANCEDMD' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target DesignTimeRectangle="26, 169, 413, 37" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnPatientSub' tag='BUTTON' type='button' class='webbutton' aaname='     Patient is Subscriber' check:innerText='Patient is Subscriber' /&gt;" Guid="fe4b67bf-3d85-47af-953d-091d25b6b2ce" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="40c94048-5a52-4240-8902-ea13d4ac2bef" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" ContentHash="yoJrlc3LU0qU1Ew9YGU_tg" DesignTimeRectangle="1136, 225, 122, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnSave' tag='BUTTON' type='button' class='webbutton' aaname='Save' check:innerText='Save' /&gt;" Guid="16e630e9-21c0-4cf1-8cca-e495b3a4d72b" InformativeScreenshot="3dda361634854e5dcc7a9bdfa73e8cbe.png" Reference="8RhyklEjiEifip1A7a44sA/vZvI5NMeIE6Wmtpu88LLFw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Subscriber -- TEST,ADVANCEDMD' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target DesignTimeRectangle="1136, 268, 122, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnClear' tag='BUTTON' type='button' class='webbutton' aaname='Clear' check:innerText='Clear' /&gt;" Guid="5b38c343-b7a0-48b3-9c4e-7a22d6139c3a" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="549, 249, 1230, 680" BrowserType="Chrome" ContentHash="Er8Z9m60qkCG3rTrMCpnng" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFoSURBVDhPY2CgNuDk5pb09PE/EJOQ+jU+OeMfCIPYIDGQHLp6FKCtq18Yl5j2Kz454398cvrf8Ki45yERsY+gBv0HyYHUoOsDA5AESGFcUvoffUPjWiYmJmaQuISktAPEQDj+h2EIyGlxiem/QZr5+QXUYeKm5lY9YVFxz9AMALsExTsg/4EkQDbDxERExUzRNSJjkB64ATHxKd9AfoY5GwQkJKXsA4LDr4JwbELqd3QDQAELNwDkL1CAwQXQgL2T6wpkzbGJqT9BeuAKYKEMw6CwCA6LvmtgZFIPchUnJ5e4salFh7WtwxwFReVQkGUoBkC8gOlPEFZRVY+DK2RgYAAZCPIuihdggYgNW9rYz0Q2ABTQIHGUQIRFI7JGK1uH2RpaOtmSUtJOMHWgKAZ5DyMaQQCWkGAGyCsqBcPkQM4G2QzSjDUhwYC2rn4RLCnHJaX9DouKfQoJsPS/YDF8SRkGKMpM5AAAbhv5+QeyRmkAAAAASUVORK5CYII=" InformativeScreenshot="d8402c9102843c6aafe04a5abfeac1d4.jpg" Reference="8RhyklEjiEifip1A7a44sA/2J5NC4sw_EOD8_oMrh5Sdw" Selector="&lt;html app='chrome.exe' title='Subscriber -- TEST,ADVANCEDMD' /&gt;" Url="https://pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html?mode=dialog" Version="V2" />
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="516.8,227.2" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+                      <ui:LogMessage.Message>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">"Patient Over 18"</CSharpValue>
+                        </InArgument>
+                      </ui:LogMessage.Message>
+                    </ui:LogMessage>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Check Eligibility'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="231592b7-ce0c-4830-afa1-0d98ddb7141f" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="CS-CgFqZlUSNbjWDIF_Zng" DesignTimeRectangle="793, 683, 169, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='btnEligibilityOnDemand' tag='BUTTON' type='button' class='webbutton' aaname='           Check Eligibility         ' check:innerText='Check Eligibility' /&gt;" Guid="9b7964db-d6ac-4834-9326-882e0630b55d" InformativeScreenshot="b5da94bf4cbced50d16c61af333ee068.png" Reference="8RhyklEjiEifip1A7a44sA/kMTUqVWwpUqDxB6jI-Doxg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="971, 683, 122, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='btnBypassEligibility' tag='BUTTON' type='button' class='webbutton' aaname='           Bypass         ' check:innerText='Bypass' /&gt;" Guid="821e7893-c51f-4123-bd0b-3be430517105" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="249, 159, 2030, 1409" BrowserType="Chrome" ContentHash="0-qq5WWUqUKxA9iigtI1Cw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUASURBVGhD7VlpiBxFFB5vI55xN7tTr/Zw8YoRFEUQURQl4IVnongQcuzUq9lNlIjihRhEoqJ/FFFBVASVRAVFUHQFWVbFA/PDEDUqSoJiApogSTBBYz6p6p5O1zG7MzuzvRHywQe7Xa/e+7rnddd7VSVouhJKnFr6vwJVOhdMf4NpM5hWQVEVQ+XZvt0+DSgxDCZ4NDe0GkwLMNR5pD9nnwNYvBK5iRp3gOllaLoYpdIB/tx9AlDiCLBYFxHvcyMUPQyWJ/k+ph1Q4vyI4HEox8Biru9nWpHmfUTsuPwYWl7k+5oWYLjcB6adEZGN8CPzK/o+CweYVkbENUH5AXTP6b7fwgDd3R+Kapq7oMRdWFE60PdfD+YLl6xL4iawvBUsbsQgSd+uIUDTlxFRk6Acw2DXCb7/PFChM6HFk2D6JZxPgKJvocVSLDvxMH9uXdin5zuaPLdBycEgxlB5tv0AhPb1+CuYLvH9RNGmNPIo38JyOcP6r/YeB6Y/QpsJuRss7vT1RgGmNREHLVKOYdnMoxP/8lL7rgQ2DXE15s851NfsAEo+FpnYBsqvMEzH2xit3cQqX7ODNEe/iExsA+U3WNojbJzJ3cQPYPGorzkKKLpiatKJfsJQf7eNoeW1kXGXin6EogdQ6Z3ja2wIUOIaKPo6cNwSxfu1CtdWvMG4tVln14b5pYN8TRMCS+RM53+z2DDNa7BybYxK3mZ9J1+m37yxF5pZDAMk9Q0956+IxmmyYtL6QFDz3FkrPVAVV+WuP9ty/wGmN1Jnu8DiKai+sjO+onQwtHgETHsiwhqnSc10pU1jft/UylsPVrQb7C9oegKLujs9u7lpGxqKa5wLEl/mq9SmPgNM90YCGe4Ay7vzPzEGZ3WBaSRi2xg1jVo/raZNHmCpgkAuR4zwzN685EreA6Z/IrYTcQ+qvQOughYBRfdFAvnc7P/ktixWtCFiOz41PZT30zKg6ZkgSJzmJV5pXups7qLuTlsKh7bjca2roEWA6Z1IkPrU9CkW9h+bzVd9ZbuC+nb1qGiDq6BFgOnzIMjEHHF+CSV6wWJTxC5CsclV0CJM1QiWj9vPZxBsPMqnHT8srg5totyan9c2mMoxfR/MPqoftA7FkOOD5WuhTcDt+Tlth+lvm3gvzKc0awHtQ7AdVWCX54gbcYoALRbbXjcU4HONM4/p3YhNnjpvP6WwfbOm0YgIn2dkc5S8OTJe43a/RJlypOX1ixExOYolmX1FXhiOp9R0v+u9IJhGAyzfDgTVqMRwZlvpOScYt5Q/Y2H/4a7nAlA7zTHBwfRJKIyAijgvs9eyEoyb1MmlWWFIxWwxG8Lp/9dHxH2W2Sfp9p03vhssL3ccFwFw92l7F7dkdwBKdEQam3nZnGRzID/2JyryMsdxEUjTZW0mRItX7XXbZtKWvddptNaI2/XDrU7XoypO8X0XgqBCTXPcecKa3sttIw7Yo6lk7Hcw3TEtL6wBWF7npcFL9vpyOSMr/DS9DnX2IfZ6cmxldp23QYkHsbjjKN9nYUg3fLdm4s1hn3kxk5QyreRG8823qZSUHKY5T3poJTp8f4XCNidmp4DpXyh6M0sbc/Sq6UOwvN3sIphTf7N7DC2et2fMumuW76twmINuuz9kDiHMkzULlz2UoBug5S22ma/QyaiWL5j0tt9UAkqcBTVwjP3b5LqpKvO7Ea3snO3Hfkwv/gMCe/WSvUB8qwAAAABJRU5ErkJggg==" InformativeScreenshot="f5579ed1092fe985eecd2466df9f19b5.jpg" Reference="8RhyklEjiEifip1A7a44sA/E0mwfp9I_UqeWBxDhQNSMQ" Selector="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" Url="https://pm-wfe-129.advancedmd.com/amds/pm/app/index.html#/" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

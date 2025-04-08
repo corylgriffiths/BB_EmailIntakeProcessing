@@ -1,0 +1,14 @@
+﻿{
+  "Name": "(BOGGS) BOGGS, KOREN",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "yecG-0DvpEqtEAPBhL2Tpw",
+  "Reference": "8RhyklEjiEifip1A7a44sA/yecG-0DvpEqtEAPBhL2Tpw",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/q9ZHcfvW7EucWcVX1_cX5A",
+  "Created": "2025-04-08T22:01:54.4192863Z",
+  "Updated": "2025-04-08T22:01:54.4192863Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

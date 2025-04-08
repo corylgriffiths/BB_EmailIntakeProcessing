@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f8DYYGh2TEyNL-ghPbFjbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="9ce2f68a-484f-4399-a706-344801f97e40" CvTextArea="199, 885, 356, 28" CvTextArgument="(BREA) BRENNAN, ADRIANNE" CvType="Text" DesignTimeRectangle="198, 884, 357, 28" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="35b41611-def9-4d85-b542-06cbf33a0893" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9ce2f68a-484f-4399-a706-344801f97e40" CvTextArea="199, 858, 204, 22" CvTextArgument="Provider Profile *" CvType="Text" DesignTimeRectangle="200, 857, 203, 24" ElementType="Text" Guid="c8b03c0f-1192-4708-a533-fc66ce323c8d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="700407a422d8a101622d299a1079f164.png" xmlns="">0_Ywgas8jhE2onWzfblYp1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

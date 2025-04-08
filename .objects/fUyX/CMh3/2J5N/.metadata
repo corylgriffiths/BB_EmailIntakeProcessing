@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Subscriber -- TEST,ADVANCEDMD",
+  "Type": "Screen",
+  "Id": "2J5NC4sw_EOD8_oMrh5Sdw",
+  "Reference": "8RhyklEjiEifip1A7a44sA/2J5NC4sw_EOD8_oMrh5Sdw",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/CMh31ksw-kSzRQIhSg4Rbw",
+  "Created": "2025-04-08T22:30:33.949896Z",
+  "Updated": "2025-04-08T22:30:33.949896Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

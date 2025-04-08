@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6JJK1fl7IE2fwBCrE3dJ9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="711, 874, 150, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='btnSubscriber' tag='BUTTON' type='button' class='webbutton' aaname='               Subscriber             ' check:innerText='Subscriber' /&gt;" Guid="37d3afdd-9dc0-460d-8c0c-96501caa7305" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="711, 916, 130, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='Subscriber ID:' parentid='divInsurance' tag='LABEL' type='' class='' check:innerText='Subscriber ID:' /&gt;" Guid="89ae9592-9c90-4bac-b035-d86583942854" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="69f72a077a9dca34d4213bfebc4f6e9b.png" xmlns="">0AlMnS8YZ1EWvjzz61HZ_Bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7V29Q9oRkEOhkoO-htHSVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="df838c15-73f4-43a1-99fc-67696427a108" CvTextArea="199, 831, 251, 28" CvTextArgument="(XX) CHANGE THIS!!!!" CvType="Text" DesignTimeRectangle="201, 824, 923, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-17' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control mat-autocomplete-trigger ng-tns-c2794762957-53 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' placeholder='ꘂ' aaname='Financial Class *' /&gt;" Guid="40450175-b816-4a15-af00-336b069333c7" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df838c15-73f4-43a1-99fc-67696427a108" CvTextArea="199, 802, 192, 24" CvTextArgument="Financial Class *" CvType="Text" DesignTimeRectangle="201, 800, 1443, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-43' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-53 ng-star-inserted' aaname='' check:innerText='Financial Class *' /&gt;" Guid="6e629a79-c7d7-4bb0-85d6-e33031e93cc9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ca22f1f9eeefc279cc641b5a8b1cd997.png" xmlns="">0ArWIHKaK-0q4pRfAwc_Cfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
