@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Select - Carrier",
+  "Type": "Screen",
+  "Id": "4xhZK_r8D0WG2I8Frk2M4w",
+  "Reference": "8RhyklEjiEifip1A7a44sA/4xhZK_r8D0WG2I8Frk2M4w",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/CMh31ksw-kSzRQIhSg4Rbw",
+  "Created": "2025-04-09T16:01:52.1473705Z",
+  "Updated": "2025-04-09T16:01:52.1473705Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

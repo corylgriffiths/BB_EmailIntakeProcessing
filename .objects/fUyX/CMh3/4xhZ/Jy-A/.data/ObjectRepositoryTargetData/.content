@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7bRZLhSMl0OzoO4PWIY0CA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/ellipsis/lookup_masterfile.html" CVScreenId="1048170a-b299-4fd2-ac59-2b79baedceb6" CvElementArea="38, 245, 30, 30" CvType="RadioButton" DesignTimeRectangle="42, 242, 25, 36" DesignTimeScaleFactor="1.875" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='rbSearchCriteriaCarCode' tag='INPUT' type='radio' class='radioButtonAlignment' aaname='Code' /&gt;" Guid="35b8b6fe-1272-42c8-8319-b86b49259f02" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Select - Carrier' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1048170a-b299-4fd2-ac59-2b79baedceb6" CvTextArea="73, 250, 52, 19" CvTextArgument="Code" CvType="Text" DesignTimeRectangle="76, 244, 49, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='divOuter' tag='LABEL' type='' class='radioButtonLabelAlignment' aaname='Code' check:innerText='Code' /&gt;" Guid="aea38b94-5910-4213-8fe0-0d645a5d7975" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="09697a6d7b033f255b5cb281016f213e.png" xmlns="">0UaHMicPuG0O35up6t4Xgdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

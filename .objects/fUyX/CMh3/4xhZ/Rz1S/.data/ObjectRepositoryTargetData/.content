@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tKzkhV2nBUyjaq2X53Zjog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/ellipsis/lookup_masterfile.html" CVScreenId="68a6b469-bafb-4636-80c6-03a8b405d9b7" CvElementArea="25, 699, 128, 32" CvTextArea="73, 711, 33, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="30, 702, 122, 37" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnOK' tag='BUTTON' type='button' class='webbutton' aaname='OK' check:innerText='OK' /&gt;" Guid="90abd6a0-6fe5-4c62-9ba1-649552aded2e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Select - Carrier' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="68a6b469-bafb-4636-80c6-03a8b405d9b7" CvElementArea="157, 699, 128, 32" CvTextArea="187, 711, 66, 18" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="161, 702, 122, 37" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnCancel' tag='BUTTON' type='button' class='webbutton' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="00179912-bd19-49e3-8ac6-251bbc23cba1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a9d030d974a7b02711b52939f45074c7.png" xmlns="">0DZm_t_tw20WFAya-95LM5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

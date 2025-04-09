@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zttqqWIT00-SPSuvhPLsNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/ellipsis/lookup_masterfile.html" CVScreenId="bdb69928-3b44-4be6-83cc-b4429bbedc63" CvElementArea="1502, 182, 123, 41" CvTextArea="1531, 193, 67, 19" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1505, 184, 123, 37" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnSearch' tag='BUTTON' type='button' class='webbutton' aaname='Search' check:innerText='Search' /&gt;" Guid="ccf04428-0bd8-439e-a55f-bdc629640b03" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Select - Carrier' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bdb69928-3b44-4be6-83cc-b4429bbedc63" CvElementArea="25, 186, 1463, 39" CvType="InputBox" DesignTimeRectangle="33, 188, 1453, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='txtSearch' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="5a94971a-66a9-4927-8578-38fa3ccf3736" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fc07060d46b3f8c21029333f31d632e5.png" xmlns="">0XjbZMWFeI0W8ecM0IlLyIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9Pw-Oaf_Q0StKMq-UDhdDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="b0eb69db-aa50-40d0-a488-ebadaa0c7ac1" CvElementArea="1342, 668, 128, 42" CvTextArea="1380, 678, 49, 22" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1345, 672, 122, 37" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl class='webbutton' parentid='divMemos' tag='BUTTON' type='button' aaname='Save' check:innerText='Save' /&gt;" Guid="d29125f4-40fb-4de4-9a15-90124ef4e5f5" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0eb69db-aa50-40d0-a488-ebadaa0c7ac1" CvElementArea="1341, 711, 128, 42" CvTextArea="1380, 722, 52, 22" CvTextArgument="Clear" CvType="Button" DesignTimeRectangle="1396, 722, 5, 23" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='l' parentid='divMemos' tag='U' type='' class='' check:innerText='l' /&gt;" Guid="185cbef3-9b1a-4dcb-9af8-d859c84341b1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="da0e786699f566d4179906b14583dacb.png" xmlns="">0M_Zn8na2Ikui-fXAnDddiw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

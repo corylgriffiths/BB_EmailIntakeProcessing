@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="mzKy2m73FUKzk-_3W6DoXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 1704, 1193" FilePath="C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHMSURBVDhPY8jU4s5M0uBKEuVgEmUgBwixMwk9j5V4/jdN+u8Rf9EjZQY8ZVLczFLo6vCCCgPeiv/p0v9h+Euy1JcqQ94qdmZGdnS1WIEgO5MgSBOyISB8J1L8jo88hw9IDT8bEz/IdatchVYtcxZa5izN7oxiyGx7gdnoBsBwlwV/V4EuTwG6eKUhbyXcAJC/Z9oJzPyVKvULXSEI5+rw5IJsBrH/pEn/2ewhvDlQkTMQboCGAIuGmwy7mwIvs8ICR8EF6AaAAjlcmTP8TJDYmWAlzmC4RhjQFGTRBClc6SK0EuQakKIPiZIfkA0BxZYYJ5MYul4wMBJhNYIp/JQk9alQj6dQiZdZ6VmsxDNkQ+wk2e3Q9YKBJBez5F4fkb3IitvM+Nosxdksf6ZK/YSJ+cpz+KLrRQEhSpwhD6MlHsI0mIqyma5wEVoBYv9IkfqB0wvIQJidSfhKmNgVkKY0Te60WiPeWhB7qo3AVHS1GECVn0V1tavQ6gR1roTvKVLf9YVZ9UHhsNBRcCEzIwMzunoUwMPKyAOyOVGdK3Geg+C8ODWuuH4r/n5/BQ5/dLVYQZgyZ5ijFJsjyJ9agixahiKshowMDIzo6qgKAKuc32OHp9aSAAAAAElFTkSuQmCC" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="2288c0688b5d967b829bc5c902f0a3f1.png" xmlns="">0d7p_0xyyBkOhGYqaa_6YQw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

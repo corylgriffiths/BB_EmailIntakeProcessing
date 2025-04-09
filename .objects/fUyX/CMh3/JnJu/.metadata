@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome ImageProperties",
+  "Type": "Screen",
+  "Id": "JnJuU7JMdUKv75bUWFQsfg",
+  "Reference": "8RhyklEjiEifip1A7a44sA/JnJuU7JMdUKv75bUWFQsfg",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/CMh31ksw-kSzRQIhSg4Rbw",
+  "Created": "2025-04-09T21:17:08.543891Z",
+  "Updated": "2025-04-09T21:17:08.543891Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

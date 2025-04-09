@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vqH799Uee0WouuWZYm5iHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="c5523c50-e402-412e-8e92-615e53774a3d" CvElementArea="1339, 1055, 130, 43" CvTextArea="1374, 1067, 63, 22" CvTextArgument="Import" CvType="Button" DesignTimeRectangle="1345, 1060, 122, 37" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='tblChart' tag='TABLE' /&gt;&lt;webctrl id='btnChartImport' type='button' tag='BUTTON' class='webbutton' aaname='Import' check:innerText='Import' /&gt;" Guid="edeb001c-ab0f-44cf-8780-ff0fd0c235ee" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c5523c50-e402-412e-8e92-615e53774a3d" CvElementArea="1341, 1009, 128, 42" CvTextArea="1385, 1020, 43, 22" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1345, 1013, 122, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='tblChart' tag='TABLE' /&gt;&lt;webctrl id='btnChartNew' type='button' tag='BUTTON' class='webbutton' aaname='New' check:innerText='New' /&gt;" Guid="c200c985-c629-471b-99df-bcc4c497efe9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f2eb5b77a314cdedac6b20a60e080d49.png" xmlns="">0MSpGdI6I3keuCb5BsLE7FA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

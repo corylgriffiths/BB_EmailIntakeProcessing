@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gmaZNAMvzEON374HUB7iDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_chart_properties_image.html" CVScreenId="6e5de265-00f7-4e7a-a242-db46e4cb84d5" CvElementArea="30, 785, 135, 42" CvTextArea="81, 796, 33, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="33, 787, 131, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnOK' tag='BUTTON' type='button' class='webbutton' aaname='OK' check:innerText='OK' /&gt;" Guid="f11ace74-9331-4381-bcdb-cda06aa8b417" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ImageProperties' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6e5de265-00f7-4e7a-a242-db46e4cb84d5" CvElementArea="180, 785, 135, 41" CvTextArea="214, 795, 66, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="183, 787, 131, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnCancel' tag='BUTTON' type='button' class='webbutton' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="caf7e9d2-e77a-4d59-8b9b-427d0dbab4e8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="84d1666b5cce8c880fab7fa8613d23ed.png" xmlns="">0Ec1K-fy3X0aHpE3GxSauNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

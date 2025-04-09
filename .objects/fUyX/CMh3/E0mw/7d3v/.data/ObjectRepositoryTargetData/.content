@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IwsL5lN0qE2ei4VtTSyVKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="b0eb69db-aa50-40d0-a488-ebadaa0c7ac1" CvElementArea="468, 1306, 855, 37" CvType="InputBox" DesignTimeRectangle="473, 1309, 849, 36" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='memo_txtMemos' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="81697b26-8040-45ed-b214-0e95097cf82d" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0eb69db-aa50-40d0-a488-ebadaa0c7ac1" CvTextArea="386, 1313, 45, 19" CvTextArgument="Text:" CvType="Text" DesignTimeRectangle="388, 1309, 44, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl aaname='Text:' parentid='divMemos' tag='LABEL' type='' class='' check:innerText='Text:' /&gt;" Guid="e496d197-8603-46b7-ace0-10e867e80e8c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3ea92196816a53298f9c3a5d2aab1161.png" xmlns="">0xfVi7oWFKkCeN0AIaIf-sA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

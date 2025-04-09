@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Import",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "NbUUt9BjeE6JMTdhCnOB3A",
+  "Reference": "8RhyklEjiEifip1A7a44sA/NbUUt9BjeE6JMTdhCnOB3A",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/E0mwfp9I_UqeWBxDhQNSMQ",
+  "Created": "2025-04-09T21:14:00.5643289Z",
+  "Updated": "2025-04-09T21:14:00.5643289Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

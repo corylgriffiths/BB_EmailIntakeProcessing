@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l22gkkE7mUGkyZiJhVFKxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_chart_properties_image.html" CVScreenId="6e5de265-00f7-4e7a-a242-db46e4cb84d5" CvElementArea="245, 176, 360, 37" CvType="InputBox" DesignTimeRectangle="248, 176, 357, 36" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='txtName' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="d64d09b5-6c98-45ae-a30f-d453c1feb5b3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ImageProperties' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6e5de265-00f7-4e7a-a242-db46e4cb84d5" CvTextArea="31, 181, 100, 20" CvTextArgument="File Name:" CvType="Text" DesignTimeRectangle="33, 176, 206, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='File Name:' check:innerText='File Name:' /&gt;" Guid="3e63af7c-acb1-4fd1-8a33-af57bb6c7aba" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="97e40fda6fd779b0b7929b9dda701f0b.png" xmlns="">0jw58nX8lUk-havFJoxKSQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
