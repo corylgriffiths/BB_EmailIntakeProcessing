@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L82aETg74U2WTHIbHvf0_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" DesignTimeRectangle="95, 1148, 141, 66" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='submitButton' tag='INPUT' type='submit' class='btn btn-default btn-primary' aaname='Capture' check:text='Capture' /&gt;" Guid="642cacf3-bf5a-4e3e-871e-db40b85f4e98" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="39, 1040, 185, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl parentid='div-billing_postal_code' tag='LABEL' type='' class='control-label col-sm-4' aaname='Postal Code' check:innerText='Postal Code:' /&gt;" Guid="007a2cfc-bf75-4a2c-873a-d22ddd996da3" ImageBase64="" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b1ff5f6547ff3dbb6dc3b481709f3962.png" xmlns="">0E4CiEY0LvUe4AWCm8XNcMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Capture",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "4euEnVyo0EW0qEvuGBp2ew",
+  "Reference": "8RhyklEjiEifip1A7a44sA/4euEnVyo0EW0qEvuGBp2ew",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/ufGhUN9DnkqIXQ8CV_N2tQ",
+  "Created": "2025-04-10T21:09:20.4819289Z",
+  "Updated": "2025-04-10T21:09:20.4819289Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Jn2IzB0nVEmQuwgMkkoJjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" CVScreenId="d5f5cf7f-b85a-4f1c-921e-6efbcb244d5f" CvTextArea="1171, 234, 46, 22" CvTextArgument="Save" CvType="Text" DesignTimeRectangle="1136, 225, 122, 38" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnSave' tag='BUTTON' type='button' class='webbutton' aaname='Save' check:innerText='Save' /&gt;" Guid="382fc843-ef9d-48e7-a9be-2c77afc4f178" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Subscriber -- James,Gabe' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5f5cf7f-b85a-4f1c-921e-6efbcb244d5f" CvElementArea="1133, 266, 85, 42" CvTextArea="1171, 277, 45, 22" CvTextArgument="Clea" CvType="Button" DesignTimeRectangle="1136, 268, 122, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnClear' tag='BUTTON' type='button' class='webbutton' aaname='Clear' check:innerText='Clear' /&gt;" Guid="f186b46e-fdc4-4db5-94d9-72d215d926b7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0682695235ea89492e07011b0776fbbf.png" xmlns="">0Hfbo-ZbxjUOb-ZhAmIY68g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

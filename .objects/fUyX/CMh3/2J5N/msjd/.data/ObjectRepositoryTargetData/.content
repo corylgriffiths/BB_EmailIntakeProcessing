@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="J1PE2xF6BkC70czDwXuI5g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" CVScreenId="d5f5cf7f-b85a-4f1c-921e-6efbcb244d5f" CvElementArea="23, 175, 415, 33" CvTextArea="136, 177, 192, 21" CvTextArgument="Patient is Subscriber" CvType="Button" DesignTimeRectangle="138, 176, 189, 23" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='btnPatientSub' tag='SPAN' type='' class='' aaname='Patient is Subscriber' check:innerText='Patient is Subscriber' /&gt;" Guid="f1f06d59-c53a-4bda-bea8-901c381dde43" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Subscriber -- James,Gabe' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5f5cf7f-b85a-4f1c-921e-6efbcb244d5f" CvElementArea="23, 175, 415, 33" CvTextArea="136, 177, 192, 21" CvTextArgument="Patient is Subscriber" CvType="Button" DesignTimeRectangle="26, 169, 413, 37" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnPatientSub' tag='BUTTON' type='button' class='webbutton' aaname='     Patient is Subscriber' check:innerText='Patient is Subscriber' /&gt;" Guid="531da603-0c07-48df-bdd0-b4f8af6e7ec3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="73d2c687046e21a9866bd1d0abb77dae.png" xmlns="">0plgIH2NJJEKdzGCT2A6jgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

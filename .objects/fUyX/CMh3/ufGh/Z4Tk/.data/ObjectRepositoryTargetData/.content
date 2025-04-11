@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6mbxVZAHNkuYOucEPKdiaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" DesignTimeRectangle="893, 456, 249, 43" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Continue Processing' tag='BUTTON' type='' class='btn ng-binding ng-scope btn-default' check:innerText='Continue Processing' /&gt;" Guid="f5c90185-a643-432e-986b-b7c204670af1" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1152, 456, 230, 43" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Void Authorization' tag='BUTTON' type='' class='btn ng-binding ng-scope btn-default' check:innerText='Void Authorization' /&gt;" Guid="f9633438-e188-4455-8984-d2bbb4c5554b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fa35c876b34cd3035d279dd6a1632052.png" xmlns="">0r9P41-LEh06oFnVgSqpUFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

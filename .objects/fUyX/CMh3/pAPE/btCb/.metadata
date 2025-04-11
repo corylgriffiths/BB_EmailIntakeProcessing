@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Card Data",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "btCbw9_FTkeDZ-23ugMBMQ",
+  "Reference": "8RhyklEjiEifip1A7a44sA/btCbw9_FTkeDZ-23ugMBMQ",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/pAPEBrQLNEaxTcSPE0CLQw",
+  "Created": "2025-04-10T15:14:21.6139532Z",
+  "Updated": "2025-04-10T15:14:21.6139532Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

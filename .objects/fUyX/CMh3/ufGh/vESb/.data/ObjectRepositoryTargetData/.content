@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yL3hYUzmu0mJWDPV67tdZw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" DesignTimeRectangle="162, 320, 97, 43" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Finish' tag='INPUT' type='button' class='btn btn-primary' check:text='Finish' /&gt;" Guid="67200d00-4d0d-4298-993f-85d0921dbc7f" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="71, 320, 85, 43" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='btn btn-primary' aaname='Print' check:text='Print' /&gt;" Guid="eef2597a-b64b-4d37-95eb-5a10e53a0892" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="14b66c12f362cf9d84c14c362f727264.png" xmlns="">0CFDQXwJ-ukiqq_gHd0vchQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

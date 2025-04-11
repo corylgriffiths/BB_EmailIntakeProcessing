@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bzXkpgtriECK7z71fBdE3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" DesignTimeRectangle="309, 169, 612, 61" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;ctrl name='pm-wfe-129.advancedmd.com says' role='dialog' /&gt;&lt;ctrl name='Duplicate name/DOB found. Do you want to add this subscriber to *' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='pm-wfe-129.advancedmd.com says' role='dialog' /&gt;&lt;ctrl name='Duplicate name/DOB found. Do you want to add this subscriber to *' role='text' automationid='' check:fulltext='Duplicate name/DOB found. Do you want to add this subscriber to the database?' /&gt;" Guid="53bc9045-9b7f-4a5b-bf00-c20000b9f7e0" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Subscriber -- James,Gabe - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cc3b15dd-c41c-404f-89bb-cc8d9d133d09" CvTextArea="307, 127, 384, 28" CvTextArgument="pm-wfe-129.advancedmd.com says" CvType="Text" DesignTimeRectangle="307, 127, 384, 28" ElementType="Text" Guid="7e68ada2-91e9-4da8-b43a-543ef5f2220d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="40dbd7fea4e0246e0f99cfb642ff5b39.png" xmlns="">0N87fQ0FlSEymYIG10Ip0Lw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

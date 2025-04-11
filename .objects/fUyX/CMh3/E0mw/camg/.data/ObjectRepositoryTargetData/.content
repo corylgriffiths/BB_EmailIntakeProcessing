@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="13Q5ca16Uk-VavR4L9awDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="42e3b3fc-d081-4a5a-8f75-833bbcd54081" CvElementArea="1341, 661, 129, 43" CvTextArea="1382, 671, 48, 24" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1345, 665, 122, 37" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='btnSave' tag='BUTTON' type='button' class='webbutton' aaname='           Save         ' check:innerText='Save' /&gt;" Guid="058d258c-c8d9-4c2b-a569-bb677a539718" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="42e3b3fc-d081-4a5a-8f75-833bbcd54081" CvElementArea="1341, 704, 128, 42" CvTextArea="1361, 714, 88, 20" CvTextArgument="Add New" CvType="Button" DesignTimeRectangle="1345, 708, 122, 37" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='frm' tag='IFRAME' /&gt;&lt;webctrl id='btnNew' tag='BUTTON' type='button' class='webbutton' aaname='           Add New         ' check:innerText='Add New' /&gt;" Guid="aea6459a-9c0c-4f7a-ac27-d7d0c912a81c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="00b7e148192a8688d74605b67626dcb4.png" xmlns="">0ghBARmxRmECVzS9lRQQ8tQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

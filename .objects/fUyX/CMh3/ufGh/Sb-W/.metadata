@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CVV",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Sb-W376rOE6HfR1gucWfNQ",
+  "Reference": "8RhyklEjiEifip1A7a44sA/Sb-W376rOE6HfR1gucWfNQ",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/ufGhUN9DnkqIXQ8CV_N2tQ",
+  "Created": "2025-04-10T21:07:50.0305691Z",
+  "Updated": "2025-04-10T21:07:50.0305691Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

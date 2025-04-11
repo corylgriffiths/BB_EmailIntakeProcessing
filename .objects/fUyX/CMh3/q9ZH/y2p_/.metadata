@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Clear",
+  "Type": "Element",
+  "Id": "y2p_ODEC_0a647sbl2Xlcg",
+  "Reference": "8RhyklEjiEifip1A7a44sA/y2p_ODEC_0a647sbl2Xlcg",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/q9ZHcfvW7EucWcVX1_cX5A",
+  "Created": "2025-04-10T14:04:37.0430966Z",
+  "Updated": "2025-04-10T14:04:37.0430966Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

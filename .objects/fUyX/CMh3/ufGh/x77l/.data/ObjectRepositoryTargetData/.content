@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aSUt-m-5OECtcYWemlmD_A" Reference="8RhyklEjiEifip1A7a44sA/x77l4qWjv0i1ug6vFCOWaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="52e458d2-e2c9-4c68-b89b-63f60fad2055" CvElementArea="70, 799, 1281, 59" CvType="InputBox" DesignTimeRectangle="67, 800, 1274, 56" DesignTimeScaleFactor="1.875" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='expire_year_display' tag='SELECT' type='' class='form-control' aaname='                         Expire Year                     ' /&gt;" Guid="28ce343f-bb48-4359-adfc-4b0edc2f851c" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="52e458d2-e2c9-4c68-b89b-63f60fad2055" CvTextArea="75, 696, 132, 26" CvTextArgument="Expiry Date:*" CvType="Text" DesignTimeRectangle="39, 696, 188, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl parentid='div-expiry_date' tag='LABEL' type='' class='control-label col-sm-4' aaname='Expiry Date' check:innerText='Expiry Date:*' /&gt;" Guid="07dbefc7-580f-4640-93f1-4a647214e111" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8ab71d51c07d36be840f6dd0b2dc135c.png" xmlns="">0n8u3EojJOUuDfnD62ae0pA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

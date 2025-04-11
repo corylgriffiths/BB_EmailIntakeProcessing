@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SyeYMqHbkEy6ShIErq-GSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="38e85d9b-c3ab-4796-ae86-22b0560e67ef" CvElementArea="1765, 1514, 126, 66" CvTextArea="1797, 1535, 61, 25" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1768, 1518, 121, 60" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Save' parentid='mat-dialog-0' tag='BUTTON' type='' class='mat-focus-indicator mat-tooltip-trigger mat-button mat-button-base mat-primary' check:innerText='Save' /&gt;" Guid="356c5bff-8130-4a71-a33f-5692bb6ee0b0" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="38e85d9b-c3ab-4796-ae86-22b0560e67ef" CvElementArea="1623, 1514, 132, 65" CvTextArea="1655, 1535, 69, 27" CvTextArgument="Clear" CvType="Button" DesignTimeRectangle="1626, 1518, 127, 60" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Clear' parentid='mat-dialog-0' tag='BUTTON' type='' class='mat-focus-indicator mat-tooltip-trigger mat-button mat-button-base' check:innerText='Clear' /&gt;" Guid="9a6a5a8f-700e-4071-877a-f210ea269684" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8e0c61f36bbf5d83ae2182fb0412fde9.png" xmlns="">0YehfzYgmsEm0JkNUQsokeA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

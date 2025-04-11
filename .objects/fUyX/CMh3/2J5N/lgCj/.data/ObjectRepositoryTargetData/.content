@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sOQpwLEeqUGixInnOHM7iA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/practicemanager/patientfiles/demo_subscriber.html" CVScreenId="cc3b15dd-c41c-404f-89bb-cc8d9d133d09" CvElementArea="688, 246, 124, 71" CvTextArea="733, 273, 31, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="696, 253, 107, 58" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='pm-wfe-129.advancedmd.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='pm-wfe-129.advancedmd.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="cd54e2d4-a4d8-46b4-afa8-9f2a8575b302" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Subscriber -- James,Gabe - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="309, 169, 612, 61" ElementType="Text" FullSelectorArgument="&lt;ctrl name='pm-wfe-129.advancedmd.com says' role='dialog' /&gt;&lt;ctrl name='Duplicate name/DOB found. Do you want to add this subscriber to *' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='pm-wfe-129.advancedmd.com says' role='dialog' /&gt;&lt;ctrl name='Duplicate name/DOB found. Do you want to add this subscriber to *' role='text' automationid='' check:fulltext='Duplicate name/DOB found. Do you want to add this subscriber to the database?' /&gt;" Guid="1f7a4cb7-0845-4b62-bca4-7e1e05d7bcef" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="822603d2e201efd38a6e768fb0f22152.png" xmlns="">0mWnL1pVoKUK-BCFtFgStXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

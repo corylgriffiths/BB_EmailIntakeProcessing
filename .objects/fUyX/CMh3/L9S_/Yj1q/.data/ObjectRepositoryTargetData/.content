@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zAS-KMXLqUywxO30YMC49Q" Reference="8RhyklEjiEifip1A7a44sA/Yj1q1Ip4e0C1mmVSZ7K5KQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="d5531ccb-6abe-46af-b26d-17075e7d9ef7" CvElementArea="102, 1144, 145, 70" CvTextArea="124, 1165, 97, 30" CvTextArgument="Capture" CvType="Button" DesignTimeRectangle="101, 1157, 145, 70" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='submitButton' tag='INPUT' type='submit' class='btn btn-default btn-primary' aaname='Capture' check:text='Capture' /&gt;" Guid="5468bc62-05f3-4f95-83b0-da8daae63287" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5531ccb-6abe-46af-b26d-17075e7d9ef7" CvTextArea="75, 1039, 128, 21" CvTextArgument="Postal Code:" CvType="Text" DesignTimeRectangle="39, 1050, 185, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/17442942522790CFfgGKTkU41mOUKrts' tag='IFRAME' /&gt;&lt;webctrl parentid='div-billing_postal_code' tag='LABEL' type='' class='control-label col-sm-4' aaname='Postal Code' check:innerText='Postal Code:' /&gt;" Guid="b375fc0f-9927-4749-bbad-355cc979c829" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e1b2f54d24afeeff2990d2b233376218.png" xmlns="">02eWW9b2Aj0OFgs0WLYFDFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

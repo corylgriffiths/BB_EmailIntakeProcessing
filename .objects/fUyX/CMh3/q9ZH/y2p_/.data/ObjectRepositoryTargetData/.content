@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="htexa8db_0u_NwX6B3lWWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="0025ecfb-c4a4-473c-8267-f1ba3ab97326" CvElementArea="1226, 1278, 96, 44" CvTextArea="1243, 1288, 61, 25" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1246, 1282, 59, 36" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname=' Sve ' class='mat-button-wrapper' tag='SPAN' type='' check:innerText='Save' /&gt;" Guid="cc2896aa-dd0d-465e-97a0-adb1987ddbcc" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0025ecfb-c4a4-473c-8267-f1ba3ab97326" CvElementArea="1113, 1277, 104, 45" CvTextArea="1131, 1287, 69, 28" CvTextArgument="Clear" CvType="Button" DesignTimeRectangle="1133, 1282, 66, 36" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Cear' class='mat-button-wrapper' tag='SPAN' type='' check:innerText='Clear' /&gt;" Guid="72bed178-f030-4194-a25f-9020abd16168" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="881abebb24622a14ac9d652309da4d75.png" xmlns="">0w6jsaUl4OEmNXySvH4B9DA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

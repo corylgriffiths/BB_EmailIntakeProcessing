@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Credit Card Type",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "FnfYdn7BckyGDlucMwCxPQ",
+  "Reference": "8RhyklEjiEifip1A7a44sA/FnfYdn7BckyGDlucMwCxPQ",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/sFkKlPonVkKAzrmad1R1Kg",
+  "Created": "2025-04-10T20:34:51.6802891Z",
+  "Updated": "2025-04-10T20:34:51.6802891Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

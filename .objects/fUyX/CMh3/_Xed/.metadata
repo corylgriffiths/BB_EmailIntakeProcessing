@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome AdvancedMD Credit Card Capture(4)",
+  "Type": "Screen",
+  "Id": "_Xed9n6US0-XCPTXxduZkA",
+  "Reference": "8RhyklEjiEifip1A7a44sA/_Xed9n6US0-XCPTXxduZkA",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/CMh31ksw-kSzRQIhSg4Rbw",
+  "Created": "2025-04-10T20:50:42.3478785Z",
+  "Updated": "2025-04-10T20:50:42.3478785Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

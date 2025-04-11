@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aAH70bkGI0Ci_gDAGwHhqw" Reference="8RhyklEjiEifip1A7a44sA/iY-He9mk9kiKOLNfyOiHmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="d5531ccb-6abe-46af-b26d-17075e7d9ef7" CvElementArea="102, 1144, 145, 70" CvTextArea="124, 1165, 97, 30" CvTextArgument="Capture" CvType="Button" DesignTimeRectangle="101, 1157, 145, 70" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='         ' parentid='consumerPayPage' tag='DIV' type='' class='controls col-sm-8' check:text='Capture' /&gt;" Guid="e4e5b79c-50f1-4b3a-ad1a-61eb4a2d597b" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF190751' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5531ccb-6abe-46af-b26d-17075e7d9ef7" CvTextArea="75, 1039, 128, 21" CvTextArgument="Postal Code:" CvType="Text" DesignTimeRectangle="75, 1051, 129, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='div-billing_postal_code' tag='LABEL' type='' class='control-label col-sm-4' aaname='Postal Code' check:innerText='Postal Code:' /&gt;" Guid="63c9f8f3-8eb2-4f52-ac13-a3d80911bd9c" ImageBase64="" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2f9b9a4ae10cc23ff5271a8f1d4fdf40.png" xmlns="">0LojMhp2ezkiJDIAT2uOqkw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R4GrClFwNkSZ-acVCJ9qOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="0045280b-6ec1-4490-b05b-ff3599c0f57e" CvElementArea="75, 615, 1298, 58" CvType="InputBox" DesignTimeRectangle="67, 616, 1297, 56" DesignTimeScaleFactor="1.875" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1744317548765nYTRuOADexnsPiTgXTo' tag='IFRAME' /&gt;&lt;webctrl id='track' tag='INPUT' type='password' class='form-control' aaname='Card Data:*' /&gt;" Guid="d8e22bd3-417a-4f25-afa9-92f0070b7ecb" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0045280b-6ec1-4490-b05b-ff3599c0f57e" CvTextArea="75, 588, 118, 21" CvTextArgument="Card Data:*" CvType="Text" DesignTimeRectangle="39, 587, 174, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1744317548765nYTRuOADexnsPiTgXTo' tag='IFRAME' /&gt;&lt;webctrl parentid='div-track' tag='LABEL' type='' class='control-label col-sm-4' aaname='Card Data' check:innerText='Card Data:*' /&gt;" Guid="c5c49cfb-3428-4d03-9163-1a3bd1e7f5c6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c2e451863e2e00fa9738bdeff5493f11.png" xmlns="">0dwY54YS_hky3m_T68zK0lQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
