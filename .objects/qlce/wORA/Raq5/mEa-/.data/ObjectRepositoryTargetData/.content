@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n9kJxdM5D0y6h3ELJsXrWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bb.fastgem.net/orders-2/submissions/submission/7" DesignTimeRectangle="1864, 937, 496, 41" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='jform[credit_card_data][credit_card_data0][credit_card_cvc]' tag='INPUT' type='text' class='input-append ' aaname=' &amp;#x9;Credit Card CVC' /&gt;" Guid="546c18c2-d51a-46a0-8175-67c1bcba0649" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Client Details' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1864, 911, 551, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;Credit Card CVC' parentid='fast-subform-inner-credit_card_data' tag='LABEL' type='' class='' check:innerText='Credit Card CVC' /&gt;" Guid="1f201cf4-16ad-4a5e-9eb6-c9ba218e17f7" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad2c32cd5c0c23c617f9dc093ca97001.png" xmlns="">01FWeBL_o2kGRZHGeBA0Kjw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

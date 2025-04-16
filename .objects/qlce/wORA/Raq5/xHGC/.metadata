@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Credit Card CVC",
+  "Type": "Element",
+  "Id": "xHGCbZ5-mkmi7e0mrm1L7w",
+  "Reference": "8RhyklEjiEifip1A7a44sA/xHGCbZ5-mkmi7e0mrm1L7w",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/Raq5Vwfzu0-uSFybxI17qQ",
+  "Created": "2025-04-16T21:52:28.548935Z",
+  "Updated": "2025-04-16T21:52:28.548935Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

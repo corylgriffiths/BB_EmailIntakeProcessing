@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oWpwGey8XU6-JWRAElj9tA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="cf94553d-2468-47de-8c05-ec8763d7812a" CvTextArea="200, 1175, 48, 24" CvTextArgument="Self" CvType="Text" DesignTimeRectangle="201, 1172, 580, 32" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl id='mat-select-value-3' tag='DIV' type='' class='mat-select-value ng-tns-c3082329526-24' aaname='' check:innerText='Self' /&gt;" Guid="d7e4e69e-bd4b-4386-b593-3eb723676d13" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cf94553d-2468-47de-8c05-ec8763d7812a" CvTextArea="252, 1091, 63, 25" CvTextArgument="RESP" CvType="Text" DesignTimeRectangle="254, 1086, 62, 36" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-4' tag='TITLE-ITEM' type='' class='title-item' aaname='ESP' check:innerText='RESP' /&gt;" Guid="019cd7f8-038b-432e-a26c-9eaecc7d1c6e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d6ecee1201e1bd2592f699a2d3c1e9f.png" xmlns="">0PvJAdcSF8k2NdnOiVwB1gg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

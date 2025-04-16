@@ -107,7 +107,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AMD_Login" sap:VirtualizedContainerService.HintSize="1704,4146.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AMD_Login" sap:VirtualizedContainerService.HintSize="2447.4666666666667,4417.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="isLoginSuccessful" />
     </Sequence.Variables>
@@ -116,7 +116,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Login to Advanced MD" sap:VirtualizedContainerService.HintSize="1704,4123" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Login to Advanced MD" sap:VirtualizedContainerService.HintSize="2233.6,4394.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="UN" />
         <Variable x:TypeArguments="ss:SecureString" Name="PW" />
@@ -127,13 +127,13 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Get Asset Values" sap:VirtualizedContainerService.HintSize="1670,433" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="Get Asset Values" sap:VirtualizedContainerService.HintSize="2200,433.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:GetRobotCredential TimeoutMS="{x:Null}" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+        <ui:GetRobotCredential TimeoutMS="{x:Null}" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="416,175.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
           <ui:GetRobotCredential.AssetName>
             <InArgument x:TypeArguments="x:String">
               <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">in_Asset_Credetials</CSharpValue>
@@ -155,7 +155,7 @@
             </OutArgument>
           </ui:GetRobotCredential.Username>
         </ui:GetRobotCredential>
-        <ui:GetRobotAsset TimeoutMS="{x:Null}" CacheStrategy="None" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" CacheStrategy="None" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="416,166.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
           <ui:GetRobotAsset.AssetName>
             <InArgument x:TypeArguments="x:String">
               <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">in_Asset_OfficeKey</CSharpValue>
@@ -173,141 +173,71 @@
           </ui:GetRobotAsset.Value>
         </ui:GetRobotAsset>
       </Sequence>
-      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1670,3607" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="2" RetryInterval="00:00:05">
-        <ui:RetryScope.ActivityBody>
-          <ActivityAction>
-            <Sequence DisplayName="Log into advanced MD" sap:VirtualizedContainerService.HintSize="1628,3295" sap2010:WorkflowViewState.IdRef="Sequence_17">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <uix:NApplicationCard CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1594,3235" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae">
-                <uix:NApplicationCard.Body>
-                  <ActivityAction x:TypeArguments="x:Object">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                    </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1560,2995" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <uix:NCheckState DisplayName="Login into AdvanceMD" sap:VirtualizedContainerService.HintSize="1526,1963" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="5" Version="V4">
-                        <uix:NCheckState.IfExists>
-                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1022,1714" sap2010:WorkflowViewState.IdRef="Sequence_8">
+      <uix:NCheckState DisplayName="Check App State 'File'" sap:VirtualizedContainerService.HintSize="2200,3877.6" sap2010:WorkflowViewState.IdRef="NCheckState_5" Version="V4">
+        <uix:NCheckState.IfExists>
+          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,230.4" sap2010:WorkflowViewState.IdRef="Sequence_18">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_2">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">"Already Logged in"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+          </Sequence>
+        </uix:NCheckState.IfExists>
+        <uix:NCheckState.IfNotExists>
+          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="1697.6,3636" sap2010:WorkflowViewState.IdRef="Sequence_19">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1664,3576" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="2" RetryInterval="00:00:05">
+              <ui:RetryScope.ActivityBody>
+                <ActivityAction>
+                  <Sequence DisplayName="Log into advanced MD" sap:VirtualizedContainerService.HintSize="1622.4,3260" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NApplicationCard CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1588.8,3200" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1555.2,2960" sap2010:WorkflowViewState.IdRef="Sequence_7">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="Nav to login Page" sap:VirtualizedContainerService.HintSize="988,312" sap2010:WorkflowViewState.IdRef="Sequence_4">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
-                                <uix:NClick.Target>
-                                  <uix:TargetAnchorable BrowserURL="advancedmd.com" CVScreenId="f3afa326-2e7d-44e4-8107-117444d2ff18" ContentHash="BOZaa0jRTEW4hiALttb1IQ" CvTextArea="1574, 189, 39, 12" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="1558, 188, 54, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Login' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='LOGIN' /&gt;" Guid="80a8de4e-bdc8-43cd-af6a-c080193bba3a" InformativeScreenshot="8bdc082afa2f2f2a32c41b1f0936e2cb.png" Reference="svdCqiHP2kyYK7vmLxP31Q/rATxpAmtAkC-YP2ngmZp1w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(1) New Messages!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                    <uix:TargetAnchorable.Anchors>
-                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                        <uix:Target CVScreenId="f3afa326-2e7d-44e4-8107-117444d2ff18" CvTextArea="1487, 189, 58, 12" CvTextArgument="SUPPORT" CvType="Text" DesignTimeRectangle="1471, 188, 73, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Support' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='SUPPORT' /&gt;" Guid="5beca446-3bf1-4987-a7b2-5c51dd82e3f7" SearchSteps="FuzzySelector, CV" />
-                                      </scg:List>
-                                    </uix:TargetAnchorable.Anchors>
-                                  </uix:TargetAnchorable>
-                                </uix:NClick.Target>
-                                <uix:NClick.VerifyOptions>
-                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                    <uix:VerifyExecutionOptions.Retry>
-                                      <InArgument x:TypeArguments="x:Boolean" />
-                                    </uix:VerifyExecutionOptions.Retry>
-                                    <uix:VerifyExecutionOptions.Timeout>
-                                      <InArgument x:TypeArguments="x:Double" />
-                                    </uix:VerifyExecutionOptions.Timeout>
-                                  </uix:VerifyExecutionOptions>
-                                </uix:NClick.VerifyOptions>
-                              </uix:NClick>
-                            </Sequence>
-                            <Sequence DisplayName="Enter Credetials" sap:VirtualizedContainerService.HintSize="988,1290" sap2010:WorkflowViewState.IdRef="Sequence_5">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                              <uix:NCheckState DisplayName="Check App State 'Login name'" sap:VirtualizedContainerService.HintSize="954,1196" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="3" Version="V4">
-                                <uix:NCheckState.IfExists>
-                                  <Sequence DisplayName="enter the credentials" sap:VirtualizedContainerService.HintSize="450,954" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <uix:NCheckState DisplayName="Login into AdvanceMD" sap:VirtualizedContainerService.HintSize="1521.6,2007.2" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="5" Version="V4">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1019.2,1716.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Sequence DisplayName="Nav to login Page" sap:VirtualizedContainerService.HintSize="985.6,312" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NSetText DisplayName="enter the useranme" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
-                                      <uix:NSetText.Target>
-                                        <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" ContentHash="Qh5nmxpr-0SImxpYwKRLfQ" CvElementArea="567, 563, 385, 27" CvType="InputBox" DesignTimeRectangle="569, 565, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='loginName' tag='INPUT' type='text' class='form-control text-uppercase ng-pristine ng-invalid ng-touched' aaname='Login name' /&gt;" Guid="a107685e-7a85-41e9-801d-2e5a19ad4d18" InformativeScreenshot="640ffa614ec9bd1f1e54bfd84c410ee0.png" IsResponsive="True" Reference="svdCqiHP2kyYK7vmLxP31Q/JzalI9mL2EyrETLtvUsTDQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                          <uix:TargetAnchorable.Anchors>
-                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                              <uix:Target CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" CvTextArea="568, 544, 71, 15" CvTextArgument="Login name" CvType="Text" DesignTimeRectangle="569, 542, 69, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='LABEL' type='' class='control-label' aaname='Login name' check:innerText='Login name' /&gt;" Guid="05bdfd93-9669-4f02-9f62-5e504b444b9e" SearchSteps="FuzzySelector, CV" />
-                                            </scg:List>
-                                          </uix:TargetAnchorable.Anchors>
-                                        </uix:TargetAnchorable>
-                                      </uix:NSetText.Target>
-                                      <uix:NSetText.Text>
-                                        <InArgument x:TypeArguments="x:String">
-                                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">UN</CSharpValue>
-                                        </InArgument>
-                                      </uix:NSetText.Text>
-                                    </uix:NSetText>
-                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="enter the password" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" IsPassword="True" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
-                                      <uix:NTypeInto.SecureText>
-                                        <InArgument x:TypeArguments="ss:SecureString">
-                                          <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">PW</CSharpValue>
-                                        </InArgument>
-                                      </uix:NTypeInto.SecureText>
-                                      <uix:NTypeInto.Target>
-                                        <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" ContentHash="VATHzOxQf02LMEGG-EINOQ" CvElementArea="568, 626, 385, 27" CvType="InputBox" DesignTimeRectangle="569, 628, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='password' tag='INPUT' type='password' class='form-control ng-untouched ng-pristine ng-invalid' aaname='Password' /&gt;" Guid="0ada6744-18f0-42fe-90cb-9fa9ec295873" InformativeScreenshot="b405c4c4cff51bd1ff04951ebf2dcb29.png" Reference="svdCqiHP2kyYK7vmLxP31Q/HP3RHsClZ02O3V5eIGaODg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                          <uix:TargetAnchorable.Anchors>
-                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                              <uix:Target CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" CvTextArea="568, 607, 58, 12" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="569, 605, 57, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname='Password' tag='LABEL' type='' class='control-label' check:innerText='Password' /&gt;" Guid="2cd90dd1-8e3e-4a7d-8002-0a3882b07a9d" SearchSteps="FuzzySelector, CV" />
-                                            </scg:List>
-                                          </uix:TargetAnchorable.Anchors>
-                                        </uix:TargetAnchorable>
-                                      </uix:NTypeInto.Target>
-                                      <uix:NTypeInto.VerifyOptions>
-                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                            <InArgument x:TypeArguments="x:Boolean" />
-                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                            <InArgument x:TypeArguments="x:Double" />
-                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                        </uix:VerifyExecutionTypeIntoOptions>
-                                      </uix:NTypeInto.VerifyOptions>
-                                    </uix:NTypeInto>
-                                    <uix:NSetText DisplayName="enter the office key" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
-                                      <uix:NSetText.Target>
-                                        <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" ContentHash="WXNx8Vh0BU-Mc1BDqGkm4A" CvElementArea="568, 690, 384, 27" CvType="InputBox" DesignTimeRectangle="569, 691, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='officeKey' tag='INPUT' type='text' class='form-control ng-untouched ng-pristine ng-invalid' aaname='Office key' /&gt;" Guid="768879bc-8c01-4ef4-8386-9d99a4585cf1" InformativeScreenshot="c770e1265484d7c0c1f85f3a9afdfbe9.png" IsResponsive="True" Reference="svdCqiHP2kyYK7vmLxP31Q/wUa-SNfD5kmrsCsnviZKsA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                          <uix:TargetAnchorable.Anchors>
-                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                              <uix:Target CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" CvTextArea="568, 669, 62, 16" CvTextArgument="Office key" CvType="Text" DesignTimeRectangle="569, 668, 59, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname='Office key' tag='LABEL' type='' class='control-label' check:innerText='Office key' /&gt;" Guid="0186d0e1-40d2-421f-8b6d-116535873633" SearchSteps="FuzzySelector, CV" />
-                                            </scg:List>
-                                          </uix:TargetAnchorable.Anchors>
-                                        </uix:TargetAnchorable>
-                                      </uix:NSetText.Target>
-                                      <uix:NSetText.Text>
-                                        <InArgument x:TypeArguments="x:String">
-                                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">OfficeKey</CSharpValue>
-                                        </InArgument>
-                                      </uix:NSetText.Text>
-                                    </uix:NSetText>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
                                       <uix:NClick.Target>
-                                        <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="af3d098c-b6cc-4656-abe7-4f7f42763817" ContentHash="m2G-mV0C9ECowBxZOb1WQQ" CvElementArea="567, 720, 57, 27" CvTextArea="578, 727, 35, 15" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="569, 721, 53, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' class='btn btn-primary' aaname='Log in' check:innerText='Log in' /&gt;" Guid="ff082258-1fb0-4992-963a-3e44e0b18665" InformativeScreenshot="59856b4be2edcab72bcd990610c44a72.png" Reference="svdCqiHP2kyYK7vmLxP31Q/vBtclaXwCUGnLGdXx0mEzA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable BrowserURL="advancedmd.com" CVScreenId="f3afa326-2e7d-44e4-8107-117444d2ff18" ContentHash="BOZaa0jRTEW4hiALttb1IQ" CvTextArea="1574, 189, 39, 12" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="1558, 188, 54, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Login' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='LOGIN' /&gt;" Guid="80a8de4e-bdc8-43cd-af6a-c080193bba3a" InformativeScreenshot="8bdc082afa2f2f2a32c41b1f0936e2cb.png" Reference="svdCqiHP2kyYK7vmLxP31Q/rATxpAmtAkC-YP2ngmZp1w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(1) New Messages!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                           <uix:TargetAnchorable.Anchors>
                                             <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                              <uix:Target CVScreenId="af3d098c-b6cc-4656-abe7-4f7f42763817" CvTextArea="568, 775, 147, 18" CvTextArgument="@ Forgot your password?" CvType="Text" DesignTimeRectangle="569, 776, 145, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='A' type='' class='' aaname='Forgot your password? ' check:innerText='Forgot your password?' /&gt;" Guid="ffe7bcdc-8560-4213-8360-12ccb582bd4c" SearchSteps="FuzzySelector, CV" />
+                                              <uix:Target CVScreenId="f3afa326-2e7d-44e4-8107-117444d2ff18" CvTextArea="1487, 189, 58, 12" CvTextArgument="SUPPORT" CvType="Text" DesignTimeRectangle="1471, 188, 73, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Support' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='SUPPORT' /&gt;" Guid="5beca446-3bf1-4987-a7b2-5c51dd82e3f7" SearchSteps="FuzzySelector, CV" />
                                             </scg:List>
                                           </uix:TargetAnchorable.Anchors>
                                         </uix:TargetAnchorable>
@@ -324,60 +254,175 @@
                                       </uix:NClick.VerifyOptions>
                                     </uix:NClick>
                                   </Sequence>
-                                </uix:NCheckState.IfExists>
-                                <uix:NCheckState.IfNotExists>
-                                  <Sequence DisplayName="Login page didnt populate, need to refresh and try again" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                  <Sequence DisplayName="Enter Credetials" sap:VirtualizedContainerService.HintSize="985.6,1293.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NCheckState DisplayName="Check App State 'Login name'" sap:VirtualizedContainerService.HintSize="952,1200" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="3" Version="V4">
+                                      <uix:NCheckState.IfExists>
+                                        <Sequence DisplayName="enter the credentials" sap:VirtualizedContainerService.HintSize="449.6,956.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <uix:NSetText DisplayName="enter the useranme" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.2" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
+                                            <uix:NSetText.Target>
+                                              <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" ContentHash="Qh5nmxpr-0SImxpYwKRLfQ" CvElementArea="567, 563, 385, 27" CvType="InputBox" DesignTimeRectangle="569, 565, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='loginName' tag='INPUT' type='text' class='form-control text-uppercase ng-pristine ng-invalid ng-touched' aaname='Login name' /&gt;" Guid="a107685e-7a85-41e9-801d-2e5a19ad4d18" InformativeScreenshot="640ffa614ec9bd1f1e54bfd84c410ee0.png" IsResponsive="True" Reference="svdCqiHP2kyYK7vmLxP31Q/JzalI9mL2EyrETLtvUsTDQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                    <uix:Target CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" CvTextArea="568, 544, 71, 15" CvTextArgument="Login name" CvType="Text" DesignTimeRectangle="569, 542, 69, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='LABEL' type='' class='control-label' aaname='Login name' check:innerText='Login name' /&gt;" Guid="05bdfd93-9669-4f02-9f62-5e504b444b9e" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NSetText.Target>
+                                            <uix:NSetText.Text>
+                                              <InArgument x:TypeArguments="x:String">
+                                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">UN</CSharpValue>
+                                              </InArgument>
+                                            </uix:NSetText.Text>
+                                          </uix:NSetText>
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="enter the password" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" IsPassword="True" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
+                                            <uix:NTypeInto.SecureText>
+                                              <InArgument x:TypeArguments="ss:SecureString">
+                                                <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">PW</CSharpValue>
+                                              </InArgument>
+                                            </uix:NTypeInto.SecureText>
+                                            <uix:NTypeInto.Target>
+                                              <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" ContentHash="VATHzOxQf02LMEGG-EINOQ" CvElementArea="568, 626, 385, 27" CvType="InputBox" DesignTimeRectangle="569, 628, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='password' tag='INPUT' type='password' class='form-control ng-untouched ng-pristine ng-invalid' aaname='Password' /&gt;" Guid="0ada6744-18f0-42fe-90cb-9fa9ec295873" InformativeScreenshot="b405c4c4cff51bd1ff04951ebf2dcb29.png" Reference="svdCqiHP2kyYK7vmLxP31Q/HP3RHsClZ02O3V5eIGaODg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                    <uix:Target CVScreenId="8f641614-0b18-4c89-8b58-219a471e82a9" CvTextArea="568, 607, 58, 12" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="569, 605, 57, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname='Password' tag='LABEL' type='' class='control-label' check:innerText='Password' /&gt;" Guid="2cd90dd1-8e3e-4a7d-8002-0a3882b07a9d" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NTypeInto.Target>
+                                            <uix:NTypeInto.VerifyOptions>
+                                              <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                              </uix:VerifyExecutionTypeIntoOptions>
+                                            </uix:NTypeInto.VerifyOptions>
+                                          </uix:NTypeInto>
+                                          <uix:NSetText DisplayName="enter the office key" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.2" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
+                                            <uix:NSetText.Target>
+                                              <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" ContentHash="WXNx8Vh0BU-Mc1BDqGkm4A" CvElementArea="568, 690, 384, 27" CvType="InputBox" DesignTimeRectangle="569, 691, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='officeKey' tag='INPUT' type='text' class='form-control ng-untouched ng-pristine ng-invalid' aaname='Office key' /&gt;" Guid="768879bc-8c01-4ef4-8386-9d99a4585cf1" InformativeScreenshot="c770e1265484d7c0c1f85f3a9afdfbe9.png" IsResponsive="True" Reference="svdCqiHP2kyYK7vmLxP31Q/wUa-SNfD5kmrsCsnviZKsA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                    <uix:Target CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" CvTextArea="568, 669, 62, 16" CvTextArgument="Office key" CvType="Text" DesignTimeRectangle="569, 668, 59, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname='Office key' tag='LABEL' type='' class='control-label' check:innerText='Office key' /&gt;" Guid="0186d0e1-40d2-421f-8b6d-116535873633" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NSetText.Target>
+                                            <uix:NSetText.Text>
+                                              <InArgument x:TypeArguments="x:String">
+                                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">OfficeKey</CSharpValue>
+                                              </InArgument>
+                                            </uix:NSetText.Text>
+                                          </uix:NSetText>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="af3d098c-b6cc-4656-abe7-4f7f42763817" ContentHash="m2G-mV0C9ECowBxZOb1WQQ" CvElementArea="567, 720, 57, 27" CvTextArea="578, 727, 35, 15" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="569, 721, 53, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' class='btn btn-primary' aaname='Log in' check:innerText='Log in' /&gt;" Guid="ff082258-1fb0-4992-963a-3e44e0b18665" InformativeScreenshot="59856b4be2edcab72bcd990610c44a72.png" Reference="svdCqiHP2kyYK7vmLxP31Q/vBtclaXwCUGnLGdXx0mEzA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                    <uix:Target CVScreenId="af3d098c-b6cc-4656-abe7-4f7f42763817" CvTextArea="568, 775, 147, 18" CvTextArgument="@ Forgot your password?" CvType="Text" DesignTimeRectangle="569, 776, 145, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='A' type='' class='' aaname='Forgot your password? ' check:innerText='Forgot your password?' /&gt;" Guid="ffe7bcdc-8560-4213-8360-12ccb582bd4c" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                          </uix:NClick>
+                                        </Sequence>
+                                      </uix:NCheckState.IfExists>
+                                      <uix:NCheckState.IfNotExists>
+                                        <Sequence DisplayName="Login page didnt populate, need to refresh and try again" sap:VirtualizedContainerService.HintSize="449.6,92.8" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </Sequence>
+                                      </uix:NCheckState.IfNotExists>
+                                      <uix:NCheckState.Target>
+                                        <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" ContentHash="JgLuYc93z0u-PQo3bOI5XQ" CvElementArea="570, 563, 383, 28" CvType="InputBox" DesignTimeRectangle="569, 565, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='loginName' tag='INPUT' type='text' class='form-control text-uppercase ng-pristine ng-invalid ng-touched' aaname='Login name' /&gt;" Guid="06af820e-0e81-4479-b516-b1380d9644c5" InformativeScreenshot="5b32a6fc0e2d2f834a16eea0f553a3e2.png" IsResponsive="True" Reference="svdCqiHP2kyYK7vmLxP31Q/cmcl3z60j0unxk1UXJhyqQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" CvTextArea="568, 544, 71, 15" CvTextArgument="Login name" CvType="Text" DesignTimeRectangle="569, 542, 69, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='LABEL' type='' class='control-label' aaname='Login name' check:innerText='Login name' /&gt;" Guid="64e84930-e1cf-4745-894e-809b3e402859" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NCheckState.Target>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </uix:NCheckState>
                                   </Sequence>
-                                </uix:NCheckState.IfNotExists>
-                                <uix:NCheckState.Target>
-                                  <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" ContentHash="JgLuYc93z0u-PQo3bOI5XQ" CvElementArea="570, 563, 383, 28" CvType="InputBox" DesignTimeRectangle="569, 565, 383, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl id='loginName' tag='INPUT' type='text' class='form-control text-uppercase ng-pristine ng-invalid ng-touched' aaname='Login name' /&gt;" Guid="06af820e-0e81-4479-b516-b1380d9644c5" InformativeScreenshot="5b32a6fc0e2d2f834a16eea0f553a3e2.png" IsResponsive="True" Reference="svdCqiHP2kyYK7vmLxP31Q/cmcl3z60j0unxk1UXJhyqQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                    <uix:TargetAnchorable.Anchors>
-                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                        <uix:Target CVScreenId="1e3b8d92-3da2-4f32-bca7-885cbe9584b1" CvTextArea="568, 544, 71, 15" CvTextArgument="Login name" CvType="Text" DesignTimeRectangle="569, 542, 69, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl tag='LABEL' type='' class='control-label' aaname='Login name' check:innerText='Login name' /&gt;" Guid="64e84930-e1cf-4745-894e-809b3e402859" SearchSteps="FuzzySelector, CV" />
-                                      </scg:List>
-                                    </uix:TargetAnchorable.Anchors>
-                                  </uix:TargetAnchorable>
-                                </uix:NCheckState.Target>
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                              </uix:NCheckState>
-                            </Sequence>
-                            <uix:NCheckState DisplayName="Check App State 'Snooze all'" sap:VirtualizedContainerService.HintSize="988,50" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="3" Version="V4">
-                              <uix:NCheckState.IfExists>
-                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,280" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Snooze all(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="59b41f65-1cd0-47a1-ae5c-1407fcc8df9a" ContentHash="GuBB3TBgEkGqZA_5QKK3Tg" CvElementArea="852, 1098, 78, 25" CvTextArea="863, 1105, 57, 12" CvTextArgument="Snooze all" CvType="Button" DesignTimeRectangle="853, 1099, 77, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname=' Snooze all ' tag='BUTTON' type='' class='btn btn-primary' check:innerText='Snooze all' /&gt;" Guid="0c591b61-0052-4862-995f-6efe5636b594" InformativeScreenshot="c92f22fb257f191fefea168fac3311d6.png" Reference="svdCqiHP2kyYK7vmLxP31Q/FMrHOxDSdUmI8c3JX-IjuA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                                    </uix:NClick.Target>
-                                    <uix:NClick.VerifyOptions>
-                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionOptions.Retry>
-                                        <uix:VerifyExecutionOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionOptions.Timeout>
-                                      </uix:VerifyExecutionOptions>
-                                    </uix:NClick.VerifyOptions>
-                                  </uix:NClick>
+                                  <uix:NCheckState DisplayName="Check App State 'Snooze all'" sap:VirtualizedContainerService.HintSize="985.6,49.6" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="3" Version="V4">
+                                    <uix:NCheckState.IfExists>
+                                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,280" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Snooze all(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Version="V4">
+                                          <uix:NClick.Target>
+                                            <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="59b41f65-1cd0-47a1-ae5c-1407fcc8df9a" ContentHash="GuBB3TBgEkGqZA_5QKK3Tg" CvElementArea="852, 1098, 78, 25" CvTextArea="863, 1105, 57, 12" CvTextArgument="Snooze all" CvType="Button" DesignTimeRectangle="853, 1099, 77, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname=' Snooze all ' tag='BUTTON' type='' class='btn btn-primary' check:innerText='Snooze all' /&gt;" Guid="0c591b61-0052-4862-995f-6efe5636b594" InformativeScreenshot="c92f22fb257f191fefea168fac3311d6.png" Reference="svdCqiHP2kyYK7vmLxP31Q/FMrHOxDSdUmI8c3JX-IjuA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                          </uix:NClick.Target>
+                                          <uix:NClick.VerifyOptions>
+                                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                              <uix:VerifyExecutionOptions.Retry>
+                                                <InArgument x:TypeArguments="x:Boolean" />
+                                              </uix:VerifyExecutionOptions.Retry>
+                                              <uix:VerifyExecutionOptions.Timeout>
+                                                <InArgument x:TypeArguments="x:Double" />
+                                              </uix:VerifyExecutionOptions.Timeout>
+                                            </uix:VerifyExecutionOptions>
+                                          </uix:NClick.VerifyOptions>
+                                        </uix:NClick>
+                                      </Sequence>
+                                    </uix:NCheckState.IfExists>
+                                    <uix:NCheckState.IfNotExists>
+                                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </uix:NCheckState.IfNotExists>
+                                    <uix:NCheckState.Target>
+                                      <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="59b41f65-1cd0-47a1-ae5c-1407fcc8df9a" ContentHash="c0NjqfkOUUaET2X6jW2eKQ" CvElementArea="852, 1098, 78, 25" CvTextArea="863, 1105, 57, 12" CvTextArgument="Snooze all" CvType="Button" DesignTimeRectangle="853, 1099, 77, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname=' Snooze all ' tag='BUTTON' type='' class='btn btn-primary' check:innerText='Snooze all' /&gt;" Guid="e8f641e3-7246-4eb2-b8ef-160d063a3a26" InformativeScreenshot="8c97466eaaa3255b308d763ccd9fb5ed.png" Reference="svdCqiHP2kyYK7vmLxP31Q/3vNaR_SeM0qhky-WwSkYxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                    </uix:NCheckState.Target>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NCheckState>
                                 </Sequence>
                               </uix:NCheckState.IfExists>
                               <uix:NCheckState.IfNotExists>
-                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                <Sequence DisplayName="Login page not found or already logged in" sap:VirtualizedContainerService.HintSize="449.6,92.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -386,151 +431,142 @@
                                 </Sequence>
                               </uix:NCheckState.IfNotExists>
                               <uix:NCheckState.Target>
-                                <uix:TargetAnchorable BrowserURL="login.advancedmd.com" CVScreenId="59b41f65-1cd0-47a1-ae5c-1407fcc8df9a" ContentHash="c0NjqfkOUUaET2X6jW2eKQ" CvElementArea="852, 1098, 78, 25" CvTextArea="863, 1105, 57, 12" CvTextArgument="Snooze all" CvType="Button" DesignTimeRectangle="853, 1099, 77, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frame-login' tag='IFRAME' /&gt;&lt;webctrl aaname=' Snooze all ' tag='BUTTON' type='' class='btn btn-primary' check:innerText='Snooze all' /&gt;" Guid="e8f641e3-7246-4eb2-b8ef-160d063a3a26" InformativeScreenshot="8c97466eaaa3255b308d763ccd9fb5ed.png" Reference="svdCqiHP2kyYK7vmLxP31Q/3vNaR_SeM0qhky-WwSkYxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                <uix:TargetAnchorable BrowserURL="advancedmd.com" CVScreenId="82c08738-f7cd-4b47-a6de-5fa9a1835e51" ContentHash="fn4tIClfHkS5kFbnQtx2FQ" CvTextArea="1574, 189, 39, 12" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="1558, 188, 54, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Login' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='LOGIN' /&gt;" Guid="e540e645-474c-4895-a73f-e5bdb404b2e5" InformativeScreenshot="fcdc6138fa415a7a957df23df23e17c1.png" Reference="svdCqiHP2kyYK7vmLxP31Q/5LOvMzXV9kqYF6JMQwQuVw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(1) New Messages!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="82c08738-f7cd-4b47-a6de-5fa9a1835e51" CvTextArea="1487, 189, 58, 12" CvTextArgument="SUPPORT" CvType="Text" DesignTimeRectangle="1471, 188, 73, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Support' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='SUPPORT' /&gt;" Guid="51419cc6-a4d1-453b-b534-1586c12cf06e" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
                               </uix:NCheckState.Target>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </uix:NCheckState>
-                          </Sequence>
-                        </uix:NCheckState.IfExists>
-                        <uix:NCheckState.IfNotExists>
-                          <Sequence DisplayName="Login page not found or already logged in" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </Sequence>
-                        </uix:NCheckState.IfNotExists>
-                        <uix:NCheckState.Target>
-                          <uix:TargetAnchorable BrowserURL="advancedmd.com" CVScreenId="82c08738-f7cd-4b47-a6de-5fa9a1835e51" ContentHash="fn4tIClfHkS5kFbnQtx2FQ" CvTextArea="1574, 189, 39, 12" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="1558, 188, 54, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Login' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='LOGIN' /&gt;" Guid="e540e645-474c-4895-a73f-e5bdb404b2e5" InformativeScreenshot="fcdc6138fa415a7a957df23df23e17c1.png" Reference="svdCqiHP2kyYK7vmLxP31Q/5LOvMzXV9kqYF6JMQwQuVw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(1) New Messages!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="82c08738-f7cd-4b47-a6de-5fa9a1835e51" CvTextArea="1487, 189, 58, 12" CvTextArgument="SUPPORT" CvType="Text" DesignTimeRectangle="1471, 188, 73, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Support' parentid='menu-upper-nav' tag='A' type='' class='' check:innerText='SUPPORT' /&gt;" Guid="51419cc6-a4d1-453b-b534-1586c12cf06e" SearchSteps="FuzzySelector, CV" />
-                              </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                          </uix:TargetAnchorable>
-                        </uix:NCheckState.Target>
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                      </uix:NCheckState>
-                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="AMD_HUB" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1526,970" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="623da7a7-c120-4f0b-9406-34248fe72b4b" Version="V2">
-                        <uix:NApplicationCard.Body>
-                          <ActivityAction x:TypeArguments="x:Object">
-                            <ActivityAction.Argument>
-                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                            </ActivityAction.Argument>
-                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1024,688" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="AMD_HUB" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1521.6,891.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="623da7a7-c120-4f0b-9406-34248fe72b4b" Version="V2">
+                              <uix:NApplicationCard.Body>
+                                <ActivityAction x:TypeArguments="x:Object">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1020.8,649.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NCheckState DisplayName="Check App State 'AdvancedMD PM'" sap:VirtualizedContainerService.HintSize="987.2,588" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="623da7a7-c120-4f0b-9406-34248fe72b4b" Timeout="10" Version="V4">
+                                      <uix:NCheckState.IfExists>
+                                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="467.2,168.8" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <Assign sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:Boolean">
+                                                <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">isLoginSuccessful</CSharpReference>
+                                              </OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                        </Sequence>
+                                      </uix:NCheckState.IfExists>
+                                      <uix:NCheckState.IfNotExists>
+                                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="467.2,344.8" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn">
+                                            <ui:LogMessage.Message>
+                                              <InArgument x:TypeArguments="x:Object">
+                                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">"Hub was not found, retrying."</CSharpValue>
+                                              </InArgument>
+                                            </ui:LogMessage.Message>
+                                          </ui:LogMessage>
+                                          <Assign sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Assign_2">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:Boolean">
+                                                <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">isLoginSuccessful</CSharpReference>
+                                              </OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                        </Sequence>
+                                      </uix:NCheckState.IfNotExists>
+                                      <uix:NCheckState.Target>
+                                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="8243a2f1-104c-450c-8fa5-7cc236e5367c" ContentHash="JHQzzlxnz0qySTGn3kDQ9w" CvTextArea="600, 69, 24, 14" CvTextArgument="File" CvType="Text" DesignTimeRectangle="588, 66, 50, 22" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='amds-navbar' tag='A' type='' class='dropdown-toggle' aaname='File' check:innerText='File' /&gt;" Guid="e2e9950d-1766-4bfd-9952-4fc1c707a457" InformativeScreenshot="39ef2b764f3162f54eab209d65793d25.png" Reference="svdCqiHP2kyYK7vmLxP31Q/EFmKmaQpfkOCu9kj7AzJhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="8243a2f1-104c-450c-8fa5-7cc236e5367c" CvTextArea="650, 69, 37, 14" CvTextArgument="Tasks" CvType="Text" DesignTimeRectangle="638, 66, 63, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tasks' class='dropdown-toggle' parentid='amds-navbar' tag='A' type='' check:innerText='Tasks' /&gt;" Guid="76916eb8-839e-43f2-82b4-3c1f2931651f" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NCheckState.Target>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </uix:NCheckState>
+                                  </Sequence>
+                                </ActivityAction>
+                              </uix:NApplicationCard.Body>
+                              <uix:NApplicationCard.TargetApp>
+                                <uix:TargetApp Area="384, 211, 3088, 1762" BrowserType="Chrome" ContentHash="-tg_xpRHh0KdL7AWl05KTQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUASURBVGhD7VlpiBxFFB5vI55xN7tTr/Zw8YoRFEUQURQl4IVnongQcuzUq9lNlIjihRhEoqJ/FFFBVASVRAVFUHQFWVbFA/PDEDUqSoJiApogSTBBYz6p6p5O1zG7MzuzvRHywQe7Xa/e+7rnddd7VSVouhJKnFr6vwJVOhdMf4NpM5hWQVEVQ+XZvt0+DSgxDCZ4NDe0GkwLMNR5pD9nnwNYvBK5iRp3gOllaLoYpdIB/tx9AlDiCLBYFxHvcyMUPQyWJ/k+ph1Q4vyI4HEox8Biru9nWpHmfUTsuPwYWl7k+5oWYLjcB6adEZGN8CPzK/o+CweYVkbENUH5AXTP6b7fwgDd3R+Kapq7oMRdWFE60PdfD+YLl6xL4iawvBUsbsQgSd+uIUDTlxFRk6Acw2DXCb7/PFChM6HFk2D6JZxPgKJvocVSLDvxMH9uXdin5zuaPLdBycEgxlB5tv0AhPb1+CuYLvH9RNGmNPIo38JyOcP6r/YeB6Y/QpsJuRss7vT1RgGmNREHLVKOYdnMoxP/8lL7rgQ2DXE15s851NfsAEo+FpnYBsqvMEzH2xit3cQqX7ODNEe/iExsA+U3WNojbJzJ3cQPYPGorzkKKLpiatKJfsJQf7eNoeW1kXGXin6EogdQ6Z3ja2wIUOIaKPo6cNwSxfu1CtdWvMG4tVln14b5pYN8TRMCS+RM53+z2DDNa7BybYxK3mZ9J1+m37yxF5pZDAMk9Q0956+IxmmyYtL6QFDz3FkrPVAVV+WuP9ty/wGmN1Jnu8DiKai+sjO+onQwtHgETHsiwhqnSc10pU1jft/UylsPVrQb7C9oegKLujs9u7lpGxqKa5wLEl/mq9SmPgNM90YCGe4Ay7vzPzEGZ3WBaSRi2xg1jVo/raZNHmCpgkAuR4zwzN685EreA6Z/IrYTcQ+qvQOughYBRfdFAvnc7P/ktixWtCFiOz41PZT30zKg6ZkgSJzmJV5pXups7qLuTlsKh7bjca2roEWA6Z1IkPrU9CkW9h+bzVd9ZbuC+nb1qGiDq6BFgOnzIMjEHHF+CSV6wWJTxC5CsclV0CJM1QiWj9vPZxBsPMqnHT8srg5totyan9c2mMoxfR/MPqoftA7FkOOD5WuhTcDt+Tlth+lvm3gvzKc0awHtQ7AdVWCX54gbcYoALRbbXjcU4HONM4/p3YhNnjpvP6WwfbOm0YgIn2dkc5S8OTJe43a/RJlypOX1ixExOYolmX1FXhiOp9R0v+u9IJhGAyzfDgTVqMRwZlvpOScYt5Q/Y2H/4a7nAlA7zTHBwfRJKIyAijgvs9eyEoyb1MmlWWFIxWwxG8Lp/9dHxH2W2Sfp9p03vhssL3ccFwFw92l7F7dkdwBKdEQam3nZnGRzID/2JyryMsdxEUjTZW0mRItX7XXbZtKWvddptNaI2/XDrU7XoypO8X0XgqBCTXPcecKa3sttIw7Yo6lk7Hcw3TEtL6wBWF7npcFL9vpyOSMr/DS9DnX2IfZ6cmxldp23QYkHsbjjKN9nYUg3fLdm4s1hn3kxk5QyreRG8823qZSUHKY5T3poJTp8f4XCNidmp4DpXyh6M0sbc/Sq6UOwvN3sIphTf7N7DC2et2fMumuW76twmINuuz9kDiHMkzULlz2UoBug5S22ma/QyaiWL5j0tt9UAkqcBTVwjP3b5LqpKvO7Ea3snO3Hfkwv/gMCe/WSvUB8qwAAAABJRU5ErkJggg==" InformativeScreenshot="3d1cb2c5e90d7506579342b333247d1a.jpg" Reference="svdCqiHP2kyYK7vmLxP31Q/5djojRE4xkCnP6dz1jcI4A" Selector="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" Url="https://pm-wfe-129.advancedmd.com/amds/pm/app/index.html#/" Version="V2" />
+                              </uix:NApplicationCard.TargetApp>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NCheckState DisplayName="Check App State 'AdvancedMD PM'" sap:VirtualizedContainerService.HintSize="990,626" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="623da7a7-c120-4f0b-9406-34248fe72b4b" Timeout="10" Version="V4">
-                                <uix:NCheckState.IfExists>
-                                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,169" sap2010:WorkflowViewState.IdRef="Sequence_15">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <Assign sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="Assign_1">
-                                      <Assign.To>
-                                        <OutArgument x:TypeArguments="x:Boolean">
-                                          <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">isLoginSuccessful</CSharpReference>
-                                        </OutArgument>
-                                      </Assign.To>
-                                      <Assign.Value>
-                                        <InArgument x:TypeArguments="x:Boolean">True</InArgument>
-                                      </Assign.Value>
-                                    </Assign>
-                                  </Sequence>
-                                </uix:NCheckState.IfExists>
-                                <uix:NCheckState.IfNotExists>
-                                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,344" sap2010:WorkflowViewState.IdRef="Sequence_16">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn">
-                                      <ui:LogMessage.Message>
-                                        <InArgument x:TypeArguments="x:Object">
-                                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">"Hub was not found, retrying."</CSharpValue>
-                                        </InArgument>
-                                      </ui:LogMessage.Message>
-                                    </ui:LogMessage>
-                                    <Assign sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="Assign_2">
-                                      <Assign.To>
-                                        <OutArgument x:TypeArguments="x:Boolean">
-                                          <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">isLoginSuccessful</CSharpReference>
-                                        </OutArgument>
-                                      </Assign.To>
-                                      <Assign.Value>
-                                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
-                                      </Assign.Value>
-                                    </Assign>
-                                  </Sequence>
-                                </uix:NCheckState.IfNotExists>
-                                <uix:NCheckState.Target>
-                                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="8243a2f1-104c-450c-8fa5-7cc236e5367c" ContentHash="JHQzzlxnz0qySTGn3kDQ9w" CvTextArea="600, 69, 24, 14" CvTextArgument="File" CvType="Text" DesignTimeRectangle="588, 66, 50, 22" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='amds-navbar' tag='A' type='' class='dropdown-toggle' aaname='File' check:innerText='File' /&gt;" Guid="e2e9950d-1766-4bfd-9952-4fc1c707a457" InformativeScreenshot="39ef2b764f3162f54eab209d65793d25.png" Reference="svdCqiHP2kyYK7vmLxP31Q/EFmKmaQpfkOCu9kj7AzJhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                    <uix:TargetAnchorable.Anchors>
-                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                        <uix:Target CVScreenId="8243a2f1-104c-450c-8fa5-7cc236e5367c" CvTextArea="650, 69, 37, 14" CvTextArgument="Tasks" CvType="Text" DesignTimeRectangle="638, 66, 63, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tasks' class='dropdown-toggle' parentid='amds-navbar' tag='A' type='' check:innerText='Tasks' /&gt;" Guid="76916eb8-839e-43f2-82b4-3c1f2931651f" SearchSteps="FuzzySelector, CV" />
-                                      </scg:List>
-                                    </uix:TargetAnchorable.Anchors>
-                                  </uix:TargetAnchorable>
-                                </uix:NCheckState.Target>
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                              </uix:NCheckState>
-                            </Sequence>
-                          </ActivityAction>
-                        </uix:NApplicationCard.Body>
-                        <uix:NApplicationCard.TargetApp>
-                          <uix:TargetApp Area="384, 211, 3088, 1762" BrowserType="Chrome" ContentHash="-tg_xpRHh0KdL7AWl05KTQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUASURBVGhD7VlpiBxFFB5vI55xN7tTr/Zw8YoRFEUQURQl4IVnongQcuzUq9lNlIjihRhEoqJ/FFFBVASVRAVFUHQFWVbFA/PDEDUqSoJiApogSTBBYz6p6p5O1zG7MzuzvRHywQe7Xa/e+7rnddd7VSVouhJKnFr6vwJVOhdMf4NpM5hWQVEVQ+XZvt0+DSgxDCZ4NDe0GkwLMNR5pD9nnwNYvBK5iRp3gOllaLoYpdIB/tx9AlDiCLBYFxHvcyMUPQyWJ/k+ph1Q4vyI4HEox8Biru9nWpHmfUTsuPwYWl7k+5oWYLjcB6adEZGN8CPzK/o+CweYVkbENUH5AXTP6b7fwgDd3R+Kapq7oMRdWFE60PdfD+YLl6xL4iawvBUsbsQgSd+uIUDTlxFRk6Acw2DXCb7/PFChM6HFk2D6JZxPgKJvocVSLDvxMH9uXdin5zuaPLdBycEgxlB5tv0AhPb1+CuYLvH9RNGmNPIo38JyOcP6r/YeB6Y/QpsJuRss7vT1RgGmNREHLVKOYdnMoxP/8lL7rgQ2DXE15s851NfsAEo+FpnYBsqvMEzH2xit3cQqX7ODNEe/iExsA+U3WNojbJzJ3cQPYPGorzkKKLpiatKJfsJQf7eNoeW1kXGXin6EogdQ6Z3ja2wIUOIaKPo6cNwSxfu1CtdWvMG4tVln14b5pYN8TRMCS+RM53+z2DDNa7BybYxK3mZ9J1+m37yxF5pZDAMk9Q0956+IxmmyYtL6QFDz3FkrPVAVV+WuP9ty/wGmN1Jnu8DiKai+sjO+onQwtHgETHsiwhqnSc10pU1jft/UylsPVrQb7C9oegKLujs9u7lpGxqKa5wLEl/mq9SmPgNM90YCGe4Ay7vzPzEGZ3WBaSRi2xg1jVo/raZNHmCpgkAuR4zwzN685EreA6Z/IrYTcQ+qvQOughYBRfdFAvnc7P/ktixWtCFiOz41PZT30zKg6ZkgSJzmJV5pXups7qLuTlsKh7bjca2roEWA6Z1IkPrU9CkW9h+bzVd9ZbuC+nb1qGiDq6BFgOnzIMjEHHF+CSV6wWJTxC5CsclV0CJM1QiWj9vPZxBsPMqnHT8srg5totyan9c2mMoxfR/MPqoftA7FkOOD5WuhTcDt+Tlth+lvm3gvzKc0awHtQ7AdVWCX54gbcYoALRbbXjcU4HONM4/p3YhNnjpvP6WwfbOm0YgIn2dkc5S8OTJe43a/RJlypOX1ixExOYolmX1FXhiOp9R0v+u9IJhGAyzfDgTVqMRwZlvpOScYt5Q/Y2H/4a7nAlA7zTHBwfRJKIyAijgvs9eyEoyb1MmlWWFIxWwxG8Lp/9dHxH2W2Sfp9p03vhssL3ccFwFw92l7F7dkdwBKdEQam3nZnGRzID/2JyryMsdxEUjTZW0mRItX7XXbZtKWvddptNaI2/XDrU7XoypO8X0XgqBCTXPcecKa3sttIw7Yo6lk7Hcw3TEtL6wBWF7npcFL9vpyOSMr/DS9DnX2IfZ6cmxldp23QYkHsbjjKN9nYUg3fLdm4s1hn3kxk5QyreRG8823qZSUHKY5T3poJTp8f4XCNidmp4DpXyh6M0sbc/Sq6UOwvN3sIphTf7N7DC2et2fMumuW76twmINuuz9kDiHMkzULlz2UoBug5S22ma/QyaiWL5j0tt9UAkqcBTVwjP3b5LqpKvO7Ea3snO3Hfkwv/gMCe/WSvUB8qwAAAABJRU5ErkJggg==" InformativeScreenshot="3d1cb2c5e90d7506579342b333247d1a.jpg" Reference="svdCqiHP2kyYK7vmLxP31Q/5djojRE4xkCnP6dz1jcI4A" Selector="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" Url="https://pm-wfe-129.advancedmd.com/amds/pm/app/index.html#/" Version="V2" />
-                        </uix:NApplicationCard.TargetApp>
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                      </uix:NApplicationCard>
-                    </Sequence>
-                  </ActivityAction>
-                </uix:NApplicationCard.Body>
-                <uix:NApplicationCard.TargetApp>
-                  <uix:TargetApp Area="1433, 15, 2167, 2119" BrowserType="Chrome" ContentHash="IrjyuUC3rkekOKB9HOh2zw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJiSURBVEhL7ZTdS1NxGMf9N2Yg9EIWeZMQ6V2QdFc3QRREdOdY+VK7sJgIMSoMpIaxi5YodBEbafZCbPMlmWmulLalziZOmzab2lgvlunzfI3DxnZ+P+dmOS8CPzwX5/zO8zyfc37nOSdvdYvJkxdyzbYgK1svAMBOM79sRvgDAPn6plGeAJEgVe6mcg1dPcTWOky+W82dKbFF3NOiCJJhLON+K2hZTv97EgKA6foxwVGuIcNhdrdtct9SL5ndrbIgHg0nMf8xngOvk26fIn0R1ZayrQ6xSKrTOqQEWFqkizvl7vGo2guPHR67vH55P8ZeCf3WIIwpmU7LLZKh3cGuB/ykXl43HuV+K79pw9Bz+JwY6cFYHwIDmBjE7DgAQYCf37j7PhlK5C6JyOfBp2zRxk+56QLCAXV5WgQBv21nh1nR9D2kmuI1Ag1V7kHoPemL2N6oLsyAKHhtU7rUHGR3K5Z+sK2OtPmSg5t08PdufLREwcCjVK/Gs/g6j+Fuqi4UHLoCLMbUVZkRBdLndqUYM6MIDdOlfep1+HvVVZkRX/KXGW6uELZFfwCRIHydgsDXoa7KTJq/KYJDdO1IqmP9cQB0JzXBmJuUa9YnjUBx/P6VHEelYzjAnfcSp7dOyNkZWUdAy4h9JtOZhGB2nB1m5bhiF6ZH5OyMpBfwCxOZz2PUFb9l0AoZy6i6EH6XnJqNNAJMDJKugB/f4C4L1ZYiEuSWKrp7DgshOXUDyAIsTJOhhJ81wOvg9pvwdXCXBVMeKW3jiGMKwOtE9BPmpvA9imgYtKJO+AfkJ8g524Ks/P+CP3ZW/IKZpRoqAAAAAElFTkSuQmCC" InformativeScreenshot="b2924e6bf63107be5adfc06a76722112.jpg" Reference="svdCqiHP2kyYK7vmLxP31Q/lahn68JS4kiL6Vk7BSKIzw" Selector="&lt;html app='chrome.exe' title='(1) New Messages!' /&gt;" Url="https://www.advancedmd.com/" Version="V2" />
-                </uix:NApplicationCard.TargetApp>
-              </uix:NApplicationCard>
-            </Sequence>
-          </ActivityAction>
-        </ui:RetryScope.ActivityBody>
-        <ui:RetryScope.Condition>
-          <ActivityFunc x:TypeArguments="x:Boolean">
-            <ui:CheckTrue DisplayName="Check True" ErrorMessage="Login failed trying again" sap:VirtualizedContainerService.HintSize="1628,129" sap2010:WorkflowViewState.IdRef="CheckTrue_1">
-              <ui:CheckTrue.Expression>
-                <InArgument x:TypeArguments="x:Boolean">
-                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">isLoginSuccessful</CSharpValue>
-                </InArgument>
-              </ui:CheckTrue.Expression>
-            </ui:CheckTrue>
-          </ActivityFunc>
-        </ui:RetryScope.Condition>
-      </ui:RetryScope>
+                            </uix:NApplicationCard>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="1433, 15, 2167, 2119" BrowserType="Chrome" ContentHash="IrjyuUC3rkekOKB9HOh2zw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJiSURBVEhL7ZTdS1NxGMf9N2Yg9EIWeZMQ6V2QdFc3QRREdOdY+VK7sJgIMSoMpIaxi5YodBEbafZCbPMlmWmulLalziZOmzab2lgvlunzfI3DxnZ+P+dmOS8CPzwX5/zO8zyfc37nOSdvdYvJkxdyzbYgK1svAMBOM79sRvgDAPn6plGeAJEgVe6mcg1dPcTWOky+W82dKbFF3NOiCJJhLON+K2hZTv97EgKA6foxwVGuIcNhdrdtct9SL5ndrbIgHg0nMf8xngOvk26fIn0R1ZayrQ6xSKrTOqQEWFqkizvl7vGo2guPHR67vH55P8ZeCf3WIIwpmU7LLZKh3cGuB/ykXl43HuV+K79pw9Bz+JwY6cFYHwIDmBjE7DgAQYCf37j7PhlK5C6JyOfBp2zRxk+56QLCAXV5WgQBv21nh1nR9D2kmuI1Ag1V7kHoPemL2N6oLsyAKHhtU7rUHGR3K5Z+sK2OtPmSg5t08PdufLREwcCjVK/Gs/g6j+Fuqi4UHLoCLMbUVZkRBdLndqUYM6MIDdOlfep1+HvVVZkRX/KXGW6uELZFfwCRIHydgsDXoa7KTJq/KYJDdO1IqmP9cQB0JzXBmJuUa9YnjUBx/P6VHEelYzjAnfcSp7dOyNkZWUdAy4h9JtOZhGB2nB1m5bhiF6ZH5OyMpBfwCxOZz2PUFb9l0AoZy6i6EH6XnJqNNAJMDJKugB/f4C4L1ZYiEuSWKrp7DgshOXUDyAIsTJOhhJ81wOvg9pvwdXCXBVMeKW3jiGMKwOtE9BPmpvA9imgYtKJO+AfkJ8g524Ks/P+CP3ZW/IKZpRoqAAAAAElFTkSuQmCC" InformativeScreenshot="b2924e6bf63107be5adfc06a76722112.jpg" Reference="svdCqiHP2kyYK7vmLxP31Q/lahn68JS4kiL6Vk7BSKIzw" Selector="&lt;html app='chrome.exe' title='(1) New Messages!' /&gt;" Url="https://www.advancedmd.com/" Version="V2" />
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RetryScope.ActivityBody>
+              <ui:RetryScope.Condition>
+                <ActivityFunc x:TypeArguments="x:Boolean">
+                  <ui:CheckTrue DisplayName="Check True" ErrorMessage="Login failed trying again" sap:VirtualizedContainerService.HintSize="1622.4,131.2" sap2010:WorkflowViewState.IdRef="CheckTrue_1">
+                    <ui:CheckTrue.Expression>
+                      <InArgument x:TypeArguments="x:Boolean">
+                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">isLoginSuccessful</CSharpValue>
+                      </InArgument>
+                    </ui:CheckTrue.Expression>
+                  </ui:CheckTrue>
+                </ActivityFunc>
+              </ui:RetryScope.Condition>
+            </ui:RetryScope>
+          </Sequence>
+        </uix:NCheckState.IfNotExists>
+        <uix:NCheckState.Target>
+          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="383ae46f-6fb3-41f0-ad1c-5a727b9d4ce4" ContentHash="XAU3-fQFek-fJXVzfljPnQ" CvTextArea="486, 105, 42, 25" CvTextArgument="File" CvType="Text" DesignTimeRectangle="474, 97, 67, 41" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='amds-navbar' tag='A' type='' class='dropdown-toggle' aaname='File' check:innerText='File' /&gt;" Guid="022c38fb-69c5-4f32-8297-a7124b31516f" InformativeScreenshot="63268a23658f24ff4ace41ea8b3a7bc2.png" Reference="8RhyklEjiEifip1A7a44sA/WZNsg5l-V0eDrGs4yq8lxQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+            <uix:TargetAnchorable.Anchors>
+              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                <uix:Target CVScreenId="383ae46f-6fb3-41f0-ad1c-5a727b9d4ce4" CvTextArea="550, 105, 70, 25" CvTextArgument="Tasks" CvType="Text" DesignTimeRectangle="541, 97, 93, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tasks' class='dropdown-toggle' parentid='amds-navbar' tag='A' type='' check:innerText='Tasks' /&gt;" Guid="6b638771-7fe2-4f6a-bbde-c3853f39d4f2" SearchSteps="FuzzySelector, CV" />
+              </scg:List>
+            </uix:TargetAnchorable.Anchors>
+          </uix:TargetAnchorable>
+        </uix:NCheckState.Target>
+      </uix:NCheckState>
     </Sequence>
   </Sequence>
 </Activity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XAU3-fQFek-fJXVzfljPnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="383ae46f-6fb3-41f0-ad1c-5a727b9d4ce4" CvTextArea="486, 105, 42, 25" CvTextArgument="File" CvType="Text" DesignTimeRectangle="474, 97, 67, 41" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='amds-navbar' tag='A' type='' class='dropdown-toggle' aaname='File' check:innerText='File' /&gt;" Guid="022c38fb-69c5-4f32-8297-a7124b31516f" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="383ae46f-6fb3-41f0-ad1c-5a727b9d4ce4" CvTextArea="550, 105, 70, 25" CvTextArgument="Tasks" CvType="Text" DesignTimeRectangle="541, 97, 93, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tasks' class='dropdown-toggle' parentid='amds-navbar' tag='A' type='' check:innerText='Tasks' /&gt;" Guid="6b638771-7fe2-4f6a-bbde-c3853f39d4f2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="63268a23658f24ff4ace41ea8b3a7bc2.png" xmlns="">042Fq4OrdOUeNM-54VQLYbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

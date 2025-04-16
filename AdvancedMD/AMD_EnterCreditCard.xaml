@@ -109,25 +109,25 @@
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1226,6751.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_35">
+  <Sequence sap:VirtualizedContainerService.HintSize="2165.866666666667,6660.8" sap2010:WorkflowViewState.IdRef="Sequence_35">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1226,6728.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1223.2,6637.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1192,6486.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_37">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1189.6,6397.6" sap2010:WorkflowViewState.IdRef="Sequence_37">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="1158,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <Assign sap:VirtualizedContainerService.HintSize="1156,114.4" sap2010:WorkflowViewState.IdRef="Assign_1">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">in_CardExpMonth</CSharpReference>
@@ -139,14 +139,14 @@
                 </InArgument>
               </Assign.Value>
             </Assign>
-            <Sequence DisplayName="Enter Credit Card Info" sap:VirtualizedContainerService.HintSize="1158,6306.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_34">
+            <Sequence DisplayName="Enter Credit Card Info" sap:VirtualizedContainerService.HintSize="1156,6221.6" sap2010:WorkflowViewState.IdRef="Sequence_34">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1124,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1122.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="bf8a83fe-c2f6-4f2c-8c48-cb543dccbb50" ContentHash="aOszrAZnM02iGdsLKEYIKQ" CvElementArea="1181, 856, 272, 54" CvType="Button" DesignTimeRectangle="1181, 856, 273, 54" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="cc045876-d621-4a56-b8e6-7e7cff6cf0e3" InformativeScreenshot="23deb7b9413524782bd26413400f87b1.png" Reference="8RhyklEjiEifip1A7a44sA/PqcBcRbzpUGxtYosUlsbxw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -167,25 +167,25 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD Credit Card Capture(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1124,5989.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V2">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD Credit Card Capture(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1122.4,5909.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V2">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1090,5704.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1088.8,5668" sap2010:WorkflowViewState.IdRef="Sequence_39">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1056,5642" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1055.2,5606.4" sap2010:WorkflowViewState.IdRef="Sequence_18">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Capture'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1022,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V4">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Capture'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1021.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V4">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="265b2895-5631-4eb0-85ba-b23f49c20911" ContentHash="shdNeureeES70pQaqkEbEg" CvElementArea="960, 438, 121, 46" CvTextArea="978, 448, 85, 25" CvTextArgument="Capture" CvType="Button" DesignTimeRectangle="962, 438, 119, 43" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='btn btn-primary' aaname='Capture' check:innerText='Capture' /&gt;" Guid="b2854dc5-98b2-466f-816d-e0b6d98eaebd" InformativeScreenshot="fce912f514647e09b0938dad9829a7b9.png" Reference="8RhyklEjiEifip1A7a44sA/dfBcPKkorkiN2CR6iBGEBQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -206,7 +206,7 @@
                             </uix:VerifyExecutionOptions>
                           </uix:NClick.VerifyOptions>
                         </uix:NClick>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Credit Card Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1022,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V4">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Credit Card Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1021.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V4">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="fc41cf43-c9ae-442b-91e8-d5ff05e444a1" ContentHash="90OBzf7HnkSK8q-TWbPuuA" CvElementArea="514, 395, 747, 48" CvType="InputBox" DesignTimeRectangle="516, 396, 745, 45" DesignTimeScaleFactor="1.875" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required' aaname='' /&gt;" Guid="2877ac31-0fb1-4bd7-a912-32a3b7b9520e" InformativeScreenshot="c6163960dd82143d756ac24e5f2f45ba.png" Reference="8RhyklEjiEifip1A7a44sA/FnfYdn7BckyGDlucMwCxPQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -227,7 +227,7 @@
                             </uix:VerifyExecutionOptions>
                           </uix:NClick.VerifyOptions>
                         </uix:NClick>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Credit Card Type'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1022,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Text="VISA" Version="V4">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Credit Card Type'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1021.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V4">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="fc41cf43-c9ae-442b-91e8-d5ff05e444a1" ContentHash="0QwUZcxdr0WxXOkh8q0tYw" CvElementArea="514, 395, 747, 48" CvType="InputBox" DesignTimeRectangle="516, 396, 745, 45" DesignTimeScaleFactor="1.875" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required' aaname='' /&gt;" Guid="fe770540-34d4-4c23-984e-f0fa1a7e5207" InformativeScreenshot="87241a5362dbf67e7fcf4f46992a65ee.png" Reference="8RhyklEjiEifip1A7a44sA/zcKgvkTQrUinmfd5OMHxLw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -237,18 +237,13 @@
                               </uix:TargetAnchorable.Anchors>
                             </uix:TargetAnchorable>
                           </uix:NTypeInto.Target>
-                          <uix:NTypeInto.VerifyOptions>
-                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                              <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                <InArgument x:TypeArguments="x:Boolean" />
-                              </uix:VerifyExecutionTypeIntoOptions.Retry>
-                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                <InArgument x:TypeArguments="x:Double" />
-                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                            </uix:VerifyExecutionTypeIntoOptions>
-                          </uix:NTypeInto.VerifyOptions>
+                          <uix:NTypeInto.Text>
+                            <InArgument x:TypeArguments="x:String">
+                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">in_CardType</CSharpValue>
+                            </InArgument>
+                          </uix:NTypeInto.Text>
                         </uix:NTypeInto>
-                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="1022,171.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_5" Key="tab" KeyModifiers="None" SpecialKey="True">
+                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="1021.6,168.8" sap2010:WorkflowViewState.IdRef="SendHotkey_5" Key="tab" KeyModifiers="None" SpecialKey="True">
                           <ui:SendHotkey.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="05214777-6f10-4f8c-a21a-edd5c735506f">
                               <ui:Target.TimeoutMS>
@@ -260,7 +255,7 @@
                             </ui:Target>
                           </ui:SendHotkey.Target>
                         </ui:SendHotkey>
-                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1022,264" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1021.6,262.4" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                           <ui:CommentOut.Body>
                             <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="483.2,152" sap2010:WorkflowViewState.IdRef="Sequence_42">
                               <sap:WorkflowViewStateService.ViewState>
@@ -334,7 +329,7 @@
                             </Sequence>
                           </ui:CommentOut.Body>
                         </ui:CommentOut>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1022,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V4">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1021.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2cf0f64-c34c-40b9-bad1-4a352d373c6a" Version="V4">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" CVScreenId="d63a589d-7d70-4a5c-88dd-a3fdd68b8ecd" ContentHash="qSFYQcnmKUuQne2XQR0m-g" CvElementArea="1182, 974, 88, 46" CvTextArea="1200, 985, 51, 22" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1184, 975, 84, 43" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='btn btn-primary' aaname='Next' check:innerText='Next' /&gt;" Guid="a14fe9b3-16dc-4875-98a4-ab469f09404d" InformativeScreenshot="8d973c54cc07715b4ea9262e214bf1d5.png" Reference="8RhyklEjiEifip1A7a44sA/YSGMwJ7wwEmvSXKaLczEeA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -355,15 +350,15 @@
                             </uix:VerifyExecutionOptions>
                           </uix:NClick.VerifyOptions>
                         </uix:NClick>
-                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1022,220" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1021.6,246.4" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                           <ui:CommentOut.Body>
-                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,136" sap2010:WorkflowViewState.IdRef="Sequence_38">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Chrome Batch Information" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V2">
+                              <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Chrome Batch Information" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,76" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="da9ac6cf-e486-43d5-b053-8a6d8eb97024" Version="V2">
                                 <uix:NApplicationCard.Body>
                                   <ActivityAction x:TypeArguments="x:Object">
                                     <ActivityAction.Argument>
@@ -462,7 +457,7 @@
                             </Sequence>
                           </ui:CommentOut.Body>
                         </ui:CommentOut>
-                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome AdvancedMD Credit Card Capture(3)(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,3918" sap2010:WorkflowViewState.IdRef="NApplicationCard_11" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="3c0e2925-b59f-4db5-bfad-48204394f4dc" Version="V2">
+                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome AdvancedMD Credit Card Capture(3)(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1021.6,3915.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_11" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="3c0e2925-b59f-4db5-bfad-48204394f4dc" Version="V2">
                           <uix:NApplicationCard.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>

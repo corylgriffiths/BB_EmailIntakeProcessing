@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NJIa9XUIAU6Yy-h6e9LqNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bb.fastgem.net/orders-2/submissions/submission/5" DesignTimeRectangle="38, 1371, 306, 41" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='jform_dob' type='text' tag='INPUT' class='input-append ' aaname=' &amp;#x9;DOB' /&gt;" Guid="3c3f7151-9922-44b0-9c97-c3223b92b488" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Client Details' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="38, 1341, 340, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='jform_dob-lbl' type='' tag='LABEL' class='' aaname=' &amp;#x9;DOB' check:innerText='DOB' /&gt;" Guid="09803c46-7d89-4cb2-b25e-efefe7a42e3a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b25788294b627f8a2450c82d9002902.png" xmlns="">0G7A3LAHDQUK0GmQn3R6COQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m7LcPG4MIUaYMBORuYBWhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bb.fastgem.net/orders-2/submissions/submission/5" DesignTimeRectangle="194, 395, 84, 56" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Billing' parentid='myTabTabs' tag='A' type='' class='' check:innerText='Billing' /&gt;" Guid="beea3430-c7ce-4e1e-a4bb-69a993fb8cd5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Client Details' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="281, 395, 74, 56" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Misc' parentid='myTabTabs' tag='A' type='' class='' check:innerText='Misc' /&gt;" Guid="955599c6-786f-4efa-98f3-a051a53359d6" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2cbb6d75626ed3a11ab9d81b6b2a11bd.png" xmlns="">0-qW924R2v0WHntu9HkNyQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

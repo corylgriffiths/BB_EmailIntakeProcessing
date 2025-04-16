@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Raw Data(1)",
+  "Type": "Element",
+  "Id": "Ve2aE6BGd0e5woWqdn1TmA",
+  "Reference": "8RhyklEjiEifip1A7a44sA/Ve2aE6BGd0e5woWqdn1TmA",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/Raq5Vwfzu0-uSFybxI17qQ",
+  "Created": "2025-04-16T20:20:07.604363Z",
+  "Updated": "2025-04-16T20:20:07.604363Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

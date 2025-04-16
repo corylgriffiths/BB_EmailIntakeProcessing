@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="rnY41FeUTEqTsM23E7DKyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="nFEPvqQeoUa29g02qjOROg" Reference="8RhyklEjiEifip1A7a44sA/Vof9h_wfyECzzk38DNDHJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="438, 1028, 854, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-54' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-135 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Phone 1' /&gt;" Guid="485ada45-4bc8-4f14-9029-8f1583c4d867" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="682, 1022, 854, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-54' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-135 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Phone 1' /&gt;" Guid="4e8dff50-b546-420d-bf41-a86ef3d7f163" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="438, 1004, 1151, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-131' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-135 ng-star-inserted' aaname='' check:innerText='Phone 1' /&gt;" Guid="3da0ef71-3b0b-40c1-8afa-920f8c406fa7" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="682, 998, 1151, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-131' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-135 ng-star-inserted' aaname='' check:innerText='Phone 1' /&gt;" Guid="64616503-3658-49e7-ad21-a35b60cbb576" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="708, 1210, 1014, 42" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-13' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-88' aaname='' check:innerText='ACCOUNTTYPE' /&gt;" Guid="1593d695-f9dd-4b91-8b43-28d9da237216" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="fa3df54efe676c2063d519fb80577edd.png" xmlns="">0CYO8aC0x40GjlVJytFZKeQ</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="ae0307293e4c04e374e90605ec635c3a.png" xmlns="">0tCQ6KXIX90-aqlF4c7ZQEQ</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">SetText</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

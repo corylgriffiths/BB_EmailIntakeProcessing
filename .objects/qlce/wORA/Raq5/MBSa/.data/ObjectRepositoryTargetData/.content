@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RCAgfwaJSEuPhLolnlQkJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bb.fastgem.net/orders-2/submissions/submissionform/5" DesignTimeRectangle="859, 857, 1609, 50" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Raw Data' parentid='myAccordian' tag='A' type='' class='accordion-toggle collapsed' check:innerText='Raw Data' /&gt;" Guid="06af4de7-71e6-4f8e-97e6-d99ca52ab91f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Client Details' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="859, 802, 1609, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Contact Roles' parentid='myAccordian' tag='A' type='' class='accordion-toggle collapsed' check:innerText='Contact Roles' /&gt;" Guid="6be3079a-a9ef-44a6-a630-b245492cd738" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d3a8a01ff54250bbb98cc5c45a977af.png" xmlns="">00YohkT6TfEqiwNYO12VfYw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

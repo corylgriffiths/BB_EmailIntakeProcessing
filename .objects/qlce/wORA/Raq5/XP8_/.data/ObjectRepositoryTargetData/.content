@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8PoQGeQO0E6GFhgKAtZUew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bb.fastgem.net/orders-2/submissions/submission/5" DesignTimeRectangle="1276, 833, 496, 41" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='jform[credit_card_data][credit_card_data0][credit_card_num]' tag='INPUT' type='text' class='input-append ' aaname=' &amp;#x9;Credit Card Number' /&gt;" Guid="9e3b8619-3329-4857-b863-391acad06a39" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Client Details' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1276, 807, 155, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;Credit Card Number' parentid='fast-subform-inner-credit_card_data' tag='LABEL' type='' class='hasPopover' check:innerText='Credit Card Number' /&gt;" Guid="1f95fd81-b063-40d0-a4e9-f18a39b68cad" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="354629df7c702bd0da48b4a1150d3ecd.png" xmlns="">07mLxmrLe6UepLsZ2U3zWSQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

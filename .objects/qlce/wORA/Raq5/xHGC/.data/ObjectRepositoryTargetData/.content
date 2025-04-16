@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5U_GJrrVBUSDAqgkoJpXGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bb.fastgem.net/orders-2/submissions/submission/7" DesignTimeRectangle="2285, 944, 21, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl class='icon-eye' type='' parentid='fast-subform-inner-credit_card_data' tag='I' aaname='' /&gt;" Guid="5d841410-5875-4dd8-b5ff-6e5ba48cd4e5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Client Details' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1864, 911, 551, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;Credit Card CVC' parentid='fast-subform-inner-credit_card_data' tag='LABEL' type='' class='' check:innerText='Credit Card CVC' /&gt;" Guid="d77008d6-81b7-4c28-a71d-664230c78eb0" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="597e9f0f9c25886f52de76f7905e52c5.png" xmlns="">0Y3yHtetZZEe6ssCPYwHiuQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
