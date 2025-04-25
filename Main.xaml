@@ -1,11 +1,18 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.providerFilePath="Data\Provider_toServicesOffered.pdf" this:Main.in_folderPath="Data\" this:Main.in_InsBackId="b3ebdb94-8f0a-f011-90cd-002248237549" this:Main.in_InsFrontId="8ee698e1-810a-f011-90cd-002248237549" this:Main.in_FormId="bd530ee5-1a0b-f011-90cd-002248237549" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisaseib="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardV1.Bundle;assembly=ExtendedExtractionRe.uLsAD1JhLTS1BlEEcgTk4G1" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.providerFilePath="Data\Provider_toServicesOffered.pdf" this:Main.in_folderPath="Data\" this:Main.in_InsBackId="b3ebdb94-8f0a-f011-90cd-002248237549" this:Main.in_InsFrontId="8ee698e1-810a-f011-90cd-002248237549" this:Main.in_FormId="bd530ee5-1a0b-f011-90cd-002248237549" this:Main.in_allNotifications="True" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugage="clr-namespace:UiPath.GSuite.Activities.Gmail.Enums;assembly=UiPath.GSuite.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisaseib="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.IntakesInsuranceCardV1.Bundle;assembly=ExtendedExtractionRe.uLsAD1JhLTS1BlEEcgTk4G1" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="providerFilePath" Type="InArgument(x:String)" />
     <x:Property Name="in_folderPath" Type="InArgument(x:String)" />
     <x:Property Name="in_InsBackId" Type="InArgument(x:String)" />
     <x:Property Name="in_InsFrontId" Type="InArgument(x:String)" />
     <x:Property Name="in_FormId" Type="InArgument(x:String)" />
+    <x:Property Name="in_stakeholderEmail" Type="InArgument(scg:List(x:String))" />
+    <x:Property Name="in_allNotifications" Type="InArgument(x:Boolean)" />
   </x:Members>
+  <this:Main.in_stakeholderEmail>
+    <InArgument x:TypeArguments="scg:List(x:String)">
+      <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">new List&lt;string&gt; { "gabe.james@fastgem.net" }</CSharpValue>
+    </InArgument>
+  </this:Main.in_stakeholderEmail>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
@@ -54,6 +61,12 @@
       <x:String>UiPath.Platform</x:String>
       <x:String>System.Xml.Serialization</x:String>
       <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -117,9 +130,13 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Private.Xml</AssemblyReference>
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2301.6,1241.24" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2447.4666666666667,2471.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="uisad:IDocumentData(uisaseib:IntakesInsuranceCardV1)" Name="DocumentData" />
       <Variable x:TypeArguments="uisad1:DocumentData" Name="ClassifiedData" />
@@ -127,71 +144,282 @@
       <Variable x:TypeArguments="sd:DataTable" Name="providerInsurance" />
       <Variable x:TypeArguments="sd:DataTable" Name="carrierDT" />
       <Variable x:TypeArguments="sd:DataTable" Name="appointmentTypeDT" />
+      <Variable x:TypeArguments="x:Boolean" Default="False" Name="hasError" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">Provider_Incurancecode</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
-          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">providerInsurance</CSharpReference>
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">ProviderToServicesMap</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
-          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">providerServices</CSharpReference>
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">InsuranceCarrierMapKey</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
-          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">carrierDT</CSharpReference>
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">AppointmentTypeMap</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
-          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">appointmentTypeDT</CSharpReference>
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Gmail_ProcessIntakes - Invoke Workflow File (Gmail\\Gmail_ProcessIntakes.xaml)" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Gmail\\Gmail_ProcessIntakes.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_folderPath" />
-        <InArgument x:TypeArguments="x:String" x:Key="in_InsBackId" />
-        <InArgument x:TypeArguments="x:String" x:Key="in_InsFrontId" />
-        <InArgument x:TypeArguments="x:String" x:Key="in_FormId" />
-        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_InsuranceDT">
-          <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">providerInsurance</CSharpValue>
-        </InArgument>
-        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_ProviderDT">
-          <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">providerServices</CSharpValue>
-        </InArgument>
-        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_CarrierDT">
-          <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">carrierDT</CSharpValue>
-        </InArgument>
-        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_ApptTypeDT">
-          <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">appointmentTypeDT</CSharpValue>
-        </InArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
+    <Sequence DisplayName="Process intakes from Gmail" sap:VirtualizedContainerService.HintSize="518.4,2448" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" ConnectionId="07b47295-d01d-45f7-b1b8-f42c9fa4d006" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="484.8,512.8" sap2010:WorkflowViewState.IdRef="SendEmailConnections_3" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="Starting to Process intakes for Brennan" UseConnectionService="True">
+        <uga:SendEmailConnections.Attachments>
+          <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
+        </uga:SendEmailConnections.Attachments>
+        <uga:SendEmailConnections.AttachmentsBackup>
+          <usau:BackupSlot x:TypeArguments="ugage:AttachmentInputMode" StoredValue="UseExisting">
+            <usau:BackupSlot.BackupValues>
+              <scg:Dictionary x:TypeArguments="ugage:AttachmentInputMode, scg:List(x:Object)" />
+            </usau:BackupSlot.BackupValues>
+          </usau:BackupSlot>
+        </uga:SendEmailConnections.AttachmentsBackup>
+        <uga:SendEmailConnections.Body>
+          <InArgument x:TypeArguments="x:String">
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">string.Format("&lt;P&gt;&lt;SPAN&gt;Starting to process Intakes for Brennan&lt;/SPAN&gt;&lt;/P&gt;")</CSharpValue>
+          </InArgument>
+        </uga:SendEmailConnections.Body>
+        <uga:SendEmailConnections.InputTypeBackup>
+          <usau:BackupSlot x:TypeArguments="ugage:BodyInputType" StoredValue="HTML">
+            <usau:BackupSlot.BackupValues>
+              <scg:Dictionary x:TypeArguments="ugage:BodyInputType, scg:List(x:Object)" />
+            </usau:BackupSlot.BackupValues>
+          </usau:BackupSlot>
+        </uga:SendEmailConnections.InputTypeBackup>
+        <uga:SendEmailConnections.To>
+          <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+            <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">new string[]{"gabe.james@fastgem.net"}</CSharpValue>
+          </InArgument>
+        </uga:SendEmailConnections.To>
+      </uga:SendEmailConnections>
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="484.8,1852" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+        <TryCatch.Try>
+          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="483.2,1527.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Load the excel sheets to datatables" sap:VirtualizedContainerService.HintSize="449.6,787.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
+                <ui:InvokeWorkflowFile.Arguments>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">Provider_Incurancecode</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
+                  <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
+                    <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">providerInsurance</CSharpReference>
+                  </OutArgument>
+                </ui:InvokeWorkflowFile.Arguments>
+              </ui:InvokeWorkflowFile>
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
+                <ui:InvokeWorkflowFile.Arguments>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">ProviderToServicesMap</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
+                  <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
+                    <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">providerServices</CSharpReference>
+                  </OutArgument>
+                </ui:InvokeWorkflowFile.Arguments>
+              </ui:InvokeWorkflowFile>
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
+                <ui:InvokeWorkflowFile.Arguments>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">InsuranceCarrierMapKey</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
+                  <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
+                    <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">carrierDT</CSharpReference>
+                  </OutArgument>
+                </ui:InvokeWorkflowFile.Arguments>
+              </ui:InvokeWorkflowFile>
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LoadXLStoDatatable - Invoke Workflow File (Utilities\\LoadXLStoDatatable.xaml)" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Utilities\\LoadXLStoDatatable.xaml">
+                <ui:InvokeWorkflowFile.Arguments>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_fullfilePathName">Data\ProviderList.xlsx</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_sheetname">AppointmentTypeMap</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="in_StartRange">A1</InArgument>
+                  <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DataTable">
+                    <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">appointmentTypeDT</CSharpReference>
+                  </OutArgument>
+                </ui:InvokeWorkflowFile.Arguments>
+              </ui:InvokeWorkflowFile>
+            </Sequence>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Gmail_ProcessIntakes - Invoke Workflow File (Gmail\\Gmail_ProcessIntakes.xaml)" sap:VirtualizedContainerService.HintSize="449.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Gmail\\Gmail_ProcessIntakes.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="in_folderPath" />
+                <InArgument x:TypeArguments="x:String" x:Key="in_InsBackId" />
+                <InArgument x:TypeArguments="x:String" x:Key="in_InsFrontId" />
+                <InArgument x:TypeArguments="x:String" x:Key="in_FormId" />
+                <InArgument x:TypeArguments="sd:DataTable" x:Key="in_InsuranceDT">
+                  <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">providerInsurance</CSharpValue>
+                </InArgument>
+                <InArgument x:TypeArguments="sd:DataTable" x:Key="in_ProviderDT">
+                  <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">providerServices</CSharpValue>
+                </InArgument>
+                <InArgument x:TypeArguments="sd:DataTable" x:Key="in_CarrierDT">
+                  <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">carrierDT</CSharpValue>
+                </InArgument>
+                <InArgument x:TypeArguments="sd:DataTable" x:Key="in_ApptTypeDT">
+                  <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">appointmentTypeDT</CSharpValue>
+                </InArgument>
+                <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_stakeholderEmail">
+                  <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">in_stakeholderEmail</CSharpValue>
+                </InArgument>
+                <InArgument x:TypeArguments="x:Boolean" x:Key="in_allNotifications">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">in_allNotifications</CSharpValue>
+                </InArgument>
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" ConnectionId="07b47295-d01d-45f7-b1b8-f42c9fa4d006" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="449.6,504" sap2010:WorkflowViewState.IdRef="SendEmailConnections_5" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="Finished Processing intakes for Brennan" UseConnectionService="True">
+              <uga:SendEmailConnections.Attachments>
+                <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
+              </uga:SendEmailConnections.Attachments>
+              <uga:SendEmailConnections.AttachmentsBackup>
+                <usau:BackupSlot x:TypeArguments="ugage:AttachmentInputMode" StoredValue="UseExisting">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="ugage:AttachmentInputMode, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </uga:SendEmailConnections.AttachmentsBackup>
+              <uga:SendEmailConnections.Body>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">string.Format("&lt;P&gt;&lt;SPAN&gt;Finished Processing &lt;/SPAN&gt;&lt;SPAN&gt;Intakes for Brennan&lt;/SPAN&gt;&lt;/P&gt;")</CSharpValue>
+                </InArgument>
+              </uga:SendEmailConnections.Body>
+              <uga:SendEmailConnections.InputTypeBackup>
+                <usau:BackupSlot x:TypeArguments="ugage:BodyInputType" StoredValue="HTML">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="ugage:BodyInputType, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </uga:SendEmailConnections.InputTypeBackup>
+              <uga:SendEmailConnections.To>
+                <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                  <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">new string[]{"gabe.james@fastgem.net"}</CSharpValue>
+                </InArgument>
+              </uga:SendEmailConnections.To>
+            </uga:SendEmailConnections>
+          </Sequence>
+        </TryCatch.Try>
+        <TryCatch.Catches>
+          <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+            <ActivityAction x:TypeArguments="s:Exception">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="483.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If sap:VirtualizedContainerService.HintSize="449.6,1244" sap2010:WorkflowViewState.IdRef="If_1">
+                  <If.Condition>
+                    <InArgument x:TypeArguments="x:Boolean">
+                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">exception.Message == "LoginFail"</CSharpValue>
+                    </InArgument>
+                  </If.Condition>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,564" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" ConnectionId="07b47295-d01d-45f7-b1b8-f42c9fa4d006" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="382.4,504" sap2010:WorkflowViewState.IdRef="SendEmailConnections_2" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="Error with Brennan Bot and it has stopped running" UseConnectionService="True">
+                        <uga:SendEmailConnections.Attachments>
+                          <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
+                        </uga:SendEmailConnections.Attachments>
+                        <uga:SendEmailConnections.AttachmentsBackup>
+                          <usau:BackupSlot x:TypeArguments="ugage:AttachmentInputMode" StoredValue="UseExisting">
+                            <usau:BackupSlot.BackupValues>
+                              <scg:Dictionary x:TypeArguments="ugage:AttachmentInputMode, scg:List(x:Object)" />
+                            </usau:BackupSlot.BackupValues>
+                          </usau:BackupSlot>
+                        </uga:SendEmailConnections.AttachmentsBackup>
+                        <uga:SendEmailConnections.Body>
+                          <InArgument x:TypeArguments="x:String">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">string.Format("&lt;P&gt;&lt;SPAN&gt;Advanced md login was not succesful, bot failed out.&lt;/SPAN&gt;&lt;/P&gt;")</CSharpValue>
+                          </InArgument>
+                        </uga:SendEmailConnections.Body>
+                        <uga:SendEmailConnections.InputTypeBackup>
+                          <usau:BackupSlot x:TypeArguments="ugage:BodyInputType" StoredValue="HTML">
+                            <usau:BackupSlot.BackupValues>
+                              <scg:Dictionary x:TypeArguments="ugage:BodyInputType, scg:List(x:Object)" />
+                            </usau:BackupSlot.BackupValues>
+                          </usau:BackupSlot>
+                        </uga:SendEmailConnections.InputTypeBackup>
+                        <uga:SendEmailConnections.To>
+                          <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                            <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">new string[]{"gabe.james@fastgem.net"}</CSharpValue>
+                          </InArgument>
+                        </uga:SendEmailConnections.To>
+                      </uga:SendEmailConnections>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,541.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" ConnectionId="07b47295-d01d-45f7-b1b8-f42c9fa4d006" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="382,482" sap2010:WorkflowViewState.IdRef="SendEmailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="Error with Brennan Bot and it has stopped running" UseConnectionService="True">
+                        <uga:SendEmailConnections.Attachments>
+                          <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
+                        </uga:SendEmailConnections.Attachments>
+                        <uga:SendEmailConnections.AttachmentsBackup>
+                          <usau:BackupSlot x:TypeArguments="ugage:AttachmentInputMode" StoredValue="UseExisting">
+                            <usau:BackupSlot.BackupValues>
+                              <scg:Dictionary x:TypeArguments="ugage:AttachmentInputMode, scg:List(x:Object)" />
+                            </usau:BackupSlot.BackupValues>
+                          </usau:BackupSlot>
+                        </uga:SendEmailConnections.AttachmentsBackup>
+                        <uga:SendEmailConnections.Body>
+                          <InArgument x:TypeArguments="x:String">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">string.Format("&lt;P&gt;&lt;SPAN&gt;Look into the invoicing bot and see why it stopped running, it was a critical error.&lt;/SPAN&gt;&lt;/P&gt;")</CSharpValue>
+                          </InArgument>
+                        </uga:SendEmailConnections.Body>
+                        <uga:SendEmailConnections.InputTypeBackup>
+                          <usau:BackupSlot x:TypeArguments="ugage:BodyInputType" StoredValue="HTML">
+                            <usau:BackupSlot.BackupValues>
+                              <scg:Dictionary x:TypeArguments="ugage:BodyInputType, scg:List(x:Object)" />
+                            </usau:BackupSlot.BackupValues>
+                          </usau:BackupSlot>
+                        </uga:SendEmailConnections.InputTypeBackup>
+                        <uga:SendEmailConnections.To>
+                          <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                            <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">new string[]{"gabe.james@fastgem.net"}</CSharpValue>
+                          </InArgument>
+                        </uga:SendEmailConnections.To>
+                      </uga:SendEmailConnections>
+                    </Sequence>
+                  </If.Else>
+                </If>
+                <Assign sap:VirtualizedContainerService.HintSize="450,105" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:Boolean">
+                      <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">hasError</CSharpReference>
+                    </OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+            </ActivityAction>
+          </Catch>
+        </TryCatch.Catches>
+        <TryCatch.Finally>
+          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="483.2,91.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </TryCatch.Finally>
+      </TryCatch>
+    </Sequence>
   </Sequence>
 </Activity>

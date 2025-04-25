@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="AMD_EnterPatientInfo" this:AMD_EnterPatientInfo.in_PatientFName="Gabe" this:AMD_EnterPatientInfo.in_PatientLName="James" this:AMD_EnterPatientInfo.in_PatientDOB="04062001" this:AMD_EnterPatientInfo.in_Address="2177 N barley WAY" this:AMD_EnterPatientInfo.in_ZipCode="84045" this:AMD_EnterPatientInfo.in_City="sARATOGA Springs" this:AMD_EnterPatientInfo.in_State="Ut" this:AMD_EnterPatientInfo.in_Email="Gaberjames10@gmail.com" this:AMD_EnterPatientInfo.in_Phone="8016344338" this:AMD_EnterPatientInfo.in_PatientAge="12" this:AMD_EnterPatientInfo.in_GuardianFName="Test" this:AMD_EnterPatientInfo.in_GuardianLName="TEst" this:AMD_EnterPatientInfo.in_ProviderCode="BOGGS" this:AMD_EnterPatientInfo.in_PatientGender="Male" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="AMD_EnterPatientInfo" this:AMD_EnterPatientInfo.in_PatientFName="Gabe" this:AMD_EnterPatientInfo.in_PatientLName="James" this:AMD_EnterPatientInfo.in_PatientDOB="04062001" this:AMD_EnterPatientInfo.in_Address="2177 N barley WAY" this:AMD_EnterPatientInfo.in_ZipCode="84045" this:AMD_EnterPatientInfo.in_City="sARATOGA Springs" this:AMD_EnterPatientInfo.in_State="Ut" this:AMD_EnterPatientInfo.in_Email="Gaberjames10@gmail.com" this:AMD_EnterPatientInfo.in_Phone="8016344338" this:AMD_EnterPatientInfo.in_PatientAge="12" this:AMD_EnterPatientInfo.in_GuardianFName="Test" this:AMD_EnterPatientInfo.in_GuardianLName="TEst" this:AMD_EnterPatientInfo.in_PatientGender="Male" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_PatientFName" Type="InArgument(x:String)" />
     <x:Property Name="in_PatientLName" Type="InArgument(x:String)" />
@@ -116,25 +116,25 @@
       <AssemblyReference>mscorlib</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1040,7482" sap2010:WorkflowViewState.IdRef="Sequence_34">
+  <Sequence sap:VirtualizedContainerService.HintSize="1040,8367.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_34">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="572,7459.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="642,8344.666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="538,7217.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_37">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,8102.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_37">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="enter new patient info" sap:VirtualizedContainerService.HintSize="504,7154.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_33">
+            <Sequence DisplayName="enter new patient info" sap:VirtualizedContainerService.HintSize="574,8040" sap2010:WorkflowViewState.IdRef="Sequence_33">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="FinancialClass" />
               </Sequence.Variables>
@@ -144,7 +144,7 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NSetText DisplayName="Set Text 'First Name *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'First Name *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="6rppTZ9SMEqM5tghCGRbHw" DesignTimeRectangle="201, 1002, 175, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-20' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-61 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored' aaname='First Name *' /&gt;" Guid="47548ba8-5796-495e-b563-7db6881ab1f8" InformativeScreenshot="514653bb6211abebcfa844ee88b8398b.png" Reference="8RhyklEjiEifip1A7a44sA/UGMVPsxfGEeROA22ZYeY8Q" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -160,7 +160,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NSetText DisplayName="Set Text 'Last *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_3" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'Last *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_3" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="hYWg4PGSQ0eacEA6CueoFQ" DesignTimeRectangle="720, 1002, 175, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-23' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-63 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored' aaname='Last *' /&gt;" Guid="c66ddee7-cb63-4011-a811-3bbdefb3fb05" InformativeScreenshot="c936b054a71a36db1f539b25192fe00a.png" Reference="8RhyklEjiEifip1A7a44sA/ih06zxpVH0OfwqRrb9fsoA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -176,7 +176,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Date of Birth *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Date of Birth *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="-qoeCrEKSEelNL0QjHkVZA" DesignTimeRectangle="201, 880, 338, 37" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-3' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control mat-datepicker-input ng-tns-c2794762957-18 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored' aaname='Date of Birth *' /&gt;" Guid="056ec345-3d65-43ab-8831-b51813ad0c62" InformativeScreenshot="c9929e5e25a510b18c9a8ffee4ab39ca.png" Reference="8RhyklEjiEifip1A7a44sA/ES3HURPWqEeJntgZYf1aCA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -202,7 +202,7 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NSetText DisplayName="Set Text 'Street Address'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_5" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'Street Address'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_5" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="WvXi2LfhQEyNFyJ0gTCWtw" DesignTimeRectangle="201, 1026, 605, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-6' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-27 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Street Address' /&gt;" Guid="598b9b56-677b-4bd2-8781-3a135bb76ba9" InformativeScreenshot="31604293ca714ce816d3742dd0faae96.png" Reference="8RhyklEjiEifip1A7a44sA/NUX0-pW49kKGjSE_fseKzQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -218,7 +218,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NSetText DisplayName="Set Text 'Zip Code'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_6" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'Zip Code'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_6" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="bQ75p74pWEi5p_80cStN4A" DesignTimeRectangle="201, 1102, 215, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-9' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control mat-autocomplete-trigger ng-tns-c2794762957-31 amds-icon ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' placeholder='ꘂ' aaname='Zip Code' /&gt;" Guid="6cd8e568-ed47-4884-9021-434551b521b3" InformativeScreenshot="3d3ef7d0e1dd79303a02b0f3926caf86.png" Reference="8RhyklEjiEifip1A7a44sA/_DDOdoSV10WXnAhO-o6E5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -234,7 +234,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NSetText DisplayName="Set Text 'City'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_7" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'City'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_7" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="Tfk7KdQ5IUeNKPC9oEwNNg" DesignTimeRectangle="535, 1102, 214, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-10' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control mat-autocomplete-trigger ng-tns-c2794762957-32 ng-valid cdk-text-field-autofill-monitored amds-icon ng-pristine ng-touched' placeholder='ꘂ' aaname='City' /&gt;" Guid="8b7d85ab-de86-4894-85a7-13bf9edfbb7b" InformativeScreenshot="2df76cf3ed3082010526c61b88feebbf.png" Reference="8RhyklEjiEifip1A7a44sA/1jtaNeOCRk-sFd-1-1Ex7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -250,7 +250,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NSetText DisplayName="Set Text 'State'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_8" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'State'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_8" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="-1UVCukHPkKp2F9Qbu_IEw" DesignTimeRectangle="868, 1102, 361, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-8' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-29 ng-valid cdk-text-field-autofill-monitored ng-untouched ng-pristine' aaname='State' /&gt;" Guid="98eb5966-4c16-4492-9fe3-ff9bd6d1caef" InformativeScreenshot="e70468761769099039d6c8775612c5b4.png" Reference="8RhyklEjiEifip1A7a44sA/o9SF6dHOzk6ECUd1K6e_YQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -266,7 +266,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NSetText DisplayName="Set Text 'Email'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_9" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'Email'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_9" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="g-ue8pbz90-rO1mjnUKvmQ" DesignTimeRectangle="201, 950, 1033, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-11' tag='INPUT' type='email' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-35 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Email' /&gt;" Guid="c4244ed8-7cc4-48b8-a6bb-265fb8e900e6" InformativeScreenshot="92651b02a040cf93ab9205e1fcdf31c3.png" Reference="8RhyklEjiEifip1A7a44sA/mni7tv-_2kq67ubmnGoqsQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -282,7 +282,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NSetText DisplayName="Set Text 'Phone 1'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_10" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NSetText DisplayName="Set Text 'Phone 1'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_10" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NSetText.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="Vach5ruzOU2nWPMh7GllUg" DesignTimeRectangle="228, 780, 768, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-26' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-70 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Phone 1' /&gt;" Guid="c13f3078-fb77-42e0-b8f2-dc9b690433f2" InformativeScreenshot="184f70c2f2759282e2987744bebfe2dd.png" Reference="8RhyklEjiEifip1A7a44sA/yv4kraLVsk-EYUyK-FH5fA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -298,7 +298,7 @@
                   </InArgument>
                 </uix:NSetText.Text>
               </uix:NSetText>
-              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,272.6666666666667" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,272.6666666666667" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
                 <uix:NMouseScroll.SearchedElement>
                   <uix:SearchedElement>
                     <uix:SearchedElement.Target>
@@ -316,7 +316,7 @@
                   </uix:SearchedElement>
                 </uix:NMouseScroll.SearchedElement>
               </uix:NMouseScroll>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Sex'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Sex'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="b66ecba5-595d-4ad4-a4b3-3ad709eb15fa" ContentHash="0z_JlTKcaUm9--d_4mbH4g" CvTextArea="199, 1018, 118, 24" CvTextArgument="Unknown" CvType="Text" DesignTimeRectangle="200, 1018, 118, 24" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="5e9ca4c2-d5b5-4f3b-96a3-90704ea51252" InformativeScreenshot="9a45b7d825fb417cc7b4d8bef5f2ea19.png" Reference="8RhyklEjiEifip1A7a44sA/nZ_XVX1O4U-YJmCMq4h-Fw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -332,7 +332,7 @@
                   </InArgument>
                 </uix:NTypeInto.Text>
               </uix:NTypeInto>
-              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="470,171.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="tab" KeyModifiers="None" SpecialKey="True">
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="540,171.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="tab" KeyModifiers="None" SpecialKey="True">
                 <ui:SendHotkey.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="54f7547a-486a-42e3-9976-15f4078eb042">
                     <ui:Target.TimeoutMS>
@@ -344,7 +344,7 @@
                   </ui:Target>
                 </ui:SendHotkey.Target>
               </ui:SendHotkey>
-              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,272.6666666666667" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,272.6666666666667" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
                 <uix:NMouseScroll.SearchedElement>
                   <uix:SearchedElement>
                     <uix:SearchedElement.Target>
@@ -362,7 +362,7 @@
                   </uix:SearchedElement>
                 </uix:NMouseScroll.SearchedElement>
               </uix:NMouseScroll>
-              <If sap:VirtualizedContainerService.HintSize="470,476" sap2010:WorkflowViewState.IdRef="If_2">
+              <If sap:VirtualizedContainerService.HintSize="540,476" sap2010:WorkflowViewState.IdRef="If_2">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">in_carrier == "Self Pay"</CSharpValue>
@@ -407,7 +407,7 @@
                   </Sequence>
                 </If.Else>
               </If>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Financial Class *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Financial Class *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="df838c15-73f4-43a1-99fc-67696427a108" ContentHash="7V29Q9oRkEOhkoO-htHSVw" CvTextArea="199, 831, 251, 28" CvTextArgument="(XX) CHANGE THIS!!!!" CvType="Text" DesignTimeRectangle="201, 824, 923, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-17' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control mat-autocomplete-trigger ng-tns-c2794762957-53 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' placeholder='ꘂ' aaname='Financial Class *' /&gt;" Guid="40450175-b816-4a15-af00-336b069333c7" InformativeScreenshot="ca22f1f9eeefc279cc641b5a8b1cd997.png" Reference="8RhyklEjiEifip1A7a44sA/oh-hsTrZikSyAv7EPHQqQQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -433,7 +433,7 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Provider Profile *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Provider Profile *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="9ce2f68a-484f-4399-a706-344801f97e40" ContentHash="f8DYYGh2TEyNL-ghPbFjbg" CvTextArea="199, 885, 356, 28" CvTextArgument="(BREA) BRENNAN, ADRIANNE" CvType="Text" DesignTimeRectangle="198, 884, 357, 28" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="35b41611-def9-4d85-b542-06cbf33a0893" InformativeScreenshot="700407a422d8a101622d299a1079f164.png" Reference="8RhyklEjiEifip1A7a44sA/lZzR5im-F0K15Og7L0bjCA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -449,7 +449,7 @@
                   </InArgument>
                 </uix:NTypeInto.Text>
               </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '(BOGGS) BOGGS, KOREN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '(BOGGS) BOGGS, KOREN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="f9d61c87-d9ed-4469-8a94-1a10a61e90d5" ContentHash="NxuQvEIMKkKixhJtAMB5NA" CvTextArea="192, 892, 303, 28" CvTextArgument="(BOGGS) BOGGS, KOREN" CvType="Text" DesignTimeRectangle="194, 870, 518, 71" DesignTimeScaleFactor="1.875" ElementType="Text" Guid="83a8efd5-12b7-48cc-af92-aa6a738d6663" InformativeScreenshot="6f51fc47b1228c92b9067709bbcf6315.png" Reference="8RhyklEjiEifip1A7a44sA/yecG-0DvpEqtEAPBhL2Tpw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -475,232 +475,314 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <If DisplayName="If Patient is a minor" sap:VirtualizedContainerService.HintSize="470,2638" sap2010:WorkflowViewState.IdRef="If_1">
-                <If.Condition>
-                  <InArgument x:TypeArguments="x:Boolean">
-                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">int.Parse(in_PatientAge) &lt; 18</CSharpValue>
-                  </InArgument>
-                </If.Condition>
+              <Sequence DisplayName="Add responsible party if patient is a minor" sap:VirtualizedContainerService.HintSize="540,3523.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_40">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,2407.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_15">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'RESP'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Text="Child" Version="V4">
-                      <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="cf94553d-2468-47de-8c05-ec8763d7812a" ContentHash="oWpwGey8XU6-JWRAElj9tA" CvTextArea="200, 1175, 48, 24" CvTextArgument="Self" CvType="Text" DesignTimeRectangle="201, 1172, 580, 32" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl id='mat-select-value-3' tag='DIV' type='' class='mat-select-value ng-tns-c3082329526-24' aaname='' check:innerText='Self' /&gt;" Guid="d7e4e69e-bd4b-4386-b593-3eb723676d13" InformativeScreenshot="2d6ecee1201e1bd2592f699a2d3c1e9f.png" Reference="8RhyklEjiEifip1A7a44sA/kWwI0HMc6UWdj-k0j8uH8Q" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="cf94553d-2468-47de-8c05-ec8763d7812a" CvTextArea="252, 1091, 63, 25" CvTextArgument="RESP" CvType="Text" DesignTimeRectangle="254, 1086, 62, 36" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-4' tag='TITLE-ITEM' type='' class='title-item' aaname='ESP' check:innerText='RESP' /&gt;" Guid="019cd7f8-038b-432e-a26c-9eaecc7d1c6e" SearchSteps="FuzzySelector, CV" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NTypeInto.Target>
-                    </uix:NTypeInto>
-                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="382,171.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="tab" KeyModifiers="None" SpecialKey="True">
-                      <ui:SendHotkey.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="f60c9ebd-fa96-4244-9f78-aa8a22fbb230">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:SendHotkey.Target>
-                    </ui:SendHotkey>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Responsible Party'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="TxKsRGZrPUK-g7hPi7Y8RA" DesignTimeRectangle="1388, 812, 45, 45" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' isleaf='1' parentid='cdk-accordion-child-5' tag='SPAN' class='mat-mdc-button-persistent-ripple mdc-icon-button__ripple' aaname='' /&gt;" Guid="bba19b04-2402-4a3c-b5d7-3cbac638a1c8" InformativeScreenshot="85d91adf12bd8d5bb727dd9ceb12b717.png" Reference="8RhyklEjiEifip1A7a44sA/vZqFfFTo1Uim40y_hdSxQg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target DesignTimeRectangle="1448, 812, 45, 45" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' class='mat-mdc-button-persistent-ripple mdc-icon-button__ripple' isleaf='1' parentid='cdk-accordion-child-5' tag='SPAN' aaname='' /&gt;" Guid="f721fa42-a6d3-4aed-8155-92ac9248a9b6" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                      <uix:NClick.VerifyOptions>
-                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                          <uix:VerifyExecutionOptions.Retry>
-                            <InArgument x:TypeArguments="x:Boolean" />
-                          </uix:VerifyExecutionOptions.Retry>
-                          <uix:VerifyExecutionOptions.Timeout>
-                            <InArgument x:TypeArguments="x:Double" />
-                          </uix:VerifyExecutionOptions.Timeout>
-                        </uix:VerifyExecutionOptions>
-                      </uix:NClick.VerifyOptions>
-                    </uix:NClick>
-                    <uix:NSetText DisplayName="Set Text 'First Name *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,196" sap2010:WorkflowViewState.IdRef="NSetText_11" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NSetText.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="SUwIgmr1xEa4qWqd6SrWGw" DesignTimeRectangle="655, 612, 233, 37" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-57' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-143 ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-touched' aaname='First Name *' /&gt;" Guid="434c2bf0-8c61-42b3-8c34-208643ea4a03" InformativeScreenshot="c53197e8fb65db54cece82ce009e1517.png" Reference="8RhyklEjiEifip1A7a44sA/qdJP0wYgAkCnTb92XDyfdw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="2fdaad98-85e3-4d13-9a24-85fb85fdd2f2" CvTextArea="654, 590, 150, 22" CvTextArgument="First Name *" CvType="Text" DesignTimeRectangle="653, 590, 151, 22" ElementType="Text" Guid="ecda0c28-03a4-4e97-9311-117d4058f0fe" SearchSteps="CV" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NSetText.Target>
-                      <uix:NSetText.Text>
-                        <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">in_GuardianFName</CSharpValue>
-                        </InArgument>
-                      </uix:NSetText.Text>
-                    </uix:NSetText>
-                    <uix:NSetText DisplayName="Set Text 'Last *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,196" sap2010:WorkflowViewState.IdRef="NSetText_12" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NSetText.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="-37CEG-PPE-A1W30EDqpPg" DesignTimeRectangle="1289, 612, 233, 37" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-52' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-132 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored' aaname='Last *' /&gt;" Guid="ee525317-1f1b-4be6-ac17-f55232aeff26" InformativeScreenshot="557bc05375beed207a4a36fd0bbde108.png" Reference="8RhyklEjiEifip1A7a44sA/ngzVlkK1OUqEsJWq-SRHnw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="47f25f7d-4de3-4055-8137-ba24add91f79" CvTextArea="1287, 590, 70, 22" CvTextArgument="Last *" CvType="Text" DesignTimeRectangle="1287, 590, 71, 22" ElementType="Text" Guid="496f9c1c-e694-4211-9e62-3d2ccb8ff827" ImageBase64="" SearchSteps="CV" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NSetText.Target>
-                      <uix:NSetText.Text>
-                        <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">in_GuardianLName</CSharpValue>
-                        </InArgument>
-                      </uix:NSetText.Text>
-                    </uix:NSetText>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PHONE'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" ContentHash="1EQIEwmYu0CAVtzX_Iie6g" DesignTimeRectangle="708, 807, 1014, 41" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-18' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-122' aaname='' check:innerText='PHONEEMAIL' /&gt;" Guid="aef6bd07-f9b8-4eb2-a309-5af61b0e08bb" InformativeScreenshot="029c1deb12e3b1f373c2dabf15eb80c2.png" Reference="8RhyklEjiEifip1A7a44sA/ghp1gLW-ekG9HJMOVfu8cg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" DesignTimeRectangle="708, 872, 1014, 41" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-19' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-125' aaname='' check:innerText='SEX' /&gt;" Guid="4c5ca98c-7047-4b4a-9d32-0a8b34b77ebf" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                      <uix:NClick.VerifyOptions>
-                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                          <uix:VerifyExecutionOptions.Retry>
-                            <InArgument x:TypeArguments="x:Boolean" />
-                          </uix:VerifyExecutionOptions.Retry>
-                          <uix:VerifyExecutionOptions.Timeout>
-                            <InArgument x:TypeArguments="x:Double" />
-                          </uix:VerifyExecutionOptions.Timeout>
-                        </uix:VerifyExecutionOptions>
-                      </uix:NClick.VerifyOptions>
-                    </uix:NClick>
-                    <uix:NSetText DisplayName="Set Text 'Email'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,196" sap2010:WorkflowViewState.IdRef="NSetText_13" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NSetText.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="9yTw44z4p0SN2atYugYUig" DesignTimeRectangle="655, 892, 1144, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-48' tag='INPUT' type='email' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-123 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Email' /&gt;" Guid="dac05297-9363-4d75-87d5-64f6fd54b2d6" InformativeScreenshot="5006bda4018902268cdc7e8b803c450b.png" Reference="8RhyklEjiEifip1A7a44sA/dyCHeZM00U6p69elyx_Vmw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
-                              <uix:Target DesignTimeRectangle="655, 868, 1538, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-119' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-123 ng-star-inserted' aaname='' check:innerText='Email' /&gt;" Guid="9b98fa47-6399-42cd-bc4b-74b780273ad0" SearchSteps="FuzzySelector" />
-                              <uix:Target DesignTimeRectangle="708, 1145, 1014, 42" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-19' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-125' aaname='' check:innerText='SEX' /&gt;" Guid="cefc95fa-ff14-4446-891e-f92d9b6b4fff" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NSetText.Target>
-                      <uix:NSetText.Text>
-                        <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">in_Email</CSharpValue>
-                        </InArgument>
-                      </uix:NSetText.Text>
-                    </uix:NSetText>
-                    <uix:NSetText DisplayName="Set Text 'Phone 1'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,196" sap2010:WorkflowViewState.IdRef="NSetText_14" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NSetText.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="nFEPvqQeoUa29g02qjOROg" DesignTimeRectangle="682, 1022, 854, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-54' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-135 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Phone 1' /&gt;" Guid="4e8dff50-b546-420d-bf41-a86ef3d7f163" InformativeScreenshot="ae0307293e4c04e374e90605ec635c3a.png" Reference="8RhyklEjiEifip1A7a44sA/Vof9h_wfyECzzk38DNDHJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
-                              <uix:Target DesignTimeRectangle="682, 998, 1151, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-131' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-135 ng-star-inserted' aaname='' check:innerText='Phone 1' /&gt;" Guid="64616503-3658-49e7-ad21-a35b60cbb576" SearchSteps="FuzzySelector" />
-                              <uix:Target DesignTimeRectangle="708, 1210, 1014, 42" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-13' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-88' aaname='' check:innerText='ACCOUNTTYPE' /&gt;" Guid="1593d695-f9dd-4b91-8b43-28d9da237216" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NSetText.Target>
-                      <uix:NSetText.Text>
-                        <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">in_Phone</CSharpValue>
-                        </InArgument>
-                      </uix:NSetText.Text>
-                    </uix:NSetText>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ADDRESS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" ContentHash="YgCN5untZkqoX_WPy3HA9g" DesignTimeRectangle="708, 742, 1014, 41" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-17' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-114' aaname='' check:innerText='ADDRESS' /&gt;" Guid="426dfc9e-fd1a-43c1-b352-df7e457bc774" InformativeScreenshot="703993b1c52717f25958cc7df32fe977.png" Reference="8RhyklEjiEifip1A7a44sA/g4WbJM-bukeBqu89GdWAxg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" DesignTimeRectangle="708, 527, 1014, 41" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-15' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-107' aaname='' check:innerText='NAME' /&gt;" Guid="c2b3bdd1-bd26-4684-a331-5eb1d676bc4a" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                      <uix:NClick.VerifyOptions>
-                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                          <uix:VerifyExecutionOptions.Retry>
-                            <InArgument x:TypeArguments="x:Boolean" />
-                          </uix:VerifyExecutionOptions.Retry>
-                          <uix:VerifyExecutionOptions.Timeout>
-                            <InArgument x:TypeArguments="x:Double" />
-                          </uix:VerifyExecutionOptions.Timeout>
-                        </uix:VerifyExecutionOptions>
-                      </uix:NClick.VerifyOptions>
-                    </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Use Patient Address'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="3e89645c-3d0f-4803-9605-fd6a720cdac0" ContentHash="-vxqdewjQkaATmDCDT2IQw" DesignTimeRectangle="402, 834, 34, 33" DesignTimeScaleFactor="1.875" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='mat-checkbox-976' tag='SPAN' type='' class='mat-checkbox-inner-container' aaname='' /&gt;" Guid="f4439d52-f45d-4d3c-acfb-c2a9487fa605" InformativeScreenshot="f446fefb10640e70f7c01fc1d71d4a97.png" Reference="8RhyklEjiEifip1A7a44sA/TFnz_26q8E2iAaGZlEioJg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="3e89645c-3d0f-4803-9605-fd6a720cdac0" DesignTimeRectangle="466, 834, 228, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Use Patient Address' parentid='mat-checkbox-976' tag='SPAN' type='' class='' check:innerText='Use Patient Address' /&gt;" Guid="7ab6446f-7190-4f7e-be1c-a7b1ede14425" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                      <uix:NClick.VerifyOptions>
-                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                          <uix:VerifyExecutionOptions.Retry>
-                            <InArgument x:TypeArguments="x:Boolean" />
-                          </uix:VerifyExecutionOptions.Retry>
-                          <uix:VerifyExecutionOptions.Timeout>
-                            <InArgument x:TypeArguments="x:Double" />
-                          </uix:VerifyExecutionOptions.Timeout>
-                        </uix:VerifyExecutionOptions>
-                      </uix:NClick.VerifyOptions>
-                    </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,220" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="38e85d9b-c3ab-4796-ae86-22b0560e67ef" ContentHash="SyeYMqHbkEy6ShIErq-GSw" CvElementArea="1765, 1514, 126, 66" CvTextArea="1797, 1535, 61, 25" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1768, 1518, 121, 60" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Save' parentid='mat-dialog-0' tag='BUTTON' type='' class='mat-focus-indicator mat-tooltip-trigger mat-button mat-button-base mat-primary' check:innerText='Save' /&gt;" Guid="356c5bff-8130-4a71-a33f-5692bb6ee0b0" InformativeScreenshot="8e0c61f36bbf5d83ae2182fb0412fde9.png" Reference="8RhyklEjiEifip1A7a44sA/Z7qoTJxuZEOkc3K-OJ37yA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="38e85d9b-c3ab-4796-ae86-22b0560e67ef" CvElementArea="1623, 1514, 132, 65" CvTextArea="1655, 1535, 69, 27" CvTextArgument="Clear" CvType="Button" DesignTimeRectangle="1626, 1518, 127, 60" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Clear' parentid='mat-dialog-0' tag='BUTTON' type='' class='mat-focus-indicator mat-tooltip-trigger mat-button mat-button-base' check:innerText='Clear' /&gt;" Guid="9a6a5a8f-700e-4071-877a-f210ea269684" SearchSteps="FuzzySelector, CV" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                      <uix:NClick.VerifyOptions>
-                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                          <uix:VerifyExecutionOptions.Retry>
-                            <InArgument x:TypeArguments="x:Boolean" />
-                          </uix:VerifyExecutionOptions.Retry>
-                          <uix:VerifyExecutionOptions.Timeout>
-                            <InArgument x:TypeArguments="x:Double" />
-                          </uix:VerifyExecutionOptions.Timeout>
-                        </uix:VerifyExecutionOptions>
-                      </uix:NClick.VerifyOptions>
-                    </uix:NClick>
-                  </Sequence>
-                </If.Then>
-                <If.Else>
-                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_16">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </Sequence>
-                </If.Else>
-              </If>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="6" DisplayName="Click 'Clear'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                <If DisplayName="If Patient is a minor" sap:VirtualizedContainerService.HintSize="506,3428.6666666666665" sap2010:WorkflowViewState.IdRef="If_1">
+                  <If.Condition>
+                    <InArgument x:TypeArguments="x:Boolean">
+                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">int.Parse(in_PatientAge) &lt; 18</CSharpValue>
+                    </InArgument>
+                  </If.Condition>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,3204.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'RESP'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Text="Child" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="cf94553d-2468-47de-8c05-ec8763d7812a" ContentHash="oWpwGey8XU6-JWRAElj9tA" CvTextArea="200, 1175, 48, 24" CvTextArgument="Self" CvType="Text" DesignTimeRectangle="201, 1172, 580, 32" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl id='mat-select-value-3' tag='DIV' type='' class='mat-select-value ng-tns-c3082329526-24' aaname='' check:innerText='Self' /&gt;" Guid="d7e4e69e-bd4b-4386-b593-3eb723676d13" InformativeScreenshot="2d6ecee1201e1bd2592f699a2d3c1e9f.png" Reference="8RhyklEjiEifip1A7a44sA/kWwI0HMc6UWdj-k0j8uH8Q" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="cf94553d-2468-47de-8c05-ec8763d7812a" CvTextArea="252, 1091, 63, 25" CvTextArgument="RESP" CvType="Text" DesignTimeRectangle="254, 1086, 62, 36" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-4' tag='TITLE-ITEM' type='' class='title-item' aaname='ESP' check:innerText='RESP' /&gt;" Guid="019cd7f8-038b-432e-a26c-9eaecc7d1c6e" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="470,171.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="tab" KeyModifiers="None" SpecialKey="True">
+                        <ui:SendHotkey.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="f60c9ebd-fa96-4244-9f78-aa8a22fbb230">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:SendHotkey.Target>
+                      </ui:SendHotkey>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Responsible Party'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="TxKsRGZrPUK-g7hPi7Y8RA" DesignTimeRectangle="1388, 812, 45, 45" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' isleaf='1' parentid='cdk-accordion-child-5' tag='SPAN' class='mat-mdc-button-persistent-ripple mdc-icon-button__ripple' aaname='' /&gt;" Guid="bba19b04-2402-4a3c-b5d7-3cbac638a1c8" InformativeScreenshot="85d91adf12bd8d5bb727dd9ceb12b717.png" Reference="8RhyklEjiEifip1A7a44sA/vZqFfFTo1Uim40y_hdSxQg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="1448, 812, 45, 45" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' class='mat-mdc-button-persistent-ripple mdc-icon-button__ripple' isleaf='1' parentid='cdk-accordion-child-5' tag='SPAN' aaname='' /&gt;" Guid="f721fa42-a6d3-4aed-8155-92ac9248a9b6" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <If sap:VirtualizedContainerService.HintSize="470,398.6666666666667" sap2010:WorkflowViewState.IdRef="If_3">
+                        <If.Condition>
+                          <InArgument x:TypeArguments="x:Boolean">
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">string.IsNullOrEmpty(in_GuardianFName)</CSharpValue>
+                          </InArgument>
+                        </If.Condition>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,168" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_3">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">
+                                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">in_GuardianFName</CSharpReference>
+                                </OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">N/A</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <If sap:VirtualizedContainerService.HintSize="470,398.6666666666667" sap2010:WorkflowViewState.IdRef="If_4">
+                        <If.Condition>
+                          <InArgument x:TypeArguments="x:Boolean">
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">string.IsNullOrEmpty(in_GuardianLName)</CSharpValue>
+                          </InArgument>
+                        </If.Condition>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,168" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_4">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">
+                                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">in_GuardianLName</CSharpReference>
+                                </OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">N/A</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <uix:NSetText DisplayName="Set Text 'First Name *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_11" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NSetText.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="4dvq0fZbbEupGWXFlzySqw" DesignTimeRectangle="776, 573, 186, 30" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-49' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-130 ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-touched' aaname='First Name *' /&gt;" Guid="18ffc90d-d2f5-4989-882a-f10959e6fea0" InformativeScreenshot="7b6beafa53ac5ddaa19b352e4c7e25aa.png" Reference="8RhyklEjiEifip1A7a44sA/qdJP0wYgAkCnTb92XDyfdw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
+                                <uix:Target DesignTimeRectangle="776, 554, 258, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-123' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-130 ng-star-inserted' aaname='' check:innerText='First Name *' /&gt;" Guid="47c5cf4a-d57b-46b3-ab58-984a857207f0" SearchSteps="FuzzySelector" />
+                                <uix:Target DesignTimeRectangle="818, 507, 61, 28" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-15' tag='TITLE-ITEM' type='' class='title-item' aaname='AME' check:innerText='NAME' /&gt;" Guid="066fd3eb-6841-4051-adef-435e94fab72f" SearchSteps="FuzzySelector" />
+                                <uix:Target DesignTimeRectangle="818, 782, 811, 33" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-19' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-125' aaname='' check:innerText='SEX' /&gt;" Guid="065bbba3-f260-4510-885c-d6810dbd3e29" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSetText.Target>
+                        <uix:NSetText.Text>
+                          <InArgument x:TypeArguments="x:String">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">in_GuardianFName</CSharpValue>
+                          </InArgument>
+                        </uix:NSetText.Text>
+                      </uix:NSetText>
+                      <uix:NSetText DisplayName="Set Text 'Last *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_12" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NSetText.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="nE-d3VCUUkCU1kfqH6MwpQ" DesignTimeRectangle="1283, 573, 186, 30" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-52' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-132 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored' aaname='Last *' /&gt;" Guid="e4d67a5d-f5c9-4968-bacd-c3fdb354f451" InformativeScreenshot="5083c34cdd4fc13a3a5e2af3dc4f4e2e.png" Reference="8RhyklEjiEifip1A7a44sA/ngzVlkK1OUqEsJWq-SRHnw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
+                                <uix:Target DesignTimeRectangle="1283, 554, 258, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-127' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-132 ng-star-inserted' aaname='' check:innerText='Last *' /&gt;" Guid="c23648f0-7d2c-4af6-ba91-0c9753f7258a" SearchSteps="FuzzySelector" />
+                                <uix:Target DesignTimeRectangle="818, 507, 61, 28" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-15' tag='TITLE-ITEM' type='' class='title-item' aaname='AME' check:innerText='NAME' /&gt;" Guid="493da266-4b2e-43ae-a452-7f6c0f52d2f0" SearchSteps="FuzzySelector" />
+                                <uix:Target DesignTimeRectangle="818, 782, 811, 33" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-19' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-125' aaname='' check:innerText='SEX' /&gt;" Guid="14cde9b2-2be0-46cc-a753-8a19cb11a66f" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSetText.Target>
+                        <uix:NSetText.Text>
+                          <InArgument x:TypeArguments="x:String">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">in_GuardianLName</CSharpValue>
+                          </InArgument>
+                        </uix:NSetText.Text>
+                      </uix:NSetText>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PHONE'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" ContentHash="1EQIEwmYu0CAVtzX_Iie6g" DesignTimeRectangle="708, 807, 1014, 41" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-18' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-122' aaname='' check:innerText='PHONEEMAIL' /&gt;" Guid="aef6bd07-f9b8-4eb2-a309-5af61b0e08bb" InformativeScreenshot="029c1deb12e3b1f373c2dabf15eb80c2.png" Reference="8RhyklEjiEifip1A7a44sA/ghp1gLW-ekG9HJMOVfu8cg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" DesignTimeRectangle="708, 872, 1014, 41" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-19' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-125' aaname='' check:innerText='SEX' /&gt;" Guid="4c5ca98c-7047-4b4a-9d32-0a8b34b77ebf" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NSetText DisplayName="Set Text 'Email'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_13" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NSetText.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="9yTw44z4p0SN2atYugYUig" DesignTimeRectangle="655, 892, 1144, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-48' tag='INPUT' type='email' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-123 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Email' /&gt;" Guid="dac05297-9363-4d75-87d5-64f6fd54b2d6" InformativeScreenshot="5006bda4018902268cdc7e8b803c450b.png" Reference="8RhyklEjiEifip1A7a44sA/dyCHeZM00U6p69elyx_Vmw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                                <uix:Target DesignTimeRectangle="655, 868, 1538, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-119' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-123 ng-star-inserted' aaname='' check:innerText='Email' /&gt;" Guid="9b98fa47-6399-42cd-bc4b-74b780273ad0" SearchSteps="FuzzySelector" />
+                                <uix:Target DesignTimeRectangle="708, 1145, 1014, 42" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo3' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-19' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-125' aaname='' check:innerText='SEX' /&gt;" Guid="cefc95fa-ff14-4446-891e-f92d9b6b4fff" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSetText.Target>
+                        <uix:NSetText.Text>
+                          <InArgument x:TypeArguments="x:String">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">in_Email</CSharpValue>
+                          </InArgument>
+                        </uix:NSetText.Text>
+                      </uix:NSetText>
+                      <uix:NSetText DisplayName="Set Text 'Phone 1'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,196" sap2010:WorkflowViewState.IdRef="NSetText_14" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NSetText.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="nFEPvqQeoUa29g02qjOROg" DesignTimeRectangle="682, 1022, 854, 38" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-input-54' tag='INPUT' type='text' class='mat-input-element mat-form-field-autofill-control ng-tns-c2794762957-135 ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' aaname='Phone 1' /&gt;" Guid="4e8dff50-b546-420d-bf41-a86ef3d7f163" InformativeScreenshot="ae0307293e4c04e374e90605ec635c3a.png" Reference="8RhyklEjiEifip1A7a44sA/Vof9h_wfyECzzk38DNDHJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                                <uix:Target DesignTimeRectangle="682, 998, 1151, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl id='mat-form-field-label-131' tag='LABEL' type='' class='mat-form-field-label ng-tns-c2794762957-135 ng-star-inserted' aaname='' check:innerText='Phone 1' /&gt;" Guid="64616503-3658-49e7-ad21-a35b60cbb576" SearchSteps="FuzzySelector" />
+                                <uix:Target DesignTimeRectangle="708, 1210, 1014, 42" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-13' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-88' aaname='' check:innerText='ACCOUNTTYPE' /&gt;" Guid="1593d695-f9dd-4b91-8b43-28d9da237216" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSetText.Target>
+                        <uix:NSetText.Text>
+                          <InArgument x:TypeArguments="x:String">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">in_Phone</CSharpValue>
+                          </InArgument>
+                        </uix:NSetText.Text>
+                      </uix:NSetText>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ADDRESS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" ContentHash="YgCN5untZkqoX_WPy3HA9g" DesignTimeRectangle="708, 742, 1014, 41" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-17' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-114' aaname='' check:innerText='ADDRESS' /&gt;" Guid="426dfc9e-fd1a-43c1-b352-df7e457bc774" InformativeScreenshot="703993b1c52717f25958cc7df32fe977.png" Reference="8RhyklEjiEifip1A7a44sA/g4WbJM-bukeBqu89GdWAxg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="e6f99710-c5ea-44b2-9a5c-bbf142007daa" DesignTimeRectangle="708, 527, 1014, 41" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo2' tag='IFRAME' /&gt;&lt;webctrl parentid='card-expansion-panel-header-15' tag='CARD-PANEL-TITLE' type='' class='card-panel-title ng-tns-c2873236613-107' aaname='' check:innerText='NAME' /&gt;" Guid="c2b3bdd1-bd26-4684-a331-5eb1d676bc4a" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Use Patient Address'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="3e89645c-3d0f-4803-9605-fd6a720cdac0" ContentHash="-vxqdewjQkaATmDCDT2IQw" DesignTimeRectangle="402, 834, 34, 33" DesignTimeScaleFactor="1.875" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='mat-checkbox-976' tag='SPAN' type='' class='mat-checkbox-inner-container' aaname='' /&gt;" Guid="f4439d52-f45d-4d3c-acfb-c2a9487fa605" InformativeScreenshot="f446fefb10640e70f7c01fc1d71d4a97.png" Reference="8RhyklEjiEifip1A7a44sA/TFnz_26q8E2iAaGZlEioJg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="3e89645c-3d0f-4803-9605-fd6a720cdac0" DesignTimeRectangle="466, 834, 228, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Use Patient Address' parentid='mat-checkbox-976' tag='SPAN' type='' class='' check:innerText='Use Patient Address' /&gt;" Guid="7ab6446f-7190-4f7e-be1c-a7b1ede14425" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,220" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="38e85d9b-c3ab-4796-ae86-22b0560e67ef" ContentHash="SyeYMqHbkEy6ShIErq-GSw" CvElementArea="1765, 1514, 126, 66" CvTextArea="1797, 1535, 61, 25" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1768, 1518, 121, 60" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Save' parentid='mat-dialog-0' tag='BUTTON' type='' class='mat-focus-indicator mat-tooltip-trigger mat-button mat-button-base mat-primary' check:innerText='Save' /&gt;" Guid="356c5bff-8130-4a71-a33f-5692bb6ee0b0" InformativeScreenshot="8e0c61f36bbf5d83ae2182fb0412fde9.png" Reference="8RhyklEjiEifip1A7a44sA/Z7qoTJxuZEOkc3K-OJ37yA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="38e85d9b-c3ab-4796-ae86-22b0560e67ef" CvElementArea="1623, 1514, 132, 65" CvTextArea="1655, 1535, 69, 27" CvTextArgument="Clear" CvType="Button" DesignTimeRectangle="1626, 1518, 127, 60" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname='Clear' parentid='mat-dialog-0' tag='BUTTON' type='' class='mat-focus-indicator mat-tooltip-trigger mat-button mat-button-base' check:innerText='Clear' /&gt;" Guid="9a6a5a8f-700e-4071-877a-f210ea269684" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="6" DisplayName="Click 'Clear'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="0025ecfb-c4a4-473c-8267-f1ba3ab97326" ContentHash="htexa8db_0u_NwX6B3lWWw" CvElementArea="1226, 1278, 96, 44" CvTextArea="1243, 1288, 61, 25" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1246, 1282, 59, 36" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl aaname=' Sve ' class='mat-button-wrapper' tag='SPAN' type='' check:innerText='Save' /&gt;" Guid="cc2896aa-dd0d-465e-97a0-adb1987ddbcc" InformativeScreenshot="881abebb24622a14ac9d652309da4d75.png" Reference="8RhyklEjiEifip1A7a44sA/y2p_ODEC_0a647sbl2Xlcg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -721,7 +803,7 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NGetUrl DisplayName="Get URL" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,114.66666666666667" sap2010:WorkflowViewState.IdRef="NGetUrl_1" Version="V4">
+              <uix:NGetUrl DisplayName="Get URL" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,114.66666666666667" sap2010:WorkflowViewState.IdRef="NGetUrl_1" Version="V4">
                 <uix:NGetUrl.CurrentUrl>
                   <OutArgument x:TypeArguments="x:String">
                     <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">out_Url</CSharpReference>

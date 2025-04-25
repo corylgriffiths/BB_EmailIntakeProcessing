@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="AMD_AddNewPatient" this:AMD_AddNewPatient.in_PatientFName="Test" this:AMD_AddNewPatient.in_PatientLName="Abel" this:AMD_AddNewPatient.in_PatientDOB="04062011" this:AMD_AddNewPatient.in_PatientAge="16" this:AMD_AddNewPatient.in_PatientGender="M" this:AMD_AddNewPatient.in_isMinor="False" this:AMD_AddNewPatient.in_Address="2177 N Barley way" this:AMD_AddNewPatient.in_ZipCode="84045" this:AMD_AddNewPatient.in_City="Saratoga Springs" this:AMD_AddNewPatient.in_State="UT" this:AMD_AddNewPatient.in_Email="gabejames@gmail.com" this:AMD_AddNewPatient.in_Phone="8016344338" this:AMD_AddNewPatient.in_GuardianFName="Gabe" this:AMD_AddNewPatient.in_GuardianLName="James" this:AMD_AddNewPatient.in_Relationship="Child" this:AMD_AddNewPatient.in_CardNum="4758240422422228" this:AMD_AddNewPatient.in_CardExpMonth="7" this:AMD_AddNewPatient.in_CardExpYear="2028" this:AMD_AddNewPatient.in_CVV="454" this:AMD_AddNewPatient.in_InsCarrier="BCBS G2" this:AMD_AddNewPatient.in_MemberId="123456" this:AMD_AddNewPatient.in_GroupNum="1234" this:AMD_AddNewPatient.in_DocFolderName="C:\Users\GabeJames\Documents\UiPath\EmailIntakeProcessing\Data\1961b2a7f92b9fc6" this:AMD_AddNewPatient.in_ProviderCode="BOGGS" this:AMD_AddNewPatient.in_InsuranceCarrierCode="BCBS G2" this:AMD_AddNewPatient.in_InsuranceFound="True" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="AMD_AddNewPatient" this:AMD_AddNewPatient.in_PatientFName="Test" this:AMD_AddNewPatient.in_PatientLName="Abel" this:AMD_AddNewPatient.in_PatientDOB="04062011" this:AMD_AddNewPatient.in_PatientAge="16" this:AMD_AddNewPatient.in_PatientGender="M" this:AMD_AddNewPatient.in_isMinor="False" this:AMD_AddNewPatient.in_Address="2177 N Barley way" this:AMD_AddNewPatient.in_ZipCode="84045" this:AMD_AddNewPatient.in_City="Saratoga Springs" this:AMD_AddNewPatient.in_State="UT" this:AMD_AddNewPatient.in_Email="gabejames@gmail.com" this:AMD_AddNewPatient.in_Phone="8016344338" this:AMD_AddNewPatient.in_GuardianFName="Gabe" this:AMD_AddNewPatient.in_GuardianLName="James" this:AMD_AddNewPatient.in_Relationship="Child" this:AMD_AddNewPatient.in_CardNum="4758240422422228" this:AMD_AddNewPatient.in_CardExpMonth="7" this:AMD_AddNewPatient.in_CardExpYear="2028" this:AMD_AddNewPatient.in_CVV="454" this:AMD_AddNewPatient.in_InsCarrier="BCBS G2" this:AMD_AddNewPatient.in_MemberId="123456" this:AMD_AddNewPatient.in_GroupNum="1234" this:AMD_AddNewPatient.in_DocFolderName="C:\Users\GabeJames\Documents\UiPath\EmailIntakeProcessing\Data\1961b2a7f92b9fc6" this:AMD_AddNewPatient.in_InsuranceCarrierCode="BCBS G2" this:AMD_AddNewPatient.in_InsuranceFound="True" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugage="clr-namespace:UiPath.GSuite.Activities.Gmail.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugm="clr-namespace:UiPath.GSuite.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_PatientFName" Type="InArgument(x:String)" />
     <x:Property Name="in_PatientLName" Type="InArgument(x:String)" />
@@ -33,6 +33,9 @@
     <x:Property Name="in_ProcessCard" Type="InArgument(x:Boolean)" />
     <x:Property Name="in_PreferredMemo" Type="InArgument(x:Boolean)" />
     <x:Property Name="in_PreferredProvider" Type="InArgument(x:String)" />
+    <x:Property Name="in_isNorthShore" Type="InArgument(x:Boolean)" />
+    <x:Property Name="in_providerName" Type="InArgument(x:String)" />
+    <x:Property Name="in_stakeholderEmail" Type="InArgument(scg:List(x:String))" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
@@ -87,6 +90,8 @@
       <x:String>UiPath.Shared.Activities.Utils</x:String>
       <x:String>UiPath.GSuite.Activities</x:String>
       <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -153,7 +158,7 @@
       <AssemblyReference>UiPath.GSuite</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AMD_AddNewPatient" sap:VirtualizedContainerService.HintSize="1124,4932" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AMD_AddNewPatient" sap:VirtualizedContainerService.HintSize="2447.4666666666667,5649.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
         <sap:WorkflowViewStateService.ViewState>
@@ -170,47 +175,48 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Add new patient info" sap:VirtualizedContainerService.HintSize="1124,4909.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Add new patient info" sap:VirtualizedContainerService.HintSize="1120,5626.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1090,4718.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AdvancedMD PM - Brennan Behavior Group" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1086.4,5438.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1056,4427.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_11">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1052.8,5189.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="check for new patient screen: if not nav to new patient screen" sap:VirtualizedContainerService.HintSize="1022,4364.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <Sequence DisplayName="check for new patient screen: if not nav to new patient screen" sap:VirtualizedContainerService.HintSize="1019.2,4909.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NCheckState DisplayName="Check App State 'SPAN'" sap:VirtualizedContainerService.HintSize="988,666" sap2010:WorkflowViewState.IdRef="NCheckState_4" Version="V4">
+                <uix:NCheckState DisplayName="Check App State 'SPAN'" sap:VirtualizedContainerService.HintSize="985.6,696.8" sap2010:WorkflowViewState.IdRef="NCheckState_4" Version="V4">
                   <uix:NCheckState.IfExists>
-                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,412.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,406.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="LogMessage_1">
                         <ui:LogMessage.Message>
                           <InArgument x:TypeArguments="x:Object">
                             <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Already on Patient Creation Page"</CSharpValue>
                           </InArgument>
                         </ui:LogMessage.Message>
                       </ui:LogMessage>
-                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_NavTo_AddPatient - Invoke Workflow File (AdvancedMD\\AMD_NavTo_AddPatient.xaml)" sap:VirtualizedContainerService.HintSize="416,170.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_NavTo_AddPatient.xaml">
+                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_NavTo_AddPatient - Invoke Workflow File (AdvancedMD\\AMD_NavTo_AddPatient.xaml)" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_NavTo_AddPatient.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
                           <scg:Dictionary x:TypeArguments="x:String, Argument" />
                         </ui:InvokeWorkflowFile.Arguments>
@@ -218,19 +224,19 @@
                     </Sequence>
                   </uix:NCheckState.IfExists>
                   <uix:NCheckState.IfNotExists>
-                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="484,321.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="483.2,316.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="nav to patient search" sap:VirtualizedContainerService.HintSize="450,258.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence DisplayName="nav to patient search" sap:VirtualizedContainerService.HintSize="449.6,255.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_NavTo_AddPatient - Invoke Workflow File (AdvancedMD\\AMD_NavTo_AddPatient.xaml)" sap:VirtualizedContainerService.HintSize="416,170.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_NavTo_AddPatient.xaml">
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_NavTo_AddPatient - Invoke Workflow File (AdvancedMD\\AMD_NavTo_AddPatient.xaml)" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_NavTo_AddPatient.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
                             <scg:Dictionary x:TypeArguments="x:String, Argument" />
                           </ui:InvokeWorkflowFile.Arguments>
@@ -254,14 +260,14 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NCheckState>
-                <Sequence DisplayName="check for existing patient" sap:VirtualizedContainerService.HintSize="988,3610.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="check for existing patient and if none create a new patient" sap:VirtualizedContainerService.HintSize="985.6,4119.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NSetText DisplayName="Set Text 'SPAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="540,196" sap2010:WorkflowViewState.IdRef="NSetText_27" Version="V4">
+                  <uix:NSetText DisplayName="Set Text 'SPAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,195.2" sap2010:WorkflowViewState.IdRef="NSetText_27" Version="V4">
                     <uix:NSetText.Target>
                       <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="85116fbc-cc7b-4091-b732-f2a8e2fc45ed" ContentHash="gEm4ChwZvE2-HEGOWSgonA" DesignTimeRectangle="139, 370, 483, 45" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='text' class='mat-mdc-autocomplete-trigger search-input ng-valid ng-pristine ng-touched' placeholder='Search Patients' aaname='' /&gt;" Guid="ed18bd58-7cd6-4c36-ae38-039179638f39" InformativeScreenshot="f3225c30418d697ff980734dba583fae.png" Reference="8RhyklEjiEifip1A7a44sA/lJ35T1jxeUmOHtmmQPD1aA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -277,51 +283,74 @@
                       </InArgument>
                     </uix:NSetText.Text>
                   </uix:NSetText>
-                  <Sequence DisplayName="if Existing patient, then abort and fail entry" sap:VirtualizedContainerService.HintSize="540,102.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                  <Sequence DisplayName="if Existing patient, then abort and fail entry" sap:VirtualizedContainerService.HintSize="520,853.6" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="patientFound" />
+                    </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NCheckState DisplayName="Check App State 'No patients found'" sap:VirtualizedContainerService.HintSize="952,473.6" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Timeout="0.5" Version="V4">
-                      <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,230.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_2">
-                            <ui:LogMessage.Message>
-                              <InArgument x:TypeArguments="x:Object">
-                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">"No duplicates found, continue creating profile"</CSharpValue>
-                              </InArgument>
-                            </ui:LogMessage.Message>
-                          </ui:LogMessage>
-                        </Sequence>
-                      </uix:NCheckState.IfExists>
-                      <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,92.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                        </Sequence>
-                      </uix:NCheckState.IfNotExists>
-                      <uix:NCheckState.Target>
-                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="c506c8f3-e60e-4e6e-86d7-2ec62a6c84f8" ContentHash="mg-bSXmikku2L57eyppbAg" CvTextArea="70, 462, 197, 22" CvTextArgument="No patients found" CvType="Text" DesignTimeRectangle="71, 461, 192, 27" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='mat-autocomplete-0' tag='SPAN' type='' class='' aaname='No patients found' check:innerText='No patients found' /&gt;" Guid="9126b662-1f47-4004-8fec-b610d9daf601" InformativeScreenshot="652d9b24c3869e6218c56de166e4deed.png" Reference="8RhyklEjiEifip1A7a44sA/NWIAd1n4nEmU6Sk7oMvbwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:NGetText DelayBefore="3" DisplayName="Get Text 'Dashboard'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="417.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" ContentHash="diWm-BRTr0C_SVemKKCjkA" DesignTimeRectangle="71, 462, 163, 27" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl parentid='mat-autocomplete-0' tag='SPAN' type='' class='' /&gt;" Guid="2cd58590-f716-4945-a144-113e9497158e" InformativeScreenshot="8a1ef1d2f4a799fdb5d483f04be36985.png" Reference="8RhyklEjiEifip1A7a44sA/grzIk7DifEaSg8oLDFCgow" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
                             <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target DesignTimeRectangle="45, 347, 90, 90" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' type='' class='mat-mdc-button-persistent-ripple mdc-icon-button__ripple' aaname='' /&gt;" Guid="e53b9c46-15e4-46ec-83fe-032e6ba95bdd" SearchSteps="FuzzySelector" />
+                              <uix:Target DesignTimeRectangle="49, 287, 135, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='pm-main-tab-bar-tab-title' tag='SPAN' type='' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="1104ec82-3a01-47dc-b9e3-3c902eddc2d2" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
                         </uix:TargetAnchorable>
-                      </uix:NCheckState.Target>
-                    </uix:NCheckState>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.TextString>
+                        <OutArgument x:TypeArguments="x:String">
+                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">patientFound</CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.TextString>
+                    </uix:NGetText>
+                    <If sap:VirtualizedContainerService.HintSize="417.6,570.4" sap2010:WorkflowViewState.IdRef="If_8">
+                      <If.Condition>
+                        <InArgument x:TypeArguments="x:Boolean">
+                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_78">!patientFound.Contains("No")</CSharpValue>
+                        </InArgument>
+                      </If.Condition>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,349.6" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="ugm:GmailMessage" Name="CurrentEmail" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn">
+                            <ui:LogMessage.Message>
+                              <InArgument x:TypeArguments="x:Object">
+                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_79">"There was a duplicate, moving email to manual processing"</CSharpValue>
+                              </InArgument>
+                            </ui:LogMessage.Message>
+                          </ui:LogMessage>
+                          <Throw sap:VirtualizedContainerService.HintSize="382.4,113.6" sap2010:WorkflowViewState.IdRef="Throw_1">
+                            <InArgument x:TypeArguments="s:Exception">
+                              <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_81">new System.Exception("alreadyExisting")</CSharpValue>
+                            </InArgument>
+                          </Throw>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89.6" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
                   </Sequence>
-                  <Sequence DisplayName="If Not an existing patient" sap:VirtualizedContainerService.HintSize="540,3224" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <Sequence DisplayName="If Not an existing patient" sap:VirtualizedContainerService.HintSize="520,2984" sap2010:WorkflowViewState.IdRef="Sequence_5">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="AmdUrl" />
                     </Sequence.Variables>
@@ -330,14 +359,14 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Click add a new patient" sap:VirtualizedContainerService.HintSize="506,317.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                    <Sequence DisplayName="Click add a new patient" sap:VirtualizedContainerService.HintSize="486.4,100.8" sap2010:WorkflowViewState.IdRef="Sequence_36">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SPAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SPAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="577cdd50-c43e-466e-991b-967e55c89580" ContentHash="0_0ajqCjakW3yw8zQHM13A" CvTextArea="941, 377, 28, 30" CvTextArgument="+" CvType="Text" DesignTimeRectangle="939, 375, 31, 31" DesignTimeScaleFactor="1.5" Guid="a4393906-9a39-4825-83f9-a4aa1758f047" ImageBase64="" InformativeScreenshot="e08681f9d332b2dad3b02cd4751e1fcd.png" Reference="8RhyklEjiEifip1A7a44sA/zwC7vVwdy0aVYK_oXkmnNg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -360,266 +389,513 @@
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
                     </Sequence>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterPatientInfo - Invoke Workflow File (AdvancedMD\\AMD_EnterPatientInfo.xaml)" sap:VirtualizedContainerService.HintSize="506,177.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterPatientInfo.xaml">
-                      <ui:InvokeWorkflowFile.Arguments>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_PatientFName">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">in_PatientFName</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_PatientLName">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">in_PatientLName</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_PatientDOB">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">in_PatientDOB</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_Address">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_37">in_Address</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_ZipCode">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38">in_ZipCode</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_City">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">in_City</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_State">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">in_State</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_Email">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">in_Email</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_Phone">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">in_Phone</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_PatientAge">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">in_PatientAge</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_GuardianFName">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">in_GuardianFName</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_GuardianLName">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_45">in_GuardianLName</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_ProviderCode">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_50">in_ProviderCode</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_carrier">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_51">in_InsCarrier</CSharpValue>
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_PatientGender">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">in_PatientGender</CSharpValue>
-                        </InArgument>
-                        <OutArgument x:TypeArguments="x:String" x:Key="out_Url">
-                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">AmdUrl</CSharpReference>
-                        </OutArgument>
-                      </ui:InvokeWorkflowFile.Arguments>
-                    </ui:InvokeWorkflowFile>
-                    <If sap:VirtualizedContainerService.HintSize="506,1119.3333333333333" sap2010:WorkflowViewState.IdRef="If_3">
-                      <If.Condition>
-                        <InArgument x:TypeArguments="x:Boolean">
-                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_70">in_ProcessCard != false</CSharpValue>
-                        </InArgument>
-                      </If.Condition>
-                      <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,888.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_44">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="470,828.6666666666666" sap2010:WorkflowViewState.IdRef="TryCatch_2">
-                            <TryCatch.Try>
-                              <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="468,228" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                    <Sequence DisplayName="Enter the patients info " sap:VirtualizedContainerService.HintSize="486.4,100.8" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterPatientInfo - Invoke Workflow File (AdvancedMD\\AMD_EnterPatientInfo.xaml)" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterPatientInfo.xaml">
+                        <ui:InvokeWorkflowFile.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_PatientFName">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">in_PatientFName</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_PatientLName">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">in_PatientLName</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_PatientDOB">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">in_PatientDOB</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_Address">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_37">in_Address</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_ZipCode">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38">in_ZipCode</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_City">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">in_City</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_State">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">in_State</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_Email">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">in_Email</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_Phone">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">in_Phone</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_PatientAge">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">in_PatientAge</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_GuardianFName">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">in_GuardianFName</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_GuardianLName">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_45">in_GuardianLName</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_ProviderCode">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_50">in_ProviderCode</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_carrier">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_51">in_InsCarrier</CSharpValue>
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_PatientGender">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">in_PatientGender</CSharpValue>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_Url">
+                            <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">AmdUrl</CSharpReference>
+                          </OutArgument>
+                        </ui:InvokeWorkflowFile.Arguments>
+                      </ui:InvokeWorkflowFile>
+                    </Sequence>
+                    <Sequence DisplayName="Enter Credit Card info" sap:VirtualizedContainerService.HintSize="486.4,100.8" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If sap:VirtualizedContainerService.HintSize="504,1106.4" sap2010:WorkflowViewState.IdRef="If_3">
+                        <If.Condition>
+                          <InArgument x:TypeArguments="x:Boolean">
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_70">in_ProcessCard != false</CSharpValue>
+                          </InArgument>
+                        </If.Condition>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="502.4,884" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="468.8,824" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                              <TryCatch.Try>
+                                <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="467.2,227.2" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterCreditCard - Invoke Workflow File (AdvancedMD\\AMD_EnterCreditCard.xaml)" sap:VirtualizedContainerService.HintSize="433.6,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterCreditCard.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_CardNum">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46">in_CardNum</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_CardExpMonth">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_47">in_CardExpMonth</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_CardExpYear">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">in_CardExpYear</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_CVV">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_49">in_CVV</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_Url">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">AmdUrl</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_CardType">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_67">in_CardType</CSharpValue>
+                                      </InArgument>
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
+                                </Sequence>
+                              </TryCatch.Try>
+                              <TryCatch.Catches>
+                                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                  <ActivityAction x:TypeArguments="s:Exception">
+                                    <ActivityAction.Argument>
+                                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                    </ActivityAction.Argument>
+                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,340.8" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Gmail_SendEmail - Invoke Workflow File (Gmail\\Gmail_SendEmail.xaml)" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Gmail\\Gmail_SendEmail.xaml">
+                                        <ui:InvokeWorkflowFile.Arguments>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_EmailType">Credit Card Error</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_EmailAddress">
+                                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_60">in_Email</CSharpValue>
+                                          </InArgument>
+                                        </ui:InvokeWorkflowFile.Arguments>
+                                      </ui:InvokeWorkflowFile>
+                                      <Assign sap:VirtualizedContainerService.HintSize="433.6,104.8" sap2010:WorkflowViewState.IdRef="Assign_2">
+                                        <Assign.To>
+                                          <OutArgument x:TypeArguments="x:Boolean">
+                                            <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">isCompleted</CSharpReference>
+                                          </OutArgument>
+                                        </Assign.To>
+                                        <Assign.Value>
+                                          <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                        </Assign.Value>
+                                      </Assign>
+                                    </Sequence>
+                                  </ActivityAction>
+                                </Catch>
+                              </TryCatch.Catches>
+                              <TryCatch.Finally>
+                                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="467.2,91.2" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </TryCatch.Finally>
+                            </TryCatch>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="502.4,91.2" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                    <Sequence DisplayName="Enter Insurance Info" sap:VirtualizedContainerService.HintSize="486.4,100.8" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="504,1745.6" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                        <TryCatch.Try>
+                          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="502.4,1150.4" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <If sap:VirtualizedContainerService.HintSize="468.8,1090.4" sap2010:WorkflowViewState.IdRef="If_1">
+                              <If.Condition>
+                                <InArgument x:TypeArguments="x:Boolean">
+                                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_59">in_InsuranceFound != false &amp;&amp; in_InsCarrier != "Self Pay"</CSharpValue>
+                                </InArgument>
+                              </If.Condition>
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="467.2,227.2" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterInsuranceInfo - Invoke Workflow File (AdvancedMD\\AMD_EnterInsuranceInfo.xaml)" sap:VirtualizedContainerService.HintSize="433.6,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterInsuranceInfo.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_InsCarrier">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_72">in_InsuranceCarrierCode</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_MemberId">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">in_MemberId</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_GroupNum">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55">in_GroupNum</CSharpValue>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_PatientAge">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56">in_PatientAge</CSharpValue>
+                                      </InArgument>
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="467.2,733.6" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_3">
+                                    <ui:LogMessage.Message>
+                                      <InArgument x:TypeArguments="x:Object">
+                                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_58">"Insurance not found, will not be entering insurance information"</CSharpValue>
+                                      </InArgument>
+                                    </ui:LogMessage.Message>
+                                  </ui:LogMessage>
+                                  <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" ConnectionId="07b47295-d01d-45f7-b1b8-f42c9fa4d006" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="433.6,392.8" sap2010:WorkflowViewState.IdRef="SendEmailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="Failed with the insurance" UseConnectionService="True">
+                                    <uga:SendEmailConnections.Attachments>
+                                      <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
+                                    </uga:SendEmailConnections.Attachments>
+                                    <uga:SendEmailConnections.AttachmentsBackup>
+                                      <usau:BackupSlot x:TypeArguments="ugage:AttachmentInputMode" StoredValue="UseExisting">
+                                        <usau:BackupSlot.BackupValues>
+                                          <scg:Dictionary x:TypeArguments="ugage:AttachmentInputMode, scg:List(x:Object)" />
+                                        </usau:BackupSlot.BackupValues>
+                                      </usau:BackupSlot>
+                                    </uga:SendEmailConnections.AttachmentsBackup>
+                                    <uga:SendEmailConnections.Body>
+                                      <InArgument x:TypeArguments="x:String">
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_84">"Failed to process insurance for: " + in_PatientFName + " " + in_PatientLName</CSharpValue>
+                                      </InArgument>
+                                    </uga:SendEmailConnections.Body>
+                                    <uga:SendEmailConnections.InputTypeBackup>
+                                      <usau:BackupSlot x:TypeArguments="ugage:BodyInputType" StoredValue="HTML">
+                                        <usau:BackupSlot.BackupValues>
+                                          <scg:Dictionary x:TypeArguments="ugage:BodyInputType, scg:List(x:Object)" />
+                                        </usau:BackupSlot.BackupValues>
+                                      </usau:BackupSlot>
+                                    </uga:SendEmailConnections.InputTypeBackup>
+                                    <uga:SendEmailConnections.To>
+                                      <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                                        <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_83">(in_stakeholderEmail)</CSharpValue>
+                                      </InArgument>
+                                    </uga:SendEmailConnections.To>
+                                  </uga:SendEmailConnections>
+                                  <Assign sap:VirtualizedContainerService.HintSize="433.6,104.8" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:Boolean">
+                                        <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">isCompleted</CSharpReference>
+                                      </OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                          </Sequence>
+                        </TryCatch.Try>
+                        <TryCatch.Catches>
+                          <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                            <ActivityAction x:TypeArguments="s:Exception">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                              </ActivityAction.Argument>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="502.4,340.8" sap2010:WorkflowViewState.IdRef="Sequence_62">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterCreditCard - Invoke Workflow File (AdvancedMD\\AMD_EnterCreditCard.xaml)" sap:VirtualizedContainerService.HintSize="434,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterCreditCard.xaml">
-                                  <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_CardNum">
-                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46">in_CardNum</CSharpValue>
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="468.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Warn">
+                                  <ui:LogMessage.Message>
+                                    <InArgument x:TypeArguments="x:Object">
+                                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_82">"Insurance fail"</CSharpValue>
                                     </InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_CardExpMonth">
-                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_47">in_CardExpMonth</CSharpValue>
-                                    </InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_CardExpYear">
-                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">in_CardExpYear</CSharpValue>
-                                    </InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_CVV">
-                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_49">in_CVV</CSharpValue>
-                                    </InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_Url">
-                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">AmdUrl</CSharpValue>
-                                    </InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_CardType">
-                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_67">in_CardType</CSharpValue>
-                                    </InArgument>
-                                  </ui:InvokeWorkflowFile.Arguments>
-                                </ui:InvokeWorkflowFile>
+                                  </ui:LogMessage.Message>
+                                </ui:LogMessage>
+                                <Assign sap:VirtualizedContainerService.HintSize="468.8,104.8" sap2010:WorkflowViewState.IdRef="Assign_5">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Boolean">
+                                      <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">isCompleted</CSharpReference>
+                                    </OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                  </Assign.Value>
+                                </Assign>
                               </Sequence>
-                            </TryCatch.Try>
-                            <TryCatch.Catches>
-                              <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
-                                <ActivityAction x:TypeArguments="s:Exception">
-                                  <ActivityAction.Argument>
-                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                                  </ActivityAction.Argument>
-                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,345.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_40">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Gmail_SendEmail - Invoke Workflow File (Gmail\\Gmail_SendEmail.xaml)" sap:VirtualizedContainerService.HintSize="434,177.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Gmail\\Gmail_SendEmail.xaml">
-                                      <ui:InvokeWorkflowFile.Arguments>
-                                        <InArgument x:TypeArguments="x:String" x:Key="in_EmailType">Credit Card Error</InArgument>
-                                        <InArgument x:TypeArguments="x:String" x:Key="in_EmailAddress">
-                                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_60">in_Email</CSharpValue>
-                                        </InArgument>
-                                      </ui:InvokeWorkflowFile.Arguments>
-                                    </ui:InvokeWorkflowFile>
-                                    <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_2">
-                                      <Assign.To>
-                                        <OutArgument x:TypeArguments="x:Boolean">
-                                          <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">isCompleted</CSharpReference>
-                                        </OutArgument>
-                                      </Assign.To>
-                                      <Assign.Value>
-                                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
-                                      </Assign.Value>
-                                    </Assign>
-                                  </Sequence>
-                                </ActivityAction>
-                              </Catch>
-                            </TryCatch.Catches>
-                            <TryCatch.Finally>
-                              <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="468,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_41">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                              </Sequence>
-                            </TryCatch.Finally>
-                          </TryCatch>
-                        </Sequence>
-                      </If.Then>
-                      <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_45">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                        </Sequence>
-                      </If.Else>
-                    </If>
-                    <If sap:VirtualizedContainerService.HintSize="506,715.3333333333334" sap2010:WorkflowViewState.IdRef="If_1">
-                      <If.Condition>
-                        <InArgument x:TypeArguments="x:Boolean">
-                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_59">in_InsuranceFound != false &amp;&amp; in_InsCarrier != "Self Pay"</CSharpValue>
-                        </InArgument>
-                      </If.Condition>
-                      <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,228" sap2010:WorkflowViewState.IdRef="Sequence_37">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterInsuranceInfo - Invoke Workflow File (AdvancedMD\\AMD_EnterInsuranceInfo.xaml)" sap:VirtualizedContainerService.HintSize="434,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterInsuranceInfo.xaml">
-                            <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_InsCarrier">
-                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_72">in_InsuranceCarrierCode</CSharpValue>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_MemberId">
-                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">in_MemberId</CSharpValue>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_GroupNum">
-                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55">in_GroupNum</CSharpValue>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_PatientAge">
-                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56">in_PatientAge</CSharpValue>
-                              </InArgument>
-                            </ui:InvokeWorkflowFile.Arguments>
-                          </ui:InvokeWorkflowFile>
-                        </Sequence>
-                      </If.Then>
-                      <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,347.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_38">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_3">
-                            <ui:LogMessage.Message>
-                              <InArgument x:TypeArguments="x:Object">
-                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_58">"Insurance not found, will not be entering insurance information"</CSharpValue>
-                              </InArgument>
-                            </ui:LogMessage.Message>
-                          </ui:LogMessage>
-                          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_3">
-                            <Assign.To>
-                              <OutArgument x:TypeArguments="x:Boolean">
-                                <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">isCompleted</CSharpReference>
-                              </OutArgument>
-                            </Assign.To>
-                            <Assign.Value>
-                              <InArgument x:TypeArguments="x:Boolean">False</InArgument>
-                            </Assign.Value>
-                          </Assign>
-                        </Sequence>
-                      </If.Else>
-                    </If>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_AddChartFiles - Invoke Workflow File (AdvancedMD\\AMD_AddChartFiles.xaml)" sap:VirtualizedContainerService.HintSize="506,177.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_AddChartFiles.xaml">
-                      <ui:InvokeWorkflowFile.Arguments>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_DocFolderName">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_64">in_DocFolderName</CSharpValue>
-                        </InArgument>
-                      </ui:InvokeWorkflowFile.Arguments>
-                    </ui:InvokeWorkflowFile>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterMemo - Invoke Workflow File (AdvancedMD\\AMD_EnterMemo.xaml)" sap:VirtualizedContainerService.HintSize="506,177.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterMemo.xaml">
-                      <ui:InvokeWorkflowFile.Arguments>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_MemoText">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">"Possible providers for Scheduling:" + String.Join(",", in_PossProviderList)</CSharpValue>
-                        </InArgument>
-                      </ui:InvokeWorkflowFile.Arguments>
-                    </ui:InvokeWorkflowFile>
-                    <If sap:VirtualizedContainerService.HintSize="506,452" sap2010:WorkflowViewState.IdRef="If_4">
-                      <If.Condition>
-                        <InArgument x:TypeArguments="x:Boolean">
-                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_73">in_PreferredMemo == true</CSharpValue>
-                        </InArgument>
-                      </If.Condition>
-                      <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_46">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterMemo - Invoke Workflow File (AdvancedMD\\AMD_EnterMemo.xaml)" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterMemo.xaml">
-                            <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_MemoText">
-                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_74">"Preferred Provider: " + in_PreferredProvider</CSharpValue>
-                              </InArgument>
-                            </ui:InvokeWorkflowFile.Arguments>
-                          </ui:InvokeWorkflowFile>
-                        </Sequence>
-                      </If.Then>
-                      <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_47">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                        </Sequence>
-                      </If.Else>
-                    </If>
+                            </ActivityAction>
+                          </Catch>
+                        </TryCatch.Catches>
+                        <TryCatch.Finally>
+                          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="502.4,89.6" sap2010:WorkflowViewState.IdRef="Sequence_63">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </TryCatch.Finally>
+                      </TryCatch>
+                    </Sequence>
+                    <Sequence DisplayName="Add the chart files" sap:VirtualizedContainerService.HintSize="486.4,458.4" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_AddChartFiles - Invoke Workflow File (AdvancedMD\\AMD_AddChartFiles.xaml)" sap:VirtualizedContainerService.HintSize="449.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_AddChartFiles.xaml">
+                        <ui:InvokeWorkflowFile.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_DocFolderName">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_64">in_DocFolderName</CSharpValue>
+                          </InArgument>
+                        </ui:InvokeWorkflowFile.Arguments>
+                      </ui:InvokeWorkflowFile>
+                      <Sequence DisplayName="Delete the files and folder" sap:VirtualizedContainerService.HintSize="449.6,188.8" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:DeleteFolderX DisplayName="Delete Folder" sap:VirtualizedContainerService.HintSize="416,105.6" sap2010:WorkflowViewState.IdRef="DeleteFolderX_1" Recursive="True">
+                          <ui:DeleteFolderX.Path>
+                            <InArgument x:TypeArguments="x:String">
+                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_85">in_DocFolderName</CSharpValue>
+                            </InArgument>
+                          </ui:DeleteFolderX.Path>
+                        </ui:DeleteFolderX>
+                      </Sequence>
+                    </Sequence>
+                    <Sequence DisplayName="Enter the Memos to the profile" sap:VirtualizedContainerService.HintSize="486.4,2036" sap2010:WorkflowViewState.IdRef="Sequence_51">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterMemo - Invoke Workflow File (AdvancedMD\\AMD_EnterMemo.xaml)" sap:VirtualizedContainerService.HintSize="452.8,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterMemo.xaml">
+                        <ui:InvokeWorkflowFile.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_MemoText">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">"Possible providers for Scheduling:" + String.Join(",", in_PossProviderList)</CSharpValue>
+                          </InArgument>
+                        </ui:InvokeWorkflowFile.Arguments>
+                      </ui:InvokeWorkflowFile>
+                      <If sap:VirtualizedContainerService.HintSize="452.8,455.2" sap2010:WorkflowViewState.IdRef="If_5">
+                        <If.Condition>
+                          <InArgument x:TypeArguments="x:Boolean">
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_75">in_isNorthShore == true</CSharpValue>
+                          </InArgument>
+                        </If.Condition>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,227.2" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterMemo - Invoke Workflow File (AdvancedMD\\AMD_EnterMemo.xaml)" sap:VirtualizedContainerService.HintSize="382.4,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterMemo.xaml">
+                              <ui:InvokeWorkflowFile.Arguments>
+                                <InArgument x:TypeArguments="x:String" x:Key="in_MemoText">North Shore</InArgument>
+                              </ui:InvokeWorkflowFile.Arguments>
+                            </ui:InvokeWorkflowFile>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89.6" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <If sap:VirtualizedContainerService.HintSize="452.8,455.2" sap2010:WorkflowViewState.IdRef="If_4">
+                        <If.Condition>
+                          <InArgument x:TypeArguments="x:Boolean">
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_73">in_PreferredMemo == true</CSharpValue>
+                          </InArgument>
+                        </If.Condition>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,227.2" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterMemo - Invoke Workflow File (AdvancedMD\\AMD_EnterMemo.xaml)" sap:VirtualizedContainerService.HintSize="382.4,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterMemo.xaml">
+                              <ui:InvokeWorkflowFile.Arguments>
+                                <InArgument x:TypeArguments="x:String" x:Key="in_MemoText">
+                                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_74">"Preferred Provider: " + in_PreferredProvider</CSharpValue>
+                                </InArgument>
+                              </ui:InvokeWorkflowFile.Arguments>
+                            </ui:InvokeWorkflowFile>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89.6" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <If sap:VirtualizedContainerService.HintSize="452.8,864.8" sap2010:WorkflowViewState.IdRef="If_6">
+                        <If.Condition>
+                          <InArgument x:TypeArguments="x:Boolean">
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_76">in_providerName == "Rachel Knight"</CSharpValue>
+                          </InArgument>
+                        </If.Condition>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="451.2,227.2" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterMemo - Invoke Workflow File (AdvancedMD\\AMD_EnterMemo.xaml)" sap:VirtualizedContainerService.HintSize="417.6,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterMemo.xaml">
+                              <ui:InvokeWorkflowFile.Arguments>
+                                <InArgument x:TypeArguments="x:String" x:Key="in_MemoText">RK PT</InArgument>
+                              </ui:InvokeWorkflowFile.Arguments>
+                            </ui:InvokeWorkflowFile>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="451.2,506.4" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <If sap:VirtualizedContainerService.HintSize="417.6,446.4" sap2010:WorkflowViewState.IdRef="If_7">
+                              <If.Condition>
+                                <InArgument x:TypeArguments="x:Boolean">
+                                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">in_providerName == "Adam Bucher"</CSharpValue>
+                                </InArgument>
+                              </If.Condition>
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,227.2" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AMD_EnterMemo - Invoke Workflow File (AdvancedMD\\AMD_EnterMemo.xaml)" sap:VirtualizedContainerService.HintSize="382.4,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="AdvancedMD\\AMD_EnterMemo.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <InArgument x:TypeArguments="x:String" x:Key="in_MemoText">ALB PT</InArgument>
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89.6" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
                   </Sequence>
                 </Sequence>
               </Sequence>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Dashboard'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1019.2,218.4" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b647ceae-c8e7-464d-a7f3-3d3150933940" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="b940362c-ae92-40dd-9cd0-5e103a5a2ee2" ContentHash="muc-UDkHQ0SVL6yv-MTwmA" CvElementArea="217, 283, 257, 55" CvType="Button" DesignTimeRectangle="233, 304, 14, 13" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl type='' class='amdicons amds-click-out-x' tag='I' aaname='' /&gt;" Guid="37228dcd-1654-48ad-94b6-4cafb57a1200" InformativeScreenshot="f1252dc977b234541ed8807d28b5af13.png" Reference="8RhyklEjiEifip1A7a44sA/9pwnXsBT-ky1TeOpDRbGLg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="b940362c-ae92-40dd-9cd0-5e103a5a2ee2" CvTextArea="47, 299, 136, 24" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="49, 287, 135, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='pm-main-tab-bar-tab-title' tag='SPAN' type='' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="affda132-f70d-47de-963d-9d7b6f01093e" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
@@ -632,7 +908,7 @@
           <uix:TargetApp Area="249, 159, 2030, 1409" BrowserType="Chrome" ContentHash="0-qq5WWUqUKxA9iigtI1Cw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUASURBVGhD7VlpiBxFFB5vI55xN7tTr/Zw8YoRFEUQURQl4IVnongQcuzUq9lNlIjihRhEoqJ/FFFBVASVRAVFUHQFWVbFA/PDEDUqSoJiApogSTBBYz6p6p5O1zG7MzuzvRHywQe7Xa/e+7rnddd7VSVouhJKnFr6vwJVOhdMf4NpM5hWQVEVQ+XZvt0+DSgxDCZ4NDe0GkwLMNR5pD9nnwNYvBK5iRp3gOllaLoYpdIB/tx9AlDiCLBYFxHvcyMUPQyWJ/k+ph1Q4vyI4HEox8Biru9nWpHmfUTsuPwYWl7k+5oWYLjcB6adEZGN8CPzK/o+CweYVkbENUH5AXTP6b7fwgDd3R+Kapq7oMRdWFE60PdfD+YLl6xL4iawvBUsbsQgSd+uIUDTlxFRk6Acw2DXCb7/PFChM6HFk2D6JZxPgKJvocVSLDvxMH9uXdin5zuaPLdBycEgxlB5tv0AhPb1+CuYLvH9RNGmNPIo38JyOcP6r/YeB6Y/QpsJuRss7vT1RgGmNREHLVKOYdnMoxP/8lL7rgQ2DXE15s851NfsAEo+FpnYBsqvMEzH2xit3cQqX7ODNEe/iExsA+U3WNojbJzJ3cQPYPGorzkKKLpiatKJfsJQf7eNoeW1kXGXin6EogdQ6Z3ja2wIUOIaKPo6cNwSxfu1CtdWvMG4tVln14b5pYN8TRMCS+RM53+z2DDNa7BybYxK3mZ9J1+m37yxF5pZDAMk9Q0956+IxmmyYtL6QFDz3FkrPVAVV+WuP9ty/wGmN1Jnu8DiKai+sjO+onQwtHgETHsiwhqnSc10pU1jft/UylsPVrQb7C9oegKLujs9u7lpGxqKa5wLEl/mq9SmPgNM90YCGe4Ay7vzPzEGZ3WBaSRi2xg1jVo/raZNHmCpgkAuR4zwzN685EreA6Z/IrYTcQ+qvQOughYBRfdFAvnc7P/ktixWtCFiOz41PZT30zKg6ZkgSJzmJV5pXups7qLuTlsKh7bjca2roEWA6Z1IkPrU9CkW9h+bzVd9ZbuC+nb1qGiDq6BFgOnzIMjEHHF+CSV6wWJTxC5CsclV0CJM1QiWj9vPZxBsPMqnHT8srg5totyan9c2mMoxfR/MPqoftA7FkOOD5WuhTcDt+Tlth+lvm3gvzKc0awHtQ7AdVWCX54gbcYoALRbbXjcU4HONM4/p3YhNnjpvP6WwfbOm0YgIn2dkc5S8OTJe43a/RJlypOX1ixExOYolmX1FXhiOp9R0v+u9IJhGAyzfDgTVqMRwZlvpOScYt5Q/Y2H/4a7nAlA7zTHBwfRJKIyAijgvs9eyEoyb1MmlWWFIxWwxG8Lp/9dHxH2W2Sfp9p03vhssL3ccFwFw92l7F7dkdwBKdEQam3nZnGRzID/2JyryMsdxEUjTZW0mRItX7XXbZtKWvddptNaI2/XDrU7XoypO8X0XgqBCTXPcecKa3sttIw7Yo6lk7Hcw3TEtL6wBWF7npcFL9vpyOSMr/DS9DnX2IfZ6cmxldp23QYkHsbjjKN9nYUg3fLdm4s1hn3kxk5QyreRG8823qZSUHKY5T3poJTp8f4XCNidmp4DpXyh6M0sbc/Sq6UOwvN3sIphTf7N7DC2et2fMumuW76twmINuuz9kDiHMkzULlz2UoBug5S22ma/QyaiWL5j0tt9UAkqcBTVwjP3b5LqpKvO7Ea3snO3Hfkwv/gMCe/WSvUB8qwAAAABJRU5ErkJggg==" InformativeScreenshot="f5579ed1092fe985eecd2466df9f19b5.jpg" Reference="8RhyklEjiEifip1A7a44sA/E0mwfp9I_UqeWBxDhQNSMQ" Selector="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" Url="https://pm-wfe-129.advancedmd.com/amds/pm/app/index.html#/" Version="V2" />
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
-      <Assign sap:VirtualizedContainerService.HintSize="1090,108" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign sap:VirtualizedContainerService.HintSize="1086.4,104.8" sap2010:WorkflowViewState.IdRef="Assign_4">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Boolean">
             <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">out_isCompleted</CSharpReference>

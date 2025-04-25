@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="muc-UDkHQ0SVL6yv-MTwmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="b940362c-ae92-40dd-9cd0-5e103a5a2ee2" CvElementArea="217, 283, 257, 55" CvType="Button" DesignTimeRectangle="233, 304, 14, 13" DesignTimeScaleFactor="1.875" FuzzySelectorArgument="&lt;webctrl type='' class='amdicons amds-click-out-x' tag='I' aaname='' /&gt;" Guid="37228dcd-1654-48ad-94b6-4cafb57a1200" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b940362c-ae92-40dd-9cd0-5e103a5a2ee2" CvTextArea="47, 299, 136, 24" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="49, 287, 135, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='pm-main-tab-bar-tab-title' tag='SPAN' type='' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="affda132-f70d-47de-963d-9d7b6f01093e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f1252dc977b234541ed8807d28b5af13.png" xmlns="">03IaE22yjsUKgKZPWzv-BvA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

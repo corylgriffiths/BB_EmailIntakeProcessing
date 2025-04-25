@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4dDTYc9jmk67wMSmTzT3ag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" DesignTimeRectangle="235, 606, 93, 30" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl class='amds-card-title' tag='SPAN' type='' aaname='Memos' check:innerText='Memos' /&gt;" Guid="0dee589c-9ffb-4e4e-9eff-b6ef0c40e632" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="224, 604, 130, 37" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl class='amds-card-header-text' tag='BUTTON' type='' aaname='Memos' check:innerText='Memos' /&gt;" Guid="dc9eeea5-5c15-46eb-9cd8-79fab6b53cbe" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="148, 461, 90, 90" FuzzySelectorArgument="&lt;webctrl id='frmPatientInfo1' tag='IFRAME' /&gt;&lt;webctrl type='' isleaf='1' tag='SPAN' class='mat-mdc-button-persistent-ripple mdc-icon-button__ripple' aaname='' /&gt;" Guid="8ce41d04-8681-43cf-8e0c-bf8eff28f9e8" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c65032bb8f86cfe4f6c6aaa3221f9ee3.png" xmlns="">00MkrS-nXzE6PyIgTtrZLlg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

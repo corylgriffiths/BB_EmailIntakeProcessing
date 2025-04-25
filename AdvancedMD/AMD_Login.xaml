@@ -107,7 +107,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AMD_Login" sap:VirtualizedContainerService.HintSize="2447.4666666666667,4417.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AMD_Login" sap:VirtualizedContainerService.HintSize="2447.4666666666667,4379.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="isLoginSuccessful" />
     </Sequence.Variables>
@@ -116,7 +116,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Login to Advanced MD" sap:VirtualizedContainerService.HintSize="2233.6,4394.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Login to Advanced MD" sap:VirtualizedContainerService.HintSize="2233.6,4356" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="UN" />
         <Variable x:TypeArguments="ss:SecureString" Name="PW" />
@@ -173,7 +173,7 @@
           </ui:GetRobotAsset.Value>
         </ui:GetRobotAsset>
       </Sequence>
-      <uix:NCheckState DisplayName="Check App State 'File'" sap:VirtualizedContainerService.HintSize="2200,3877.6" sap2010:WorkflowViewState.IdRef="NCheckState_5" Version="V4">
+      <uix:NCheckState DisplayName="Check App State 'File'" sap:VirtualizedContainerService.HintSize="2200,3839.2" sap2010:WorkflowViewState.IdRef="NCheckState_5" Version="V4">
         <uix:NCheckState.IfExists>
           <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,230.4" sap2010:WorkflowViewState.IdRef="Sequence_18">
             <sap:WorkflowViewStateService.ViewState>
@@ -191,34 +191,34 @@
           </Sequence>
         </uix:NCheckState.IfExists>
         <uix:NCheckState.IfNotExists>
-          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="1697.6,3636" sap2010:WorkflowViewState.IdRef="Sequence_19">
+          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="1697.6,3597.6" sap2010:WorkflowViewState.IdRef="Sequence_19">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1664,3576" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="2" RetryInterval="00:00:05">
+            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1664,3536" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="2" RetryInterval="00:00:05">
               <ui:RetryScope.ActivityBody>
                 <ActivityAction>
-                  <Sequence DisplayName="Log into advanced MD" sap:VirtualizedContainerService.HintSize="1622.4,3260" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <Sequence DisplayName="Log into advanced MD" sap:VirtualizedContainerService.HintSize="1622.4,3220" sap2010:WorkflowViewState.IdRef="Sequence_17">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NApplicationCard CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1588.8,3200" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae">
+                    <uix:NApplicationCard CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1588.8,3160" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1555.2,2960" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1555.2,2920" sap2010:WorkflowViewState.IdRef="Sequence_7">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NCheckState DisplayName="Login into AdvanceMD" sap:VirtualizedContainerService.HintSize="1521.6,2007.2" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="5" Version="V4">
+                            <uix:NCheckState DisplayName="Login into AdvanceMD" sap:VirtualizedContainerService.HintSize="1521.6,1967.2" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c95d0fdd-dba8-4065-b2fa-95a37ba6c1ae" Timeout="5" Version="V4">
                               <uix:NCheckState.IfExists>
                                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1019.2,1716.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -422,7 +422,7 @@
                                 </Sequence>
                               </uix:NCheckState.IfExists>
                               <uix:NCheckState.IfNotExists>
-                                <Sequence DisplayName="Login page not found or already logged in" sap:VirtualizedContainerService.HintSize="449.6,92.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                <Sequence DisplayName="Login page not found or already logged in" sap:VirtualizedContainerService.HintSize="449.6,91.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -446,7 +446,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </uix:NCheckState>
-                            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="AMD_HUB" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1521.6,891.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="623da7a7-c120-4f0b-9406-34248fe72b4b" Version="V2">
+                            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="AMD_HUB" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1521.6,891.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="623da7a7-c120-4f0b-9406-34248fe72b4b" Version="V2" WindowResize="Maximize">
                               <uix:NApplicationCard.Body>
                                 <ActivityAction x:TypeArguments="x:Object">
                                   <ActivityAction.Argument>
@@ -560,7 +560,7 @@
         <uix:NCheckState.Target>
           <uix:TargetAnchorable BrowserURL="pm-wfe-129.advancedmd.com/amds/pm/app/index.html" CVScreenId="383ae46f-6fb3-41f0-ad1c-5a727b9d4ce4" ContentHash="XAU3-fQFek-fJXVzfljPnQ" CvTextArea="486, 105, 42, 25" CvTextArgument="File" CvType="Text" DesignTimeRectangle="474, 97, 67, 41" DesignTimeScaleFactor="1.875" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='amds-navbar' tag='A' type='' class='dropdown-toggle' aaname='File' check:innerText='File' /&gt;" Guid="022c38fb-69c5-4f32-8297-a7124b31516f" InformativeScreenshot="63268a23658f24ff4ace41ea8b3a7bc2.png" Reference="8RhyklEjiEifip1A7a44sA/WZNsg5l-V0eDrGs4yq8lxQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='pm' title='AdvancedMD PM - Brennan Behavior Group 147041 BOT' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
             <uix:TargetAnchorable.Anchors>
-              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                 <uix:Target CVScreenId="383ae46f-6fb3-41f0-ad1c-5a727b9d4ce4" CvTextArea="550, 105, 70, 25" CvTextArgument="Tasks" CvType="Text" DesignTimeRectangle="541, 97, 93, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tasks' class='dropdown-toggle' parentid='amds-navbar' tag='A' type='' check:innerText='Tasks' /&gt;" Guid="6b638771-7fe2-4f6a-bbde-c3853f39d4f2" SearchSteps="FuzzySelector, CV" />
               </scg:List>
             </uix:TargetAnchorable.Anchors>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="-R0hpnvu7Uu1bIbypdeiqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="-vCF0P26PUarUZTHkb1phw" Reference="8RhyklEjiEifip1A7a44sA/4euEnVyo0EW0qEvuGBp2ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" DesignTimeRectangle="95, 1148, 141, 66" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl id='submitButton' tag='INPUT' type='submit' class='btn btn-default btn-primary' aaname='Capture' check:text='Capture' /&gt;" Guid="1f3b262f-5734-48c7-be75-47978c20952f" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13113764' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pm-wfe-129.advancedmd.com/amds/creditcard/app" DesignTimeRectangle="806, 1269, 113, 52" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1745527598258tzfeYlPmV1qoUT71M65' tag='IFRAME' /&gt;&lt;webctrl id='submitButton' tag='INPUT' type='submit' class='btn btn-default btn-primary' aaname='Capture' check:text='Capture' /&gt;" Guid="83a4494e-6fe3-4d9c-bab2-cd7a7fa85b76" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='CCOF13114000' title='AdvancedMD Credit Card Capture' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="39, 1040, 185, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl parentid='div-billing_postal_code' tag='LABEL' type='' class='control-label col-sm-4' aaname='Postal Code' check:innerText='Postal Code:' /&gt;" Guid="e4448a37-de1f-41e7-92e6-56850d58ff90" ImageBase64="" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="397, 1207, 379, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ws.paygateway.com/HostPayService/v1/hostpay/paypage/1745527598258tzfeYlPmV1qoUT71M65' tag='IFRAME' /&gt;&lt;webctrl parentid='div-billing_postal_code' tag='LABEL' type='' class='control-label col-sm-4' aaname='Postal Code' check:innerText='Postal Code:' /&gt;" Guid="192922c2-322b-4469-86ed-69077160ea37" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="d0d1d2be18215efdb7c4eeae3c036f38.png" xmlns="">0BIGLiwNb_UKLluuS2Grskw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="448c6eae1e7f153c9e2fff9a89767753.png" xmlns="">0J-o5vdJe8Ey0zG_SK9L7GA</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
