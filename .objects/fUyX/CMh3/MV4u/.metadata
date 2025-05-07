@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Login  AdvancedMD",
+  "Type": "Screen",
+  "Id": "MV4uqBdqTk-WTPh0f4EMww",
+  "Reference": "8RhyklEjiEifip1A7a44sA/MV4uqBdqTk-WTPh0f4EMww",
+  "ParentRef": "8RhyklEjiEifip1A7a44sA/CMh31ksw-kSzRQIhSg4Rbw",
+  "Created": "2025-05-06T21:03:04.5321382Z",
+  "Updated": "2025-05-06T21:03:04.5321382Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

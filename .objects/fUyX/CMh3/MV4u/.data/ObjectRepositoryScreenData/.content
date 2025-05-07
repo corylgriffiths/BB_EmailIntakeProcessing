@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="0dlDlv2dh0yYKWNqToAlHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 2518, 1614" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAYAAADJViUEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIuSURBVDhPdZNLbIxRFMe/JkJbJKKkhFbDqhssWNhY2EgkiEYi0o5GWlNtaYJU0uiCilBBEFYWQpqqR8WzNo1H0KaoesYrDRZ9MGFGtTTTc+5Pvnu/MZ2G/+bm3nv+5/E/53h6vhY9shbTcRkGv+NgQAWMCe6JZ0158/jxFdmWjxSlI9Xz0cYa6O8eZRwQ/DMBdW+etXnQiBRPQsLZSGG6PfVcDQzFRjkxEPkMsX4/LzRBZjCKbM9HymYilXPcWTgBqV6A+dgF0V50/wqkPIeRyjxo2AFD3/Bsbb6nk8VIgeeiV+QgFbnIxilIeAbm7mlk91KkeDKEs+hZncazg2G8vwJEPmFuHnX1F45HNs9yDkqykK1zMZ3X0ap5tJct5lF7G5HYz2Rk09aENlRD3we0aRcSykA2Zdsy4qFMOLSKtzfO8rzraSCD4iEj7nK/AVnjITsXYt49xLxsdeTS6UhlLhrKZLizBV9zMxLHWMES5HtnkHVpSOk0K5bfAdP92KVdPhsJZaKX6qzSqON4diB8xH9jWo65WkumIuvHYV60Ym4dRzZMtK3U5r3ONkkOEAhnet4gtUusaFq3DHrfI1vykKIMzKvbAdnplEr2PUrc1mz7XbMIvnTb6dMToZQgqeREv0+Vo1cOoPUrbcp6cQ96uADiw4HhWHIwt6ajGd233CqvV+sxT65h2i8EHJ+UuijJyH66r+/AQASiffBrAIaH3N+YbUogSf4ngtX8D/4A0U42tE5KpVkAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='Login | AdvancedMD' /&gt;" Url="https://login.advancedmd.com/?_gl=1*1dlwutv*_gcl_au*MTU4NDY2NDU5Ny4xNzQ1NTE3NDY1" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="56f50ed6debf57e6e846a7905e1efe8d.jpg" xmlns="">0TX1X9BsIGkWsNmonSbG6vg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
